@@ -1,0 +1,875 @@
+---
+
+# Simple weapons.
+#
+
+- name: Gauntlet
+  category: simple
+  type: unarmed
+  damage:
+    types: [bludgeoning]
+    small: 1d2
+    medium: 1d3
+  weight: 1
+  cost: 2
+
+- name: Unarmed Strike
+  category: simple
+  type: unarmed
+  damage:
+    types: [bludgeoning]
+    small: 1d2
+    medium: 1d3
+  weight: 0
+  cost: 0
+
+- name: Dagger
+  category: simple
+  type: light
+  damage:
+    types: [piercing, slashing]
+    small: 1d3
+    medium: 1d4
+  threat: [19, 20]
+  ranged: 1
+  increment: 10
+  cost: 2
+  weight: 1
+
+- name: Punching Dagger
+  category: simple
+  type: light
+  damage:
+    types: [piercing]
+    small: 1d3
+    medium: 1d4
+  multiplier: 3
+  cost: 2
+  weight: 1
+
+- name: Spiked Gauntlet
+  category: simple
+  type: light
+  damage:
+    types: [piercing]
+    small: 1d3
+    medium: 1d4
+  cost: 5
+  weight: 1
+
+- name: Light Mace
+  category: simple
+  type: light
+  damage:
+    types: [bludgeoning]
+    small: 1d4
+    medium: 1d6
+  cost: 5
+  weight: 4
+
+- name: Sickle
+  category: simple
+  type: light
+  damage:
+    types: [slashing]
+    small: 1d4
+    medium: 1d6
+  cost: 6
+  weight: 2
+
+- name: Club
+  category: simple
+  type: one-handed
+  damage:
+    types: [bludgeoning]
+    small: 1d4
+    medium: 1d6
+  ranged: 1
+  increment: 10
+  cost: 0
+  weight: 3
+
+- name: Heavy Mace
+  category: simple
+  type: one-handed
+  damage:
+    types: [bludgeoning]
+    small: 1d6
+    medium: 1d8
+  cost: 12
+  weight: 8
+
+- name: Morningstar
+  category: simple
+  type: one-handed
+  damage:
+    types: [bludgeoning, piercing]
+    small: 1d6
+    medium: 1d8
+  cost: 8
+  weight: 6
+
+- name: Shortspear
+  category: simple
+  type: one-handed
+  damage:
+    types: [piercing]
+    small: 1d4
+    medium: 1d6
+  ranged: 1
+  increment: 20
+  cost: 1
+  weight: 6
+
+- name: Longspear
+  category: simple
+  type: two-handed
+  damage:
+    types: [piercing]
+    small: 1d6
+    medium: 1d8
+  multiplier: 3
+  reach: 10
+  cost: 5
+  weight: 9
+
+- name: Quarterstaff
+  category: simple
+  type: two-handed
+  double: 1
+  damage:
+    types: [piercing]
+    small: 1d4
+    medium: 1d6
+  cost: 0
+  weight: 4
+
+- name: Spear
+  category: simple
+  type: two-handed
+  damage:
+    types: [piercing]
+    small: 1d6
+    medium: 1d8
+  multiplier: 3
+  ranged: 1
+  increment: 20
+  cost: 2
+  weight: 6
+
+- name: Heavy Crossbow
+  category: simple
+  type: ranged
+  damage:
+    types: [piercing]
+    small: 1d8
+    medium: 1d10
+  threat: [19, 20]
+  ranged: 1
+  increment: 120
+  cost: 50
+  weight: 8
+
+- name: Light Crossbow
+  category: simple
+  type: ranged
+  damage:
+    types: [piercing]
+    small: 1d6
+    medium: 1d8
+  threat: [19, 20]
+  ranged: 1
+  increment: 80
+  cost: 35
+  weight: 4
+
+# Bolts and arrows can be used in melee as improvised weapons.
+- name: Bolt
+  category: simple
+  type: munition
+  damage:
+    types: [piercing]
+    small: 1d4-1
+    medium: 1d4-1
+  cost: 1
+  weight: 0.1
+
+- name: Dart
+  category: simple
+  type: thrown
+  damage:
+    types: [piercing]
+    small: 1d3
+    medium: 1d4
+  cost: 0.5
+  ranged: 1
+  increment: 20
+  weight: 0.5
+
+- name: Javelin
+  category: simple
+  type: thrown
+  damage:
+    types: [piercing]
+    small: 1d4
+    medium: 1d6
+  cost: 1
+  ranged: 1
+  increment: 30
+  weight: 2
+
+- name: Sling
+  category: simple
+  type: ranged
+  damage:
+    types: [bludgeoning]
+    small: 1d3
+    medium: 1d4
+  cost: 0
+  ranged: 1
+  increment: 50
+  weight: 0
+
+# You could throw a bullet...
+- name: Bullet
+  category: simple
+  type: thrown
+  damage:
+    types: [bludgeoning]
+    small: 1d4-1
+    medium: 1d4-1
+  cost: 0.01
+  weight: 0.5
+
+# Martial Weapons
+#
+
+- name: Throwing Axe
+  category: martial
+  type: thrown
+  damage:
+    types: [slashing]
+    small: 1d4
+    medium: 1d6
+  ranged: 1
+  increment: 10
+  cost: 8
+  weight: 2
+
+- name: Light Hammer
+  category: martial
+  type: light
+  damage:
+    types: [bludgeoning]
+    small: 1d3
+    medium: 1d4
+  ranged: 1
+  increment: 20
+  cost: 1
+  weight: 2
+
+- name: Handaxe
+  category: martial
+  type: light
+  damage:
+    types: [slashing]
+    small: 1d4
+    medium: 1d6
+  multiplier: 3
+  cost: 6
+  weight: 3
+
+- name: Kukri
+  category: martial
+  type: light
+  damage:
+    types: [slashing]
+    small: 1d3
+    medium: 1d4
+  threat: [18, 19, 20]
+  cost: 8
+  weight: 2
+
+- name: Light Pick
+  category: martial
+  type: light
+  damage:
+    types: [slashing]
+    small: 1d3
+    medium: 1d4
+  multiplier: 4
+  cost: 4
+  weight: 3
+
+- name: Sap
+  category: martial
+  type: light
+  damage:
+    types: [bludgeoning]
+    small: 1d4
+    medium: 1d6
+  cost: 1
+  weight: 2
+
+- name: Light Shield
+  category: martial
+  type: light
+  damage:
+    types: [bludgeoning]
+    small: 1d3
+    medium: 1d3
+  cost: 1
+  weight: 2
+
+- name: Spiked Armor
+  category: martial
+  type: light
+  damage:
+    types: [piercing]
+    small: 1d4
+    medium: 1d6
+  cost: 1
+  weight: 2
+
+- name: Light Spiked Shield
+  category: martial
+  type: light
+  damage:
+    types: [piercing]
+    small: 1d3
+    medium: 1d4
+  cost: 1
+  weight: 2
+
+- name: Short Sword
+  category: martial
+  type: light
+  damage:
+    types: [piercing]
+    small: 1d4
+    medium: 1d6
+  cost: 10
+  weight: 2
+
+- name: Battleaxe
+  category: martial
+  type: one-handed
+  damage:
+    types: [slashing]
+    small: 1d6
+    medium: 1d8
+  multiplier: 3
+  cost: 10
+  weight: 6
+
+- name: Flail
+  category: martial
+  type: one-handed
+  damage:
+    types: [bludgeoning]
+    small: 1d6
+    medium: 1d8
+  cost: 8
+  weight: 5
+
+- name: Longsword
+  category: martial
+  type: one-handed
+  damage:
+    types: [slashing]
+    small: 1d6
+    medium: 1d8
+  threat: [19, 20]
+  cost: 15
+  weight: 4
+
+- name: Heavy Pick
+  category: martial
+  type: one-handed
+  damage:
+    types: [piercing]
+    small: 1d4
+    medium: 1d6
+  multiplier: 4
+  cost: 8
+  weight: 6
+
+- name: Rapier
+  category: martial
+  type: one-handed
+  damage:
+    types: [piercing]
+    small: 1d4
+    medium: 1d6
+  threat: [18, 19, 20]
+  cost: 20
+  weight: 2
+
+- name: Scimitar
+  category: martial
+  type: one-handed
+  damage:
+    types: [slashing]
+    small: 1d4
+    medium: 1d6
+  threat: [18, 19, 20]
+  cost: 15
+  weight: 4
+
+- name: Heavy Shield
+  category: martial
+  type: one-handed
+  damage:
+    types: [bludgeoning]
+    small: 1d4
+    medium: 1d6
+  cost: 1
+  weight: 1
+
+- name: Heavy Spiked Shield
+  category: martial
+  type: one-handed
+  damage:
+    types: [piercing]
+    small: 1d4
+    medium: 1d6
+  cost: 1
+  weight: 1
+
+- name: Trident
+  category: martial
+  type: one-handed
+  damage:
+    types: [piercing]
+    small: 1d6
+    medium: 1d8
+  ranged: 1
+  increment: 10
+  cost: 15
+  weight: 4
+
+- name: Warhammer
+  category: martial
+  type: one-handed
+  damage:
+    types: [bludgeoning]
+    small: 1d6
+    medium: 1d8
+  multiplier: 3
+  cost: 12
+  weight: 5
+
+- name: Falchion
+  category: martial
+  type: two-handed
+  damage:
+    types: [slashing]
+    small: 1d6
+    medium: 2d4
+  threat: [18, 19, 20]
+  cost: 75
+  weight: 8
+
+- name: Glaive
+  category: martial
+  type: two-handed
+  damage:
+    types: [slashing]
+    small: 1d8
+    medium: 1d10
+  multiplier: 3
+  reach: 10
+  cost: 8
+  weight: 10
+
+- name: Greataxe
+  category: martial
+  type: two-handed
+  damage:
+    types: [slashing]
+    small: 1d10
+    medium: 1d12
+  multiplier: 3
+  cost: 20
+  weight: 12
+
+- name: Greatclub
+  category: martial
+  type: two-handed
+  damage:
+    types: [bludgeoning]
+    small: 1d8
+    medium: 1d10
+  cost: 5
+  weight: 8
+
+- name: Heavy Flail
+  category: martial
+  type: two-handed
+  damage:
+    types: [bludgeoning]
+    small: 1d8
+    medium: 1d10
+  threat: [19, 20]
+  cost: 15
+  weight: 10
+
+- name: Greatsword
+  category: martial
+  type: two-handed
+  damage:
+    types: [slashing]
+    small: 1d10
+    medium: 2d6
+  threat: [19, 20]
+  cost: 50
+  weight: 8
+
+- name: Guisarme
+  category: martial
+  type: two-handed
+  damage:
+    types: [slashing]
+    small: 1d6
+    medium: 2d4
+  reach: 10
+  multiplier: 3
+  cost: 9
+  weight: 12
+
+- name: Halberd
+  category: martial
+  type: two-handed
+  damage:
+    types: [slashing, piercing]
+    small: 1d8
+    medium: 1d10
+  multiplier: 3
+  cost: 10
+  weight: 12
+
+- name: Lance
+  category: martial
+  type: two-handed
+  damage:
+    types: [piercing]
+    small: 1d6
+    medium: 1d8
+  reach: 10
+  multiplier: 3
+  cost: 10
+  weight: 10
+
+- name: Ranseur
+  category: martial
+  type: two-handed
+  damage:
+    types: [piercing]
+    small: 1d6
+    medium: 2d4
+  reach: 10
+  multiplier: 3
+  cost: 18
+  weight: 12
+
+- name: Scythe
+  category: martial
+  type: two-handed
+  damage:
+    types: [piercing, slashing]
+    small: 1d6
+    medium: 2d4
+  multiplier: 4
+  cost: 18
+  weight: 10
+
+- name: Longbow
+  category: martial
+  type: ranged
+  damage:
+    types: [piercing]
+    small: 1d6
+    medium: 1d8
+  multiplier: 3
+  ranged: 1
+  increment: 100
+  cost: 75
+  weight: 3
+
+- name: Composite Longbow
+  category: martial
+  type: ranged
+  damage:
+    types: [piercing]
+    small: 1d6
+    medium: 1d8
+  multiplier: 3
+  ranged: 1
+  increment: 110
+  cost: 100
+  weight: 3
+
+- name: Shortbow
+  category: martial
+  type: ranged
+  damage:
+    types: [piercing]
+    small: 1d4
+    medium: 1d4
+  multiplier: 3
+  ranged: 1
+  increment: 60
+  cost: 30
+  weight: 2
+
+- name: Composite Shortbow
+  category: martial
+  type: ranged
+  damage:
+    types: [piercing]
+    small: 1d6
+    medium: 1d8
+  multiplier: 3
+  ranged: 1
+  increment: 70
+  cost: 75
+  weight: 2
+
+- name: Arrow
+  category: simple
+  type: munition
+  damage:
+    types: [piercing]
+    small: 1d4-1
+    medium: 1d4-1
+  cost: 0.05
+  weight: 0.15
+
+# Exotic weapons
+#
+
+- name: Kama
+  category: exotic
+  type: light
+  damage:
+    types: [slashing]
+    small: 1d4
+    medium: 1d6
+  cost: 2
+  weight: 2
+
+- name: Nunchaku
+  category: exotic
+  type: light
+  damage:
+    types: [bludgeoning]
+    small: 1d4
+    medium: 1d6
+  cost: 2
+  weight: 2
+
+- name: Sai
+  category: exotic
+  type: light
+  damage:
+    types: [bludgeoning]
+    small: 1d3
+    medium: 1d4
+  cost: 1
+  weight: 1
+  ranged: 1
+  increment: 10
+
+- name: Sai
+  category: exotic
+  type: light
+  damage:
+    types: [piercing]
+    small: 1d4
+    medium: 1d6
+  cost: 3
+  weight: 1
+
+- name: Bastard Sword
+  category: exotic
+  type: one-handed
+  damage:
+    types: [slashing]
+    small: 1d8
+    medium: 1d10
+  threat: [19, 20]
+  cost: 35
+  weight: 6
+
+- name: Dwarven Waraxe
+  category: exotic
+  type: one-handed
+  damage:
+    types: [slashing]
+    small: 1d8
+    medium: 1d10
+  multiplier: 3
+  cost: 30
+  weight: 8
+
+- name: Whip
+  category: exotic
+  type: one-handed
+  damage:
+    types: [slashing, nonlethal]
+    small: 1d2
+    medium: 1d3
+  range: 10
+  cost: 1
+  weight: 2
+
+- name: Orc Double Axe
+  category: exotic
+  type: two-handed
+  double: 1
+  damage:
+    types: [slashing]
+    small: 1d6
+    medium: 1d8
+  multiplier: 3
+  cost: 60
+  weight: 15
+
+- name: Spiked Chain
+  category: exotic
+  type: two-handed
+  double: 1
+  damage:
+    types: [piercing]
+    small: 1d6
+    medium: 2d4
+  range: 10
+  cost: 25
+  weight: 10
+
+- name: Dire Flail
+  category: exotic
+  type: two-handed
+  double: 1
+  damage:
+    types: [bludgeoning]
+    small: 1d6
+    medium: 1d8
+  cost: 90
+  weight: 10
+
+- name: Gnome Hooked Hammer
+  category: exotic
+  type: two-handed
+  double: 1
+  damage:
+    types: [bludgeoning, piercing]
+    # TODO: second side does less damage
+    small: 1d6
+    medium: 1d8
+  # TODO: Needs to be array, second end has multiplier x4
+  multiplier: 3
+  cost: 20
+  weight: 6
+
+- name: Two-Bladed Sword
+  category: exotic
+  type: two-handed
+  double: 1
+  damage:
+    types: [slashing]
+    small: 1d6
+    medium: 1d8
+  threat: [19, 20]
+  cost: 100
+  weight: 10
+
+- name: Dwarven Urgrosh
+  category: exotic
+  type: two-handed
+  double: 1
+  damage:
+    types: [slashing, piercing]
+    small: 1d6
+    medium: 1d8
+  multiplier: 3
+  cost: 50
+  weight: 12
+
+- name: Bolas
+  category: exotic
+  type: ranged
+  damage:
+    types: [bludgeoning, nonlethal]
+    small: 1d3
+    medium: 1d4
+  ranged: 1
+  increment: 10
+  cost: 5
+  weight: 2
+
+- name: Hand Crossbow
+  category: exotic
+  type: ranged
+  damage:
+    types: [piercing]
+    small: 1d3
+    medium: 1d4
+  threat: [19, 20]
+  ranged: 1
+  increment: 10
+  cost: 100
+  weight: 2
+
+- name: Repeating Heavy Crossbow
+  category: exotic
+  type: ranged
+  damage:
+    types: [piercing]
+    small: 1d8
+    medium: 1d10
+  threat: [19, 20]
+  ranged: 1
+  increment: 120
+  cost: 400
+  weight: 12
+
+- name: Repeating Light Crossbow
+  category: exotic
+  type: ranged
+  damage:
+    types: [piercing]
+    small: 1d6
+    medium: 1d8
+  threat: [19, 20]
+  ranged: 1
+  increment: 80
+  cost: 250
+  weight: 6
+
+- name: Net
+  category: exotic
+  type: ranged
+  damage:
+    types: [nonlethal]
+    small: 0
+    medium: 0
+  threat: [19, 20]
+  ranged: 1
+  increment: 10
+  cost: 20
+  weight: 6
+
+- name: Shuriken
+  category: exotic
+  type: ranged
+  damage:
+    types: [piercing]
+    small: 1
+    medium: 1d2
+  ranged: 1
+  increment: 10
+  cost: 0.2
+  weight: 0.1
+
+#EOF
