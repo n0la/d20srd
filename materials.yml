@@ -1,0 +1,79 @@
+---
+
+# Materials
+#
+
+- name: Iron
+
+- name: Adamantine
+  hardness: 20
+  hp: 40
+  masterwork: 1
+  dr:
+    light: 1
+    medium: 2
+    heavy: 3
+    type: -
+  cost:
+    # You might ask yourself now: What? This is less than in d20srd!
+    # Well you are right, as the masterwork value is not included in the
+    # prices below.
+    ammunition: 54
+    shield: 1850
+    weapon: 2700
+    double: 5400
+    light: 4850
+    medium: 9850
+    heavy: 14850
+
+- name: Darkwood
+  hardness: 5
+  hp: 10
+  masterwork: 1
+  weight: 0.5
+  cost:
+    pound: 10
+
+- name: Dragonhide
+  hardness: 10
+  hp: 10
+  cost:
+    ammunition: 12
+    shield: 300
+    light: 300
+    medium: 300
+    heavy: 300
+    weapon: 600
+
+- name: Cold Iron
+  hardness: 10
+  hp: 30
+  cost:
+    multiplier: 2.0
+    enhancement: 2000
+
+- name: Mithral
+  hardness: 10
+  hp: 30
+  masterwork: 1
+  weight: 0.5
+  dex_bonus: 2
+  acf_bonus: 10
+  acp_bonus: 3
+  category_bonus: 1
+  cost:
+    light: 850
+    medium: 3850
+    heavy: 8850
+    shield: 850
+    pound: 500
+
+- name: Silver
+  hardness: 8
+  hp: 10
+  damage: -1
+  cost:
+    ammunition: 2
+    weapon: 90
+
+#EOF
