@@ -1,0 +1,53 @@
+---
+monster:
+  name: Huge Air Elemental
+  type: Elemental
+  size: huge
+  hd: 16d8+80
+  initiative: -1
+  speed: 30
+  ac:
+    full: 18
+    touch: 7
+    flat-footed: 18
+  bab: 12
+  grapple: 29
+  attacks:
+    - name: Slam
+      bonus: 19
+      damage: 2d10+9
+    - name: Slam
+      bonus: 19
+      damage: 2d10+9
+  special:
+    - Earth Mastery
+    - Push
+    - DR 5/-
+    - Darkvision 60 ft.
+    - Elemental traits
+  space: 15
+  reach: 15
+  feats:
+    - Awesome Blow
+    - Cleave
+    - Great Cleave
+    - Improved Bull Rush
+    - Iron Will
+    - Power Attack
+  saves:
+    fortitude: 15
+    reflex: 4
+    will: 7
+  attributes:
+    strength: 29
+    dexterity: 8
+    constitution: 21
+    intelligence: 6
+    wisdom: 11
+    charisma: 11
+  alignment: Neutral
+  cr: 7
+  advancement:
+    huge: 1d4+16
+
+# EOF
