@@ -1,0 +1,67 @@
+---
+monster:
+  name: Troll Hunter
+  type: Giant
+  size: large
+  hd: 6d8+6d8+72
+  initiative: 1
+  speed: 30
+  ac:
+    full: 21
+  bab: 10
+  grapple: 21
+  attacks:
+    - name: Claw
+      bonus: 16
+      damage: 1d6+7
+    - name: Claw
+      bonus: 16
+      damage: 1d6+7
+    - name: Bite
+      bonus: 11
+      damage: 1d3+7
+    - name: +3 Hvitr Battleaxe
+      bonus: 17
+      damage: 2d6+10
+      threat: [20]
+      multiplier: 3
+    - name: +3 Hvitr Battleaxe
+      bonus: 12
+      damage: 2d6+10
+      threat: [20]
+      multiplier: 3
+    - name: Rend
+      damage: 2d6+10
+  special:
+    - Dark Vision 90ft
+    - Favored Enemy Elves +4
+    - Favored Enemy Humans +2
+    - Regeneration 5
+    - Scent
+  space: 10
+  reach: 10
+  feats:
+    - Alertness
+    - Cleave
+    - Endurance
+    - Improved Natural Armor
+    - Improved Two-Weapon Fighting
+    - Iron Will
+    - Power Attack
+    - Two-Weapon Fighting
+  saves:
+    fortitude: 16
+    reflex: 8
+    will: 8
+  attributes:
+    strength: 25
+    dexterity: 12
+    constitution: 22
+    intelligence: 10
+    wisdom: 15
+    charisma: 10
+  adjustment: 5
+  alignment: Chaotic Evil
+  cr: 11
+
+# EOF

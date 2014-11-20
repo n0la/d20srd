@@ -1,0 +1,86 @@
+---
+monster:
+  name: Frost Giant Jarl
+  type: Giant
+  size: large
+  hd: 14d8+84+8d10+48
+  initiative: 5
+  speed: 30
+  ac:
+    full: 29
+  bab: 18
+  grapple: 33
+  attacks:
+    - name: +2 Frost Greataxe
+      bonus: +30
+      damage: 3d6+13+1d6
+      threat: [20]
+      multiplier: 3
+    - name: +2 Frost Greataxe
+      bonus: +35
+      damage: 3d6+13+1d6
+      threat: [20]
+      multiplier: 3
+    - name: +2 Frost Greataxe
+      bonus: +20
+      damage: 3d6+13+1d6
+      threat: [20]
+      multiplier: 3
+    - name: +2 Frost Greataxe
+      bonus: +15
+      damage: 3d6+13+1d6
+      threat: [20]
+      multiplier: 3
+    - name: Slam
+      bonus: +28
+      damage: 1d4+11
+    - name: Slam
+      bonus: +28
+      damage: 1d4+11
+    - name: Rock
+      bonus: +18
+      damage: 2d6+11
+  special:
+    - Aura of Despair
+    - Aura of Evil
+    - Command Undead
+    - Dark Blessing
+    - Detect Good
+    - Poison Use
+    - Resistance Fire 10
+    - Immunity to Cold
+    - Low-Light Vision
+    - Rock Catching
+    - Vulnerability to Fire
+  space: 10
+  reach: 10
+  feats:
+    - Improved Initiative
+    - Iron Will
+    - Lightning Reflexes
+    - Quick Draw
+    - Cleave
+    - Great Cleave
+    - Improved Overrun
+    - Improved Sunder
+    - Power Attack
+  saves:
+    fortitude: 14
+    reflex: 12
+    will: 12
+  attributes:
+    strength: 32
+    dexterity: 12
+    constitution: 22
+    intelligence: 10
+    wisdom: 12
+    charisma: 18
+  adjustment: 4
+  alignment: Chaotic Evil
+  cr: 17
+  loot:
+    gold: 0.10
+    goods: 0.5
+    items: 0.5
+
+# EOF

@@ -1,0 +1,42 @@
+---
+monster:
+  name: Ettin
+  type: Giant
+  size: large
+  hd: 10d8+20
+  initiative: +3
+  speed: 30
+  ac:
+    full: 18
+  bab: 7
+  grapple: 17
+  attacks:
+    - name: Morning Star
+      bonus: 12
+      damage: 2d6+6
+    - name: Javelin
+      bonus: 5
+      damage: 1d8+6
+  space: 10
+  reach: 10
+  feats:
+    - Alertness
+    - Improved Initiative
+    - Iron Will
+    - Power Attack
+  saves:
+    fortitude: 9
+    reflex: 2
+    will: 5
+  attributes:
+    strength: 23
+    dexterity: 8
+    constitution: 15
+    intelligence: 6
+    wisdom: 10
+    charisma: 11
+  adjustment: 5
+  alignment: Chaotic Evil
+  cr: 6
+
+# EOF

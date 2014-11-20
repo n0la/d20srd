@@ -1,0 +1,51 @@
+monster:
+  name: Worg
+  type: Magical Beast
+  size: medium
+  hd: 4d10+8
+  initiative: 5
+  speed: 50
+  ac:
+    full: 14
+    bonus:
+      natural: 2
+  bab: 4
+  grapple: 7
+  attacks:
+    - name: Bite
+      bonus: 7
+      damage: 1d6+4
+  special:
+    - Trip
+  space: 5
+  reach: 5
+  special:
+    - Darkvision 60ft.
+    - Low-light vision
+    - Scent
+  feats:
+    - Alertness
+    - Track
+  saves:
+    fortitude: 4
+    reflex: 4
+    will: 1
+  abilities:
+    strength: 17
+    dexterity: 15
+    constitution: 15
+    int: 6
+    wisdom: 14
+    charisma: 10
+  alignment: Neutral Evil
+  adjustment: 1
+  cr: 2
+  loot:
+    gold: 0.10
+    goods: 0.5
+    items: 0.5
+  advancement:
+    medium: 1d2+4
+    large: 1d6+6
+
+#EOF

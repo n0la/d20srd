@@ -1,0 +1,49 @@
+monster:
+  name: Stone Golem
+  type: construct
+  size: large
+  hd: 14d10+30
+  initiative: -1
+  speed: 20
+  ac:
+    full: 26
+    touch: 8
+    flat-footed: 26
+  bab: 10
+  grapple: 23
+  attacks:
+    - name: Slam
+      bonus: +18
+      damage: 2d10+9
+    - name: Slam
+      bonus: +18
+      damage: 2d10+9
+  special:
+    - Slow
+  space: 10
+  reach: 10
+  special:
+    - Construct traits
+    - DR 10/adamantine
+    - Darkvision 60 ft.
+    - Immunity to magic
+    - Low-light vision
+  saves:
+    fortitude: 4
+    reflex: 3
+    will: 4
+  abilities:
+    strength: 29
+    dexterity: 9
+    constitution: 0
+    int: 0
+    wisdom: 11
+    charisma: 1
+  alignment: Neutral
+  adjustment: 0
+  cr: 11
+  advancement:
+    large: 1d7+14
+    huge: 1d21+21
+
+#EOF

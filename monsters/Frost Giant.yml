@@ -1,0 +1,60 @@
+---
+monster:
+  name: Frost Giant
+  type: Giant
+  size: large
+  hd: 14d8+70
+  initiative: -1
+  speed: 40
+  ac:
+    full: 21
+  bab: 10
+  grapple: 23
+  attacks:
+    - name: Greataxe
+      bonus: +18
+      damage: 3d6+13
+      threat: [20]
+      multiplier: 3
+    - name: Slam
+      bonus: +18
+      damage: 1d4+9
+    - name: Slam
+      bonus: +18
+      damage: 1d4+9
+    - name: Rock
+      bonus: +9
+      damage: 2d6+9
+  special:
+    - Immunity to Cold
+    - Low-Light Vision
+    - Rock Catching
+    - Vulnerability to Fire
+  space: 10
+  reach: 10
+  feats:
+    - Cleave
+    - Great Cleave
+    - Improved Overrun
+    - Improved Sunder
+    - Power Attack
+  saves:
+    fortitude: 9
+    reflex: 3
+    will: 6
+  attributes:
+    strength: 29
+    dexterity: 9
+    constitution: 21
+    intelligence: 10
+    wisdom: 14
+    charisma: 11
+  adjustment: 4
+  alignment: Chaotic Evil
+  cr: 9
+  loot:
+    gold: 0.10
+    goods: 0.5
+    items: 0.5
+
+# EOF

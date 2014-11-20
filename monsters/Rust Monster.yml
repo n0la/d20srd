@@ -1,0 +1,51 @@
+---
+monster:
+  name: Rust Monster
+  type: Aberration
+  size: medium
+  hd: 5d8+5
+  initiative: 3
+  speed: 40
+  ac:
+    full: 18
+  bab: 3
+  grapple: 3
+  attacks:
+    - name: Antannae Touch
+      bonus: 3
+      damage: 1
+    - name: Bite
+      bonus: -3
+      damage: 1d3
+  special:
+    - Rust
+  space: 5
+  reach: 5
+  feats:
+    - Alertness
+    - Track
+  saves:
+    fortitude: 2
+    reflex: 4
+    will: 5
+  attributes:
+    strength: 10
+    dexterity: 17
+    constitution: 13
+    intelligence: 2
+    wisdom: 13
+    charisma: 8
+  adjustment: 3
+  alignment: Neutral
+  cr: 3
+  advancement:
+    medium: 1d3+5
+    large: 1d6+8
+  description: >-
+    This creature seems to be about the size of a pony. It has four insectlike
+    legs and a squat humped body protected bya thick lumpy hide. Its tail is
+    covered with armour plates and ends in a bony projection that looks like a
+    double ended paddle. The creature sports two long antennae on its head, one
+    beneath each eye.
+
+# EOF

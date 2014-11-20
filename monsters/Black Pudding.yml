@@ -1,0 +1,45 @@
+monster:
+  name: Black Pudding
+  type: Huge Ooze
+  size: huge
+  hd: 10d10+60
+  initiative: -5
+  speed: 20
+  ac:
+    full: 3
+    touch: 3
+    flat-footed: 3
+  bab: 7
+  grapple: 13
+  attacks:
+    - name: Slam
+      bonus: 8
+      damage: 2d6+4+2d6
+  special:
+    - Acid
+    - Constrict 2d6+4+2d6
+    - Improved Grab
+  space: 15
+  reach: 10
+  special:
+    - Blindsight
+    - Split
+    - Ooze trait
+  saves:
+    fortitude: 9
+    reflex: -2
+    will: -2
+  abilities:
+    strength: 17
+    dexterity: 1
+    constitution: 22
+    int: 0
+    wisdom: 1
+    charisma: 1
+  alignment: Neutral
+  cr: 7
+  advancement:
+    medium: 1d5+10
+    large: 1d15+15
+
+#EOF

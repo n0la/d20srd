@@ -1,0 +1,72 @@
+---
+monster:
+  name: Winter Wolf
+  type: Magical Beast
+  size: large
+  hd: 6d10+18
+  initiative: 5
+  speed: 50
+  ac:
+    full: 15
+    bonus:
+      natural: 5
+  bab: 6
+  grapple: 14
+  attacks:
+    - name: Bite
+      bonus: 10
+      damage: 1d8+6+1d6
+    - name: Breath Weapon
+      damage: 4d6
+      save:
+        dc: 16
+        type: reflex
+        based: constitution
+  special:
+    - Breath weapon
+    - Freezing bite
+    - Trip
+    - Darkvision 60 ft.
+    - Immunity to cold
+    - Low-light vision
+    - Scent
+    - Vulnerability to fire
+  space: 10
+  reach: 5
+  feats:
+    - Alertness
+    - Improved Initiative
+    - Track
+  saves:
+    fortitude: 5
+    reflex: 5
+    will: 2
+  attributes:
+    strength: 18
+    dexterity: 13
+    constitution: 16
+    intelligence: 9
+    wisdom: 13
+    charisma: 10
+  adjustment: 3
+  alignment: Neutral Evil
+  cr: 5
+  loot:
+    gold: 0.10
+    goods: 0.5
+    items: 0.5
+  advancement:
+    medium: 1d3+6
+    large: 1d9+9
+  description: >-
+    Dangerous predators of the tundra and other chill regions, winter wolves
+    pursue prey relentlessly. They rarely give up the chase until they bring
+    down their quarry.
+    Winter wolves are more intelligent than their smaller cousins, and sometimes
+    associate with other evil creatures of their cold homelands, such as frost
+    giants, whom they serve as scouts, hunters and trackers.
+    A winter wolf grows about 8 feet long and stands about 4-1/2 feet at the
+    shoulder. It weighs about 450 pounds.
+    Winter wolves can speak Giant and Common.
+
+# EOF
