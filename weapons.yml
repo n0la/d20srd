@@ -186,7 +186,7 @@
 # Bolts and arrows can be used in melee as improvised weapons.
 - name: Bolt
   category: simple
-  class: munition
+  class: ammunition
   damage:
     types: [piercing]
     small: 1d4-1
@@ -637,7 +637,7 @@
 
 - name: Arrow
   category: simple
-  class: munition
+  class: ammunition
   damage:
     types: [piercing]
     small: 1d4-1
