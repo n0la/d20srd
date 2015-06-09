@@ -5,7 +5,7 @@
 
 - name: Gauntlet
   category: simple
-  type: unarmed
+  class: unarmed
   damage:
     types: [bludgeoning]
     small: 1d2
@@ -15,7 +15,7 @@
 
 - name: Unarmed Strike
   category: simple
-  type: unarmed
+  class: unarmed
   damage:
     types: [bludgeoning]
     small: 1d2
@@ -25,7 +25,7 @@
 
 - name: Dagger
   category: simple
-  type: light
+  class: light
   damage:
     types: [piercing, slashing]
     small: 1d3
@@ -38,7 +38,7 @@
 
 - name: Punching Dagger
   category: simple
-  type: light
+  class: light
   damage:
     types: [piercing]
     small: 1d3
@@ -49,7 +49,7 @@
 
 - name: Spiked Gauntlet
   category: simple
-  type: light
+  class: light
   damage:
     types: [piercing]
     small: 1d3
@@ -59,7 +59,7 @@
 
 - name: Light Mace
   category: simple
-  type: light
+  class: light
   damage:
     types: [bludgeoning]
     small: 1d4
@@ -69,7 +69,7 @@
 
 - name: Sickle
   category: simple
-  type: light
+  class: light
   damage:
     types: [slashing]
     small: 1d4
@@ -79,7 +79,7 @@
 
 - name: Club
   category: simple
-  type: one-handed
+  class: one-handed
   damage:
     types: [bludgeoning]
     small: 1d4
@@ -91,7 +91,7 @@
 
 - name: Heavy Mace
   category: simple
-  type: one-handed
+  class: one-handed
   damage:
     types: [bludgeoning]
     small: 1d6
@@ -101,7 +101,7 @@
 
 - name: Morningstar
   category: simple
-  type: one-handed
+  class: one-handed
   damage:
     types: [bludgeoning, piercing]
     small: 1d6
@@ -111,7 +111,7 @@
 
 - name: Shortspear
   category: simple
-  type: one-handed
+  class: one-handed
   damage:
     types: [piercing]
     small: 1d4
@@ -123,7 +123,7 @@
 
 - name: Longspear
   category: simple
-  type: two-handed
+  class: two-handed
   damage:
     types: [piercing]
     small: 1d6
@@ -135,7 +135,7 @@
 
 - name: Quarterstaff
   category: simple
-  type: two-handed
+  class: two-handed
   double: 1
   damage:
     types: [piercing]
@@ -146,7 +146,7 @@
 
 - name: Spear
   category: simple
-  type: two-handed
+  class: two-handed
   damage:
     types: [piercing]
     small: 1d6
@@ -159,7 +159,7 @@
 
 - name: Heavy Crossbow
   category: simple
-  type: ranged
+  class: ranged
   damage:
     types: [piercing]
     small: 1d8
@@ -172,7 +172,7 @@
 
 - name: Light Crossbow
   category: simple
-  type: ranged
+  class: ranged
   damage:
     types: [piercing]
     small: 1d6
@@ -186,7 +186,7 @@
 # Bolts and arrows can be used in melee as improvised weapons.
 - name: Bolt
   category: simple
-  type: munition
+  class: munition
   damage:
     types: [piercing]
     small: 1d4-1
@@ -196,7 +196,7 @@
 
 - name: Dart
   category: simple
-  type: thrown
+  class: thrown
   damage:
     types: [piercing]
     small: 1d3
@@ -208,7 +208,7 @@
 
 - name: Javelin
   category: simple
-  type: thrown
+  class: thrown
   damage:
     types: [piercing]
     small: 1d4
@@ -220,7 +220,7 @@
 
 - name: Sling
   category: simple
-  type: ranged
+  class: ranged
   damage:
     types: [bludgeoning]
     small: 1d3
@@ -233,7 +233,7 @@
 # You could throw a bullet...
 - name: Bullet
   category: simple
-  type: thrown
+  class: thrown
   damage:
     types: [bludgeoning]
     small: 1d4-1
@@ -246,7 +246,7 @@
 
 - name: Throwing Axe
   category: martial
-  type: thrown
+  class: thrown
   damage:
     types: [slashing]
     small: 1d4
@@ -258,7 +258,7 @@
 
 - name: Light Hammer
   category: martial
-  type: light
+  class: light
   damage:
     types: [bludgeoning]
     small: 1d3
@@ -270,7 +270,7 @@
 
 - name: Handaxe
   category: martial
-  type: light
+  class: light
   damage:
     types: [slashing]
     small: 1d4
@@ -281,7 +281,7 @@
 
 - name: Kukri
   category: martial
-  type: light
+  class: light
   damage:
     types: [slashing]
     small: 1d3
@@ -292,7 +292,7 @@
 
 - name: Light Pick
   category: martial
-  type: light
+  class: light
   damage:
     types: [slashing]
     small: 1d3
@@ -303,7 +303,7 @@
 
 - name: Sap
   category: martial
-  type: light
+  class: light
   damage:
     types: [bludgeoning]
     small: 1d4
@@ -313,7 +313,7 @@
 
 - name: Light Shield
   category: martial
-  type: light
+  class: light
   damage:
     types: [bludgeoning]
     small: 1d3
@@ -323,7 +323,7 @@
 
 - name: Spiked Armor
   category: martial
-  type: light
+  class: light
   damage:
     types: [piercing]
     small: 1d4
@@ -333,7 +333,7 @@
 
 - name: Light Spiked Shield
   category: martial
-  type: light
+  class: light
   damage:
     types: [piercing]
     small: 1d3
@@ -343,7 +343,7 @@
 
 - name: Short Sword
   category: martial
-  type: light
+  class: light
   damage:
     types: [piercing]
     small: 1d4
@@ -353,7 +353,7 @@
 
 - name: Battleaxe
   category: martial
-  type: one-handed
+  class: one-handed
   damage:
     types: [slashing]
     small: 1d6
@@ -364,7 +364,7 @@
 
 - name: Flail
   category: martial
-  type: one-handed
+  class: one-handed
   damage:
     types: [bludgeoning]
     small: 1d6
@@ -374,7 +374,7 @@
 
 - name: Longsword
   category: martial
-  type: one-handed
+  class: one-handed
   damage:
     types: [slashing]
     small: 1d6
@@ -385,7 +385,7 @@
 
 - name: Heavy Pick
   category: martial
-  type: one-handed
+  class: one-handed
   damage:
     types: [piercing]
     small: 1d4
@@ -396,7 +396,7 @@
 
 - name: Rapier
   category: martial
-  type: one-handed
+  class: one-handed
   damage:
     types: [piercing]
     small: 1d4
@@ -407,7 +407,7 @@
 
 - name: Scimitar
   category: martial
-  type: one-handed
+  class: one-handed
   damage:
     types: [slashing]
     small: 1d4
@@ -418,7 +418,7 @@
 
 - name: Heavy Shield
   category: martial
-  type: one-handed
+  class: one-handed
   damage:
     types: [bludgeoning]
     small: 1d4
@@ -428,7 +428,7 @@
 
 - name: Heavy Spiked Shield
   category: martial
-  type: one-handed
+  class: one-handed
   damage:
     types: [piercing]
     small: 1d4
@@ -438,7 +438,7 @@
 
 - name: Trident
   category: martial
-  type: one-handed
+  class: one-handed
   damage:
     types: [piercing]
     small: 1d6
@@ -450,7 +450,7 @@
 
 - name: Warhammer
   category: martial
-  type: one-handed
+  class: one-handed
   damage:
     types: [bludgeoning]
     small: 1d6
@@ -461,7 +461,7 @@
 
 - name: Falchion
   category: martial
-  type: two-handed
+  class: two-handed
   damage:
     types: [slashing]
     small: 1d6
@@ -472,7 +472,7 @@
 
 - name: Glaive
   category: martial
-  type: two-handed
+  class: two-handed
   damage:
     types: [slashing]
     small: 1d8
@@ -484,7 +484,7 @@
 
 - name: Greataxe
   category: martial
-  type: two-handed
+  class: two-handed
   damage:
     types: [slashing]
     small: 1d10
@@ -495,7 +495,7 @@
 
 - name: Greatclub
   category: martial
-  type: two-handed
+  class: two-handed
   damage:
     types: [bludgeoning]
     small: 1d8
@@ -505,7 +505,7 @@
 
 - name: Heavy Flail
   category: martial
-  type: two-handed
+  class: two-handed
   damage:
     types: [bludgeoning]
     small: 1d8
@@ -516,7 +516,7 @@
 
 - name: Greatsword
   category: martial
-  type: two-handed
+  class: two-handed
   damage:
     types: [slashing]
     small: 1d10
@@ -527,7 +527,7 @@
 
 - name: Guisarme
   category: martial
-  type: two-handed
+  class: two-handed
   damage:
     types: [slashing]
     small: 1d6
@@ -539,7 +539,7 @@
 
 - name: Halberd
   category: martial
-  type: two-handed
+  class: two-handed
   damage:
     types: [slashing, piercing]
     small: 1d8
@@ -550,7 +550,7 @@
 
 - name: Lance
   category: martial
-  type: two-handed
+  class: two-handed
   damage:
     types: [piercing]
     small: 1d6
@@ -562,7 +562,7 @@
 
 - name: Ranseur
   category: martial
-  type: two-handed
+  class: two-handed
   damage:
     types: [piercing]
     small: 1d6
@@ -574,7 +574,7 @@
 
 - name: Scythe
   category: martial
-  type: two-handed
+  class: two-handed
   damage:
     types: [piercing, slashing]
     small: 1d6
@@ -585,7 +585,7 @@
 
 - name: Longbow
   category: martial
-  type: ranged
+  class: ranged
   damage:
     types: [piercing]
     small: 1d6
@@ -598,7 +598,7 @@
 
 - name: Composite Longbow
   category: martial
-  type: ranged
+  class: ranged
   damage:
     types: [piercing]
     small: 1d6
@@ -611,7 +611,7 @@
 
 - name: Shortbow
   category: martial
-  type: ranged
+  class: ranged
   damage:
     types: [piercing]
     small: 1d4
@@ -624,7 +624,7 @@
 
 - name: Composite Shortbow
   category: martial
-  type: ranged
+  class: ranged
   damage:
     types: [piercing]
     small: 1d6
@@ -637,7 +637,7 @@
 
 - name: Arrow
   category: simple
-  type: munition
+  class: munition
   damage:
     types: [piercing]
     small: 1d4-1
@@ -650,7 +650,7 @@
 
 - name: Kama
   category: exotic
-  type: light
+  class: light
   damage:
     types: [slashing]
     small: 1d4
@@ -660,7 +660,7 @@
 
 - name: Nunchaku
   category: exotic
-  type: light
+  class: light
   damage:
     types: [bludgeoning]
     small: 1d4
@@ -670,7 +670,7 @@
 
 - name: Sai
   category: exotic
-  type: light
+  class: light
   damage:
     types: [bludgeoning]
     small: 1d3
@@ -682,7 +682,7 @@
 
 - name: Sai
   category: exotic
-  type: light
+  class: light
   damage:
     types: [piercing]
     small: 1d4
@@ -692,7 +692,7 @@
 
 - name: Bastard Sword
   category: exotic
-  type: one-handed
+  class: one-handed
   damage:
     types: [slashing]
     small: 1d8
@@ -703,7 +703,7 @@
 
 - name: Dwarven Waraxe
   category: exotic
-  type: one-handed
+  class: one-handed
   damage:
     types: [slashing]
     small: 1d8
@@ -714,7 +714,7 @@
 
 - name: Whip
   category: exotic
-  type: one-handed
+  class: one-handed
   damage:
     types: [slashing, nonlethal]
     small: 1d2
@@ -725,7 +725,7 @@
 
 - name: Orc Double Axe
   category: exotic
-  type: two-handed
+  class: two-handed
   double: 1
   damage:
     types: [slashing]
@@ -737,7 +737,7 @@
 
 - name: Spiked Chain
   category: exotic
-  type: two-handed
+  class: two-handed
   double: 1
   damage:
     types: [piercing]
@@ -749,7 +749,7 @@
 
 - name: Dire Flail
   category: exotic
-  type: two-handed
+  class: two-handed
   double: 1
   damage:
     types: [bludgeoning]
@@ -760,7 +760,7 @@
 
 - name: Gnome Hooked Hammer
   category: exotic
-  type: two-handed
+  class: two-handed
   double: 1
   damage:
     types: [bludgeoning, piercing]
@@ -774,7 +774,7 @@
 
 - name: Two-Bladed Sword
   category: exotic
-  type: two-handed
+  class: two-handed
   double: 1
   damage:
     types: [slashing]
@@ -786,7 +786,7 @@
 
 - name: Dwarven Urgrosh
   category: exotic
-  type: two-handed
+  class: two-handed
   double: 1
   damage:
     types: [slashing, piercing]
@@ -798,7 +798,7 @@
 
 - name: Bolas
   category: exotic
-  type: ranged
+  class: ranged
   damage:
     types: [bludgeoning, nonlethal]
     small: 1d3
@@ -810,7 +810,7 @@
 
 - name: Hand Crossbow
   category: exotic
-  type: ranged
+  class: ranged
   damage:
     types: [piercing]
     small: 1d3
@@ -823,7 +823,7 @@
 
 - name: Repeating Heavy Crossbow
   category: exotic
-  type: ranged
+  class: ranged
   damage:
     types: [piercing]
     small: 1d8
@@ -836,7 +836,7 @@
 
 - name: Repeating Light Crossbow
   category: exotic
-  type: ranged
+  class: ranged
   damage:
     types: [piercing]
     small: 1d6
@@ -849,7 +849,7 @@
 
 - name: Net
   category: exotic
-  type: ranged
+  class: ranged
   damage:
     types: [nonlethal]
     small: 0
@@ -862,7 +862,7 @@
 
 - name: Shuriken
   category: exotic
-  type: ranged
+  class: ranged
   damage:
     types: [piercing]
     small: 1
