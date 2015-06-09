@@ -13,7 +13,7 @@
     light: 1
     medium: 2
     heavy: 3
-    type: -
+    type: \-
   cost:
     # You might ask yourself now: What? This is less than in d20srd!
     # Well you are right, as the masterwork value is not included in the
