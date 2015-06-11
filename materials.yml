@@ -58,7 +58,7 @@
   masterwork: 1
   weight: 0.5
   dex_bonus: 2
-  acf_bonus: 10
+  asf_bonus: 10
   acp_bonus: 3
   category_bonus: 1
   cost:
