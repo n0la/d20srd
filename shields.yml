@@ -1,0 +1,60 @@
+# Shields
+
+- name: Buckler
+  category: shield
+  cost: 15
+  ac: 1
+  acp: -1
+  asf: 5
+  weight: 5
+
+- name: Light Wooden Shield
+  material: wood
+  category: shield
+  cost: 3
+  ac: 1
+  acp: -1
+  asf: 5
+  weight: 5
+
+- name: Light Steel Shield
+  material: steel
+  category: shield
+  cost: 9
+  ac: 1
+  acp: -1
+  asf: 5
+  weight: 6
+
+- name: Heavy Wooden Shield
+  material: wood
+  category: shield
+  cost: 7
+  ac: 2
+  acp: -2
+  asf: 15
+  weight: 10
+
+- name: Heavy Steel Shield
+  material: steel
+  category: shield
+  cost: 20
+  ac: 2
+  acp: -2
+  asf: 15
+  weight: 15
+
+- name: Tower Shield
+  material: steel
+  category: shield
+  ac: 4
+  dex: 2
+  acp: -10
+  asf: 50
+  weight: 45
+
+# Extra
+- name: Shield Spikes
+  category: extra
+  cost: 10
+  weight: 5

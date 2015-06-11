@@ -1,0 +1,147 @@
+---
+
+- name: Padded Armor
+  category: light
+  cost: 5
+  ac: 1
+  dex: 8
+  asf: 5
+  weight: 10
+
+- name: Leather Armor
+  category: light
+  cost: 10
+  ac: 2
+  dex: 6
+  asf: 10
+  weight: 15
+
+- name: Studded Leather
+  category: light
+  cost: 25
+  ac: 3
+  dex: 5
+  acp: -1
+  asf: 15
+  weight: 20
+
+- name: Chain Shirt
+  category: light
+  cost: 100
+  ac: 4
+  dex: 4
+  acp: -2
+  asf: 20
+  weight: 25
+
+- name: Hide Armor
+  category: medium
+  cost: 15
+  ac: 3
+  dex: 4
+  acp: -3
+  asf: 20
+  weight: 25
+  speed:
+    30: 20
+    20: 15
+
+- name: Scale Mail
+  category: medium
+  cost: 50
+  ac: 4
+  dex: 3
+  acp: -4
+  asf: 25
+  weight: 30
+  speed:
+    30: 20
+    20: 15
+
+- name: Chainmail
+  category: medium
+  cost: 150
+  ac: 5
+  dex: 2
+  acp: -5
+  asf: 30
+  weight: 40
+  speed:
+    30: 20
+    20: 15
+
+- name: Breastplate
+  category: medium
+  cost: 200
+  ac: 5
+  dex: 3
+  acp: -4
+  asf: 25
+  weight: 30
+  speed:
+    30: 20
+    20: 15
+
+# Heavy Armor
+
+- name: Splint Mail
+  category: heavy
+  cost: 200
+  ac: 6
+  dex: 0
+  acp: -7
+  asf: 40
+  weight: 45
+  speed:
+    30: 20
+    20: 15
+
+- name: Banded Mail
+  category: heavy
+  cost: 250
+  ac: 6
+  dex: 1
+  acp: -6
+  asf: 35
+  weight: 35
+  speed:
+    30: 20
+    20: 15
+
+# Srsly d20srd "Half-Plate" and "Full plate"?
+- name: Half Plate
+  category: heavy
+  cost: 600
+  ac: 7
+  dex: 0
+  acp: -7
+  asf: 40
+  weight: 50
+  speed:
+    30: 20
+    20: 15
+
+- name: Full Plate
+  category: heavy
+  cost: 1500
+  ac: 8
+  dex: 1
+  acp: -6
+  asf: 35
+  weight: 50
+  speed:
+    30: 20
+    20: 15
+
+# Extra/Special
+- name: Armor spikes
+  category: extra
+  cost: 50
+  weight: 10
+
+- name: Locked Gauntlet
+  category: extra
+  cost: 8
+  weight: 5
+
+#EOF
