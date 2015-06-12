@@ -1,0 +1,47 @@
+# Enhantment? ENCHANTMENT!
+
+# Weapons
+
+- name: Anarchic
+  slots: [weapon]
+  school: Evocation
+  grade: moderate
+  cl: 7
+  feats: [Craft Magic Arms and Armor]
+  spells: [Chaos Hammer]
+  alignments: [chaotic]
+  modifier: 2
+  description: >-
+    An anarchic weapon is chaotically aligned and infused with
+    the power of chaos. It makes the weapon chaos-aligned and thus
+    bypasses the corresponding damage reduction. It deals an extra
+    2d6 points of damage against all of lawful alignment. It bestows
+    one negative level on any lawful creatureattempting to wield it.
+    The negative level remains as long as the weapon is in hand and
+    disappears when the weapon is no longer wielded. This negative
+    level never results in actual level loss, but it cannot be
+    overcome in any way (including restoration spells) while the
+    weapon is wielded. Bows, crossbows, and slings so crafted bestow
+    the chaotic power upon their ammunition
+
+- name: Axiomatic
+  slots: [weapon]
+  school: Evocation
+  grade: moderate
+  cl: 7
+  feats: [Craft Magic Arms and Armor]
+  spells: [Order\'s Wrath]
+  alignments: [lawful]
+  modifier: 2
+  description: >-
+    An axiomatic weapon is lawfully aligned and infused with the
+    power of law. It makes the weapon law-aligned and thus bypasses
+    the corresponding damage reduction. It deals an extra 2d6 points
+    of damage against all of chaotic alignment. It bestows one negative
+    level on any chaotic creature attempting to wield it. The negative
+    level remains as long as the weapon is in hand and disappears when
+    the weapon is no longer wielded. This negative level never results
+    in actual level loss, but it cannot be overcome in any way
+    (including restoration spells) while the weapon is wielded. Bows,
+    crossbows, and slings so crafted bestow the lawful power upon thier
+    ammunition.
