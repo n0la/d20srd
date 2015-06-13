@@ -1,7 +1,6 @@
 # Shields
 
 - name: Buckler
-  category: shield
   cost: 15
   ac: 1
   acp: -1
@@ -10,7 +9,7 @@
 
 - name: Light Wooden Shield
   material: wood
-  category: shield
+  category: light
   cost: 3
   ac: 1
   acp: -1
@@ -19,7 +18,7 @@
 
 - name: Light Steel Shield
   material: steel
-  category: shield
+  category: light
   cost: 9
   ac: 1
   acp: -1
@@ -28,7 +27,7 @@
 
 - name: Heavy Wooden Shield
   material: wood
-  category: shield
+  category: heavy
   cost: 7
   ac: 2
   acp: -2
@@ -37,7 +36,7 @@
 
 - name: Heavy Steel Shield
   material: steel
-  category: shield
+  category: heavy
   cost: 20
   ac: 2
   acp: -2
@@ -46,7 +45,6 @@
 
 - name: Tower Shield
   material: steel
-  category: shield
   ac: 4
   dex: 2
   acp: -10
