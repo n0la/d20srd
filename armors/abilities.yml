@@ -98,7 +98,7 @@
 - name: Bashing
   slots: [shield]
   shield:
-    category: [light, heavy]
+    categories: [light, heavy]
   school: Transmutation
   grade: moderate
   cl: 8
