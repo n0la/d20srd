@@ -45,6 +45,7 @@
   weight: 15
 
 - name: Tower Shield
+  aliases: [Towershield]
   basematerial: metal
   category: tower
   cost: 30

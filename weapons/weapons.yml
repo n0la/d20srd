@@ -14,6 +14,7 @@
   cost: 2
 
 - name: Unarmed Strike
+  aliases: [Unarmed]
   category: simple
   class: unarmed
   damage:
@@ -342,6 +343,7 @@
   weight: 2
 
 - name: Short Sword
+  aliases: [Shortsword]
   category: martial
   class: light
   damage:
@@ -352,6 +354,7 @@
   weight: 2
 
 - name: Battleaxe
+  aliases: [Battle Axe]
   category: martial
   class: one-handed
   damage:
@@ -373,6 +376,7 @@
   weight: 5
 
 - name: Longsword
+  aliases: [Long Sword]
   category: martial
   class: one-handed
   damage:
@@ -449,6 +453,7 @@
   weight: 4
 
 - name: Warhammer
+  aliases: [War Hammer]
   category: martial
   class: one-handed
   damage:

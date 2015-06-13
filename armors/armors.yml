@@ -1,6 +1,7 @@
 ---
 
 - name: Padded Armor
+  aliases: [Padded, Padded Armour]
   category: light
   cost: 5
   ac: 1
@@ -9,6 +10,7 @@
   weight: 10
 
 - name: Leather Armor
+  aliases: [Leather, Leather Armour]
   category: light
   cost: 10
   ac: 2
@@ -17,6 +19,7 @@
   weight: 15
 
 - name: Studded Leather
+  aliases: [Studded]
   category: light
   cost: 25
   ac: 3
@@ -26,6 +29,7 @@
   weight: 20
 
 - name: Chain Shirt
+  aliases: [Chainshirt]
   category: light
   cost: 100
   ac: 4
@@ -35,6 +39,7 @@
   weight: 25
 
 - name: Hide Armor
+  aliases: [Hide, Hide Armour]
   category: medium
   cost: 15
   ac: 3
@@ -47,6 +52,7 @@
     20: 15
 
 - name: Scale Mail
+  alieases: [Scalemail]
   category: medium
   cost: 50
   ac: 4
@@ -59,6 +65,7 @@
     20: 15
 
 - name: Chainmail
+  aliases: [Chain Mail]
   category: medium
   cost: 150
   ac: 5
@@ -71,6 +78,7 @@
     20: 15
 
 - name: Breastplate
+  aliases: [Breast Plate]
   category: medium
   cost: 200
   ac: 5
@@ -85,6 +93,7 @@
 # Heavy Armor
 
 - name: Splint Mail
+  aliases: [Splintmail]
   category: heavy
   cost: 200
   ac: 6
@@ -97,6 +106,7 @@
     20: 15
 
 - name: Banded Mail
+  aliases: [Bandedmail]
   category: heavy
   cost: 250
   ac: 6
@@ -110,6 +120,7 @@
 
 # Srsly d20srd "Half-Plate" and "Full plate"?
 - name: Half Plate
+  aliases: [Half-Plate, Halfplate]
   category: heavy
   cost: 600
   ac: 7
@@ -122,6 +133,7 @@
     20: 15
 
 - name: Full Plate
+  aliases: [Full-Plate, Fullplate]
   category: heavy
   cost: 1500
   ac: 8
