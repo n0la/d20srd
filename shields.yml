@@ -45,6 +45,7 @@
 
 - name: Tower Shield
   material: steel
+  cost: 30
   ac: 4
   dex: 2
   acp: -10
