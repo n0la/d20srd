@@ -306,7 +306,7 @@
   cl: 15
   feats: [Craft Magic Arms and Armor]
   spells: [Etherealness]
-  price: +3
+  modifier: +3
   description: >-
     This armor or shield seems almost translucent. Both its enhancement
     bonus and its armor bonus count against the attacks of incorporeal
@@ -314,3 +314,233 @@
     creatures at any time. Incorporeal creatures gain the armor and
     shield's enhancement bonus against both corporeal and incorporeal
     attacks, and they can still pass freely through solid objects.
+
+- name: Glamered
+  slots: [armor]
+  school: Illusion
+  grade: moderate
+  cl: 10
+  feats: [Craft Magic Arms and Armor]
+  spells: [Disguise Self]
+  price: 2700
+  description: >-
+    A suit of armor with this ability appears normal. Upon command, the
+    armor changes shape and form to assume the appearance of a normal set
+    of clothing. The armor retains all its properties (including weight)
+    when glamered. Only a true seeing spell or similar magic reveals the
+    true nature of the armor when disguised.
+
+- name: Invulnerability
+  slots: [armor]
+  school: Abjuration
+  grade: strong
+  cl: 18
+  feats: [Craft Magic Arms and Armor]
+  spells: [Stoneskin, Wish, Miracle]
+  modifier: +3
+  description: >-
+    This suit of armor grants the wearer damage reduction of 5/magic.
+
+- name: Reflecting
+  slots: [shield]
+  school: Abjuration
+  grade: strong
+  cl: 14
+  feats: [Craft Magic Arms and Armor]
+  spells: [Spell Turning]
+  modifier: +5
+  description: >-
+    This shield seems like a mirror. Its surface is completely
+    reflective. Once per day, it can be called on to reflect a spell
+    back at its caster exactly like the spell turning spell.
+
+- name: Shadow
+  slots: [armor]
+  school: Illusion
+  grade: faint
+  cl: 5
+  feats: [Craft Magic Arms and Armor]
+  spells: [Invisibility]
+  price: 3750
+  description: >-
+    This armor is jet black and blurs the wearer whenever she tries to
+    hide, granting a +5 competence bonus on Hide checks. (The armor's
+    armor check penalty still applies normally.)
+
+- name: Improved Shadow
+  slots: [armor]
+  school: Illusion
+  grade: moderate
+  cl: 10
+  feats: [Craft Magic Arms and Armor]
+  spells: [Invisibility]
+  price: 15000
+  description: >-
+    As shadow, except it grants a +10 competence bonus on Hide checks.
+
+- name: Greater Shadow
+  slots: [armor]
+  school: Illusion
+  grade: strong
+  cl: 15
+  feats: [Craft Magic Arms and Armor]
+  spells: [Invisibility]
+  price: 33750
+  description: >-
+    As shadow, except it grants a +15 competence bonus on Hide checks.
+
+- name: Silent Moves
+  slots: [armor]
+  school: Illusion
+  grade: faint
+  cl: 5
+  feats: [Craft magic Arms and Armor]
+  spells: [Silence]
+  price: 3750
+  description: >-
+    This armor is well oiled and magically constructed so that it not
+    only makes little sound, but id dampens sound around it. It provides
+    a +5 competence bonus on its wearer's Move Silently checks. (The
+    armor's armor check penalty still applies normally.)
+
+- name: Improved Silent Moves
+  slots: [armor]
+  school: Illusion
+  grade: moderate
+  cl: 10
+  feats: [Craft magic Arms and Armor]
+  spells: [Silence]
+  price: 15000
+  description: >-
+    As silent moves, except it grants a +10 competence bonus on Move
+    Silently checks.
+
+- name: Greater Silent Moves
+  slots: [armor]
+  school: Illusion
+  grade: strong
+  cl: 15
+  feats: [Craft magic Arms and Armor]
+  spells: [Silence]
+  price: 33750
+  description: >-
+    As silent moves, except it grants a +15 competence bonus on Move
+    Silently checks.
+
+- name: Slick
+  slots: [armor]
+  school: Conjuration
+  grade: faint
+  cl: 4
+  feats: [Craft magic Arms and Armor]
+  spells: [Grease]
+  price: 3750
+  description: >-
+    Slick armor seems coated at all times with a slightly greasy oil.
+    It provides a +5 competence bonus on its wearer's Escape Artist
+    checks. (The armor's armor check penalty still applies normally.)
+
+- name: Improved Slick
+  slots: [armor]
+  school: Conjuration
+  grade: moderate
+  cl: 10
+  feats: [Craft magic Arms and Armor]
+  spells: [Grease]
+  price: 15000
+  description: >-
+    As slick, except it grants a +10 competence bonus on Escape Artist
+    checks.
+
+- name: Greater Slick
+  slots: [armor]
+  school: Conjuration
+  grade: strong
+  cl: 15
+  feats: [Craft magic Arms and Armor]
+  spells: [Grease]
+  price: 33750
+  description: >-
+    As slick, except it grants a +15 competence bonus on Escape Artist
+    checks.
+
+- name: Sonic Resistance
+  slots: [armor, shield]
+  school: Abjuration
+  grade: faint
+  cl: 3
+  feats: [Craft Magic Arms and Armor]
+  spells: [Resist Energy]
+  price: 18000
+  description: >-
+    A suit of armor or a shield with this property normally has a dull
+    gray appearance. The armor absorbs the first 10 points of sonic
+    damage per attack that the wearer would normally take (similar to
+    the resist energy spell).
+
+- name: Improved Sonic Resistance
+  slots: [armor, shield]
+  school: Abjuration
+  grade: moderate
+  cl: 7
+  feats: [Craft Magic Arms and Armor]
+  spells: [Resist Energy]
+  price: 42000
+  description: >-
+    As sonic resistance, except it absorbs the first 20 points of sonic
+    damage per attack.
+
+- name: Greater Sonic Resistance
+  slots: [armor, shield]
+  school: Abjuration
+  grade: moderate
+  cl: 11
+  feats: [Craft Magic Arms and Armor]
+  spells: [Resist Energy]
+  price: 66000
+  description: >-
+    As sonic resistance, except it absorbs the first 30 points of sonic
+    damage per attack.
+
+- name: Spell Resistance
+  slots: [armor]
+  school: Abjuration
+  grade: strong
+  cl: 15
+  feats: [Craft Magic Arms and Armor]
+  spells: [Spell Resistance]
+  modifier: 2
+  description: >-
+    This property grants the armor\'s wearer spell resistance while the
+    armor is worn. The spell resistance can be 13, 15, 17, or 19
+    depending on the armor.
+
+- name: Undead Controlling
+  slots: [armor, shield]
+  school: Necromancy
+  grade: strong
+  cl: 13
+  feats: [Craft Magic Arms and Armor]
+  spells: [Control Undead]
+  price: 49000
+  description: >-
+    The wearer of a suit of armor or a shield with this property may
+    control up to 26 HD of undead per day, as the control undead spell.
+    At dawn each day, the wearer loses control of any undead his sway.
+    Armor or a shield with this ability appears to be made of bone; this
+    feature is entirely decorative and has no other effect on the armor.
+
+- name: Wild
+  slots: [armor, shield]
+  school: Transmutation
+  grade: moderate
+  cl: 9
+  feats: [Craft Magic Arms and Armor]
+  spells: [Baleful Polymorph]
+  modifier: +3
+  description: >-
+    The wearer of a suit of armor or shield with this ability preserves
+    his armor bonus (and any enhancement bonus) while in a wild shape.
+    Armor and shields with this ability usually appear to be made covered
+    in leaf patterns. While the wearer is in a wild shape, the armor
+    cannot be seen.
