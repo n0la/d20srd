@@ -15,16 +15,22 @@
     heavy: 3
     type: \-
   cost:
-    # You might ask yourself now: What? This is less than in d20srd!
-    # Well you are right, as the masterwork value is not included in the
-    # prices below.
-    ammunition: 54
-    shield: 1850
-    weapon: 2700
-    double: 5400
-    light: 4850
-    medium: 9850
-    heavy: 14850
+    weapon:
+      # You might ask yourself now: What? This is less than in d20srd!
+      # Well you are right, as the masterwork value is not included in
+      # the prices below.
+      ammunition: 54
+      light: 2700
+      one-handed: 2700
+      two-handed: 2700
+      thrown: 2700
+      double: 5400
+    armor:
+      light: 4750
+      medium: 9750
+      heavy: 14750
+    shield:
+      shield: 1750
 
 - name: Darkwood
   hardness: 5
@@ -38,19 +44,32 @@
   hardness: 10
   hp: 10
   cost:
-    ammunition: 12
-    shield: 300
-    light: 300
-    medium: 300
-    heavy: 300
-    weapon: 600
+    weapon:
+      ammunition: 12
+      light: 600
+      one-handed: 600
+      two-handed: 600
+      double: 1200
+    armor:
+      light: 300
+      medium: 300
+      heavy: 300
+    shield:
+      shield: 300
 
 - name: Cold Iron
   hardness: 10
   hp: 30
   cost:
-    multiplier: 2.0
-    enhancement: 2000
+    weapon:
+      multiplier: 2.0
+      enhancement: 2000
+    armor:
+      multiplier: 2.0
+      enhancement: 2000
+    shield:
+      multiplier: 2.0
+      enhancement: 2000
 
 - name: Mithral
   hardness: 10
@@ -62,10 +81,12 @@
   acp_bonus: 3
   category_bonus: 1
   cost:
-    light: 850
-    medium: 3850
-    heavy: 8850
-    shield: 850
+    armor:
+      light: 750
+      medium: 3750
+      heavy: 8750
+    shield:
+      shield: 750
     pound: 500
 
 - name: Silver
@@ -73,7 +94,11 @@
   hp: 10
   damage: -1
   cost:
-    ammunition: 2
-    weapon: 90
+    weapon:
+      ammunition: 2
+      light: 90
+      one-handed: 90
+      two-handed: 90
+      double: 180
 
 #EOF
