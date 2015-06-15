@@ -143,6 +143,7 @@
     bane quality upon their ammunition.
 
 - name: Giants Bane
+  aliases: [Giant Bane]
   slots: [weapon]
   school: Conjuration
   grade: moderate
