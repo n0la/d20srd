@@ -178,7 +178,7 @@
     power.
 
 - name: Luck Blade (1 Wish)
-  aliases: [Luck Blade]
+  aliases: ["Luck Blade (1)"]
   type: Shortsword
   school: evocation
   grade: strong
@@ -202,7 +202,7 @@
     power.
 
 - name: Luck Blade (2 Wishes)
-  aliases: [Luck Blade]
+  aliases: ["Luck Blade (2)"]
   type: Shortsword
   school: evocation
   grade: strong
@@ -225,8 +225,8 @@
     sword, still grants the +1 luck bonus, and still grants its reroll
     power.
 
-- name: Luck Blade (2 Wishes)
-  aliases: [Luck Blade]
+- name: Luck Blade (3 Wishes)
+  aliases: ["Luck Blade (3)"]
   type: Shortsword
   school: evocation
   grade: strong
