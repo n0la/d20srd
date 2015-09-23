@@ -1,0 +1,269 @@
+# List of all artefacts
+#
+
+- name: "Assassin's Dagger"
+  aliases: [Assassins Dagger]
+  type: Dagger
+  school: necromancy
+  grade: moderate
+  cl: 9
+  feats: [Craft Magic Arms and Armor]
+  spells: [Slay Living]
+  price: 18302
+  craft:
+    price: 9302
+    xp: 720
+  description: >-
+    This wicked-looking, curved +2 dagger provides a +1 bonus to the
+    DC of a Fortitude save forced by the death attack of an assassin.
+
+- name: "Dagger of Venom"
+  type: Dagger
+  school: necromancy
+  grade: faint
+  cl: 5
+  feats: [Craft Magic Arms and Armor]
+  spells: [Poison]
+  price: 8302
+  craft:
+    price: 4302
+    xp: 320
+  description: >-
+    This black +1 dagger has a serrated edge. It allows the wielder to
+    use a poison effect (as the spell, save DC 14) upon a creature
+    struck by the blade once per day. The wielder can decide to use
+    the power after he has struck. Doing so is a free action, but the
+    poison effect must be invoked in the same round that the dagger
+    strikes.
+
+- name: Dwarven Thrower
+  type: Warhammer
+  school: evocation
+  grade: moderate
+  cl: 10
+  feats: [Craft Magic Arms and Armor]
+  price: 60312
+  craft:
+    price: 30312
+    xp: 2400
+  description: >-
+    This weapon commonly functions as a +2 warhammer. In the hands of
+    a dwarf, the warhammer gains an additional +1 enhancement bonus
+    (for a total enhancement bonus of +3) and gains the returning
+    special ability. It can be hurled with a 30-foot range
+    increment. When hurled, it deals an extra 2d8 points of damage
+    against giants or an extra 1d8 points of damage against any other
+    target.
+
+- name: Flame Tongue
+  type: Longsword
+  school: evocation
+  grade: moderate
+  cl: 12
+  feats: [Craft Magic Arms and Armor]
+  spells: [Scorching Ray, Flame Blade, Flame Strike, Fireball]
+  price: 20715
+  craft:
+    price: 10515
+    xp: 816
+  description: >-
+    This is a +1 flaming burst longsword. Once per day, the sword can
+    blast forth a fiery ray at any target within 30 feet as a ranged
+    touch attack. The ray deals 4d6 points of fire damage on a
+    successful hit.
+
+- name: Frost Brand
+  type: Greatsword
+  school: evocation
+  grade: strong
+  cl: 14
+  feats: [Craft Magic Arms and Armor]
+  spells: [Ice Storm, Dispel Magic, Protection from Energy]
+  price: 54475
+  craft:
+    price: 27376
+    xp: 2179
+  description: >-
+     This +3 frost greatsword sheds light as a torch when the
+     temperature drops below 0°F. At such times it cannot be concealed
+     when drawn, nor can its light be shut off. Its wielder is
+     protected from fire; the sword absorbs the first 10 points of
+     fire damage each round that the wielder would otherwise take.  A
+     frost brand extinguishes all nonmagical fires in its area. As a
+     standard action, it can also dispel lasting fire spells, but not
+     instantaneous effects, though you must succeed on a dispel check
+     (1d20 +14) against each spell to dispel it. The DC to dispel such
+     spells is 11 + the caster level of the fire spell.
+
+- name: Holy Avenger
+  type: Longsword
+  school: abjuration
+  grade: strong
+  cl: 18
+  feats: [Craft Magic Arms and Armor]
+  spells: [Holy Aura]
+  price: 120630
+  craft:
+    price: 60630
+    xp: 4800
+  description: >-
+     This +2 cold iron longsword becomes a +5 holy cold iron longsword
+     in the hands of a paladin. It provides spell resistance of 5 +
+     the paladin’s level to the wielder and anyone adjacent to her. It
+     also enables the wielder to use greater dispel magic (once per
+     round as a standard action) at the class level of the
+     paladin. (Only the area dispel is possible, not the targeted
+     dispel or counterspell versions of greater dispel magic.)
+
+- name: Javelin of Lightning
+  type: Javelin
+  school: evocation
+  grade: faint
+  cl: 5
+  feats: [Craft Magic Arms and Armor]
+  spells: [Lightning Bolt]
+  price: 1500
+  craft:
+    price: 750
+    xp: 30
+  description: >-
+    This javelin becomes a 5d6 lightning bolt when thrown (Reflex DC
+    14 half). It is consumed in the attack.
+
+
+- name: Life-Drinker
+  type: Greataxe
+  school: necromancy
+  grade: strong
+  cl: 13
+  feats: [Craft Magic Arms and Armor]
+  spells: [Enervation]
+  price: 40320
+  craft:
+    price: 20320
+    xp: 1600
+  description: >-
+     This +1 greataxe is favored by undead and constructs, who do not
+     suffer its drawback. A life-drinker bestows two negative levels
+     on its target whenever it deals damage, just as if its target had
+     been struck by an undead creature. One day after being struck,
+     subjects must make a DC 16 Fortitude save for each negative level
+     or lose a character level. Each time a life-drinker deals damage
+     to a foe, it also bestows one negative level on the wielder. Any
+     negative level gained by the wielder in this fashion lasts for 1
+     hour.
+
+- name: Luck Blade (0 Wishes)
+  aliases: [Luck Blade]
+  type: Shortsword
+  school: evocation
+  grade: strong
+  cl: 17
+  feats: [Craft Magic Arms and Armor]
+  spells: [Wish, Miracle]
+  price: 22060
+  craft:
+    price: 11030
+    xp: 882
+  description: >-
+    This +2 short sword gives its possessor a +1 luck bonus on all
+    saving throws. Its possessor also gains the power of good fortune,
+    usable once per day. This extraordinary ability allows its
+    possessor to reroll one roll that she just made. She must take the
+    result of the reroll, even if it’s worse than the original
+    roll. In addition, a luck blade may contain up to three wishes
+    (when randomly rolled, a luck blade holds 1d4-1 wishes, minimum
+    0). When the last wish is used, the sword remains a +2 short
+    sword, still grants the +1 luck bonus, and still grants its reroll
+    power.
+
+- name: Luck Blade (1 Wish)
+  aliases: [Luck Blade]
+  type: Shortsword
+  school: evocation
+  grade: strong
+  cl: 17
+  feats: [Craft Magic Arms and Armor]
+  spells: [Wish, Miracle]
+  price: 62360
+  craft:
+    price: 31180
+    xp: 2494
+  description: >-
+    This +2 short sword gives its possessor a +1 luck bonus on all
+    saving throws. Its possessor also gains the power of good fortune,
+    usable once per day. This extraordinary ability allows its
+    possessor to reroll one roll that she just made. She must take the
+    result of the reroll, even if it’s worse than the original
+    roll. In addition, a luck blade may contain up to three wishes
+    (when randomly rolled, a luck blade holds 1d4-1 wishes, minimum
+    0). When the last wish is used, the sword remains a +2 short
+    sword, still grants the +1 luck bonus, and still grants its reroll
+    power.
+
+- name: Luck Blade (2 Wishes)
+  aliases: [Luck Blade]
+  type: Shortsword
+  school: evocation
+  grade: strong
+  cl: 17
+  feats: [Craft Magic Arms and Armor]
+  spells: [Wish, Miracle]
+  price: 102660
+  craft:
+    price: 51330
+    xp: 4106
+  description: >-
+    This +2 short sword gives its possessor a +1 luck bonus on all
+    saving throws. Its possessor also gains the power of good fortune,
+    usable once per day. This extraordinary ability allows its
+    possessor to reroll one roll that she just made. She must take the
+    result of the reroll, even if it’s worse than the original
+    roll. In addition, a luck blade may contain up to three wishes
+    (when randomly rolled, a luck blade holds 1d4-1 wishes, minimum
+    0). When the last wish is used, the sword remains a +2 short
+    sword, still grants the +1 luck bonus, and still grants its reroll
+    power.
+
+- name: Luck Blade (2 Wishes)
+  aliases: [Luck Blade]
+  type: Shortsword
+  school: evocation
+  grade: strong
+  cl: 17
+  feats: [Craft Magic Arms and Armor]
+  spells: [Wish, Miracle]
+  price: 142960
+  craft:
+    price: 71480
+    xp: 5718
+  description: >-
+    This +2 short sword gives its possessor a +1 luck bonus on all
+    saving throws. Its possessor also gains the power of good fortune,
+    usable once per day. This extraordinary ability allows its
+    possessor to reroll one roll that she just made. She must take the
+    result of the reroll, even if it’s worse than the original
+    roll. In addition, a luck blade may contain up to three wishes
+    (when randomly rolled, a luck blade holds 1d4-1 wishes, minimum
+    0). When the last wish is used, the sword remains a +2 short
+    sword, still grants the +1 luck bonus, and still grants its reroll
+    power.
+
+- name: Mace of Smiting
+  type: Heavy Mace
+  school: transmutation
+  grade: moderate
+  cl: 11
+  feats: [Craft Magic Arms and Armor]
+  spells: [Disintegrate]
+  price: 75312
+  craft:
+    price: 39312
+    xp: 2880
+  description: >-
+    This +3 adamantine heavy mace has a +5 enhancement bonus against
+    constructs, and any critical hit dealt to a construct completely
+    destroys it (no saving throw). A critical hit dealt to an outsider
+    deals ×4 damage rather than ×2.
+
+#EOF
