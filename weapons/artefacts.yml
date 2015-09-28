@@ -1,4 +1,4 @@
-# List of all artefacts
+# List of all specific weapons of the d20srd
 #
 
 - name: "Assassin's Dagger"
@@ -265,5 +265,335 @@
     constructs, and any critical hit dealt to a construct completely
     destroys it (no saving throw). A critical hit dealt to an outsider
     deals ×4 damage rather than ×2.
+
+- name: Mace of Terror
+  type: Heavy Mace
+  school: necromancy
+  grade: strong
+  cl: 13
+  feats: [Craft Magic Arms and Armor]
+  spells: [Fear]
+  price: 38552
+  craft:
+    price: 19276
+    xp: 1542
+  description: >-
+    On command, this +2 heavy mace causes the wielder’s clothes and
+    appearance to transform into an illusion of darkest horror such
+    that living creatures in a 30-foot cone become panicked as if by a
+    fear spell (Will DC 16 partial). They take a -2 morale penalty on
+    saving throws, and they flee from the wielder. The wielder may use
+    this ability up to three times per day.
+
+- name: Nine Lives Stealer
+  type: Longsword
+  school: necromancy
+  alignment: evil
+  grade: strong
+  cl: 13
+  feats: [Craft Magic Arms and Armor]
+  spells: [Finger of Death]
+  price: 23057
+  craft:
+    price: 11528
+    xp: 922
+  description: >-
+    This longsword always performs as a +2 longsword, but it also has
+    the power to draw the life force from an opponent. It can do this
+    nine times before the ability is lost. At that point, the sword
+    becomes a simple +2 longsword (with a hint of evil about it). A
+    critical hit must be dealt for the sword’s death-dealing ability
+    to function, and this weapon has no effect on creatures not
+    subject to critical hits. The victim is entitled to a DC 20
+    Fortitude save to avoid death. If the save is successful, the
+    sword’s death-dealing ability does not function, no use of the
+    ability is expended, and normal critical damage is
+    determined. This sword is evil, and any good character attempting
+    to wield it gains two negative levels. These negative levels
+    remain as long as the sword is in hand and disappear when the
+    sword is no longer wielded. These negative levels never result in
+    actual level loss, but they cannot be overcome in any way
+    (including restoration spells) while the sword is wielded.
+
+- name: Oathbow
+  type: Composite Longbow
+  school: evocation
+  grade: strong
+  cl: 15
+  feats: [Craft Magic Arms and Armor]
+  price: 25600
+  craft:
+    price: 13100
+    xp: 1000
+  description: >-
+    Of elven make, this white +2 composite longbow (+2 Str bonus)
+    whispers "Swift defeat to my enemies" in Elven when nocked and
+    pulled. Once per day, if the firer swears aloud to slay her target
+    (a free action), the bow’s whisper becomes the low shout "Swift
+    death to those who have wronged me." Against such a sworn enemy,
+    the bow has a +5 enhancement bonus, and arrows launched from it
+    deal an additional 2d6 points of damage (and ×4 on a critical hit
+    instead of the normal ×3). However, the bow is treated as only a
+    masterwork weapon against all foes other than the sworn enemy, and
+    the wielder takes a -1 penalty on attack rolls with any weapon
+    other than the oathbow. These bonuses and penalties last for seven
+    days or until the sworn enemy is slain or destroyed by the wielder
+    of the oathbow, whichever comes first. The oathbow may only have
+    one sworn enemy at a time. Once the wielder swears to slay a
+    target, he cannot make a new oath until he has slain that target
+    or seven days have passed. Even if the wielder slays the sworn
+    enemy on the same day that he makes the oath, he cannot activate
+    the oathbow’s special power again until 24 hours have passed from
+    the time he made the oath.
+
+- name: Rapier of Puncturing
+  type: Rapier
+  school: necromancy
+  grade: strong
+  cl: 13
+  feats: [Craft Magic Arms and Armor]
+  spells: [Harm]
+  price: 50320
+  craft:
+    price: 25320
+    xp: 2000
+  description: >-
+    Three times per day, this +2 wounding rapier allows the wielder to
+    make a touch attack with the weapon that deals 1d6 points of
+    Constitution damage by draining blood. Creatures immune to
+    critical hits are immune to the Constitution damage dealt by this
+    weapon.
+
+- name: Screaming Bolt
+  type: Bolt
+  school: enchantment
+  grade: faint
+  cl: 5
+  feats: [Craft Magic Arms and Armor]
+  spells: [Doom]
+  price: 267
+  craft:
+    price: 128
+    xp: 10
+  description: >-
+    One of these +2 bolts screams when fired, forcing all enemies of
+    the wielder within 20 feet of the path of the bolt to succeed on a
+    DC 14 Will save or become shaken. This is a mind-affecting fear
+    effect.
+
+- name: Shatterspike
+  type: Longsword
+  school: evocation
+  grade: strong
+  cl: 13
+  feats: [Craft Magic Arms and Armor]
+  spells: [Shatter]
+  price: 4315
+  craft:
+    price: 2315
+    xp: 160
+  description: >-
+    Wielders without the Improved Sunder feat use Shatterspike as a +1
+    longsword only; wielders with the Improved Sunder feat add a +4
+    bonus (including the sword’s +1 enhancement bonus) to the opposed
+    roll when attempting to strike a foe’s weapon. If successful,
+    Shatterspike deals 1d8+4 points of damage plus the wielder’s
+    Strength modifier to the target weapon (the target weapon’s
+    hardness must still be overcome with each hit). Shatterspike can
+    damage weapons with an enhancement bonus of +4 or lower.
+
+- name: "Shifter's Sorrow"
+  type: Two-Bladed Sword
+  school: transmutation
+  grade: strong
+  cl: 15
+  feats: [Craft Magic Arms and Armor]
+  spells: [Baleful Polymorth]
+  price: 12780
+  craft:
+    price: 6780
+    xp: 480
+  description: >-
+    This +1/+1 two-bladed sword has blades of alchemical silver. The
+    weapon deals an extra 2d6 points of damage against any creature
+    with the shapechanger subtype. When a shapechanger or a creature
+    in an alternate form (such as a druid using wild shape) is struck
+    by the weapon, it must make a DC 15 Will save or return to its
+    natural form.
+
+# TODO: Slaying Arrow/Bolt
+
+- name: Sleep Arrow
+  type: Arrow
+  school: enchantment
+  grade: faint
+  cl: 5
+  feats: [Craft Magic Arms and Armor]
+  spells: [Sleep]
+  price: 132
+  craft:
+    price: 69
+    xp: 5
+  description: >-
+    This +1 arrow is painted white and has white fletching. If it
+    strikes a foe so that it would normally deal damage, it instead
+    bursts into magical energy that deals nonlethal damage (in the
+    same amount as would be lethal damage) and forces the target to
+    make a DC 11 Will save or fall asleep.
+
+- name: Sun Blade
+  type: Bastard Sword
+  school: evocation
+  grade: moderate
+  cl: 10
+  feats: [Craft Magic Arms and Armor]
+  spells: [Daylight]
+  price: 50335
+  craft:
+    price: 25335
+    xp: 2000
+  description: >-
+     This sword is the size of a bastard sword. However, a sun blade
+     is wielded as if it were a short sword with respect to weight and
+     ease of use. (In other words, the weapon appears to all viewers
+     to be a bastard sword, and deals bastard sword damage, but the
+     wielder feels and reacts as if the weapon were a short sword.)
+     Any individual able to use either a bastard sword or a short
+     sword with proficiency is proficient in the use of a sun
+     blade. Likewise, Weapon Focus and Weapon Specialization in short
+     sword and bastard sword apply equally, but the benefits of those
+     feats do not stack.  In normal combat, the glowing golden blade
+     of the weapon is equal to a +2 bastard sword. Against evil
+     creatures, its enhancement bonus is +4. Against Negative Energy
+     Plane creatures or undead creatures, the sword deals double
+     damage (and ×3 on a critical hit instead of the usual ×2).  The
+     blade also has a special sunlight power. Once per day, the
+     wielder can swing the blade vigorously above her head while
+     speaking a command word. The sunblade then sheds a bright yellow
+     radiance that is like full daylight. The radiance begins shining
+     in a 10-foot radius around the sword wielder and extends outward
+     at 5 feet per round for 10 rounds thereafter, to create a globe
+     of light with a 60-foot radius. When the wielder stops swinging,
+     the radiance fades to a dim glow that persists for another minute
+     before disappearing entirely. All sun blades are of good
+     alignment, and any evil creature attempting to wield one gains
+     one negative level. The negative level remains as long as the
+     sword is in hand and disappears when the sword is no longer
+     wielded. This negative level never results in actual level loss,
+     but it cannot be overcome in any way (including restoration
+     spells) while the sword is wielded.
+
+- name: Sword of Life Stealing
+  type: Longsword
+  school: necromancy
+  grade: strong
+  cl: 17
+  feats: [Craft Magic Arms and Armor]
+  spells: [Enervation]
+  price: 25715
+  craft:
+    price: 12875
+    xp: 1029
+  description: >-
+    This black iron +2 longsword bestows a negative level when it
+    deals a critical hit. The sword wielder gains 1d6 temporary hit
+    points each time a negative level is bestowed on another. These
+    temporary hit points last for 24 hours. One day after being
+    struck, subjects must make a DC 16 Fortitude save for each
+    negative level or lose a character level.
+
+- name: Sword of the Planes
+  type: Longsword
+  school: evocation
+  grade: strong
+  cl: 15
+  feats: [Craft Magic Arms and Armor]
+  spells: [Plane Shift]
+  price: 22315
+  craft:
+    price: 11157
+    xp: 893
+  description: >-
+    This longsword has an enhancement bonus of +1 on the Material
+    Plane, but on any Elemental Plane its enhancement bonus increases
+    to +2. (The +2 enhancement bonus also applies on the Material
+    Plane when the weapon is used against elementals.) It operates as
+    a +3 longsword on the Astral Plane or the Ethereal Plane or when
+    used against opponents native to either of those planes. On any
+    other plane, or against any outsider, it functions as a +4
+    longsword.
+
+- name: Sword of Subtlety
+  type: Shortsword
+  school: illusion
+  grade: moderate
+  cl: 7
+  feats: [Craft Magic Arms and Armor]
+  spells: [Blur]
+  price: 22310
+  craft:
+    price: 11155
+    xp: 892
+  description: >-
+    A +1 short sword with a thin, dull gray blade, this weapon
+    provides a +4 bonus on its wielder’s attack and damage rolls when
+    he is making a sneak attack with it.
+
+- name: Sylvan Scimitar
+  type: scimitar
+  school: evocation
+  grade: moderate
+  cl: 11
+  feats: [Craft Magic Arms and Armor]
+  spells: [Divine Power]
+  price: 44315
+  craft:
+    price: 23657
+    xp: 1893
+  description: >-
+    This +3 scimitar, when used outdoors in a temperate climate,
+    grants its wielder the use of the Cleave feat and deals an extra
+    1d6 points of damage.
+
+- name: Trident of Fish Command
+  type: trident
+  school: enchantment
+  grade: moderate
+  cl: 7
+  feats: [Craft Magic Arms and Armor]
+  spells: [Speak with Animals]
+  price: 18650
+  craft:
+    price: 9325
+    xp: 746
+  description: >-
+    The magical properties of this +1 trident with a 6-foot-long haft
+    enable its wielder to charm up to 14 HD of aquatic animals (Will
+    DC 16 negates, animals get a +5 bonus if currently under attack by
+    the wielder or his allies), no two of which can be more than 30
+    feet apart. The wielder can use this effect up to three times per
+    day. The wielder can communicate with the animals as if using a
+    speak with animals spell. Animals making their saving throw are
+    free of control, but they will not approach within 10 feet of the
+    trident. The trident can be used up to three times per day.
+
+- name: Trident of Warning
+  type: trident
+  school: divination
+  grade: moderate
+  cl: 7
+  feats: [Craft Magic Arms and Armor]
+  spells: [Locate Creature]
+  price: 10115
+  craft:
+    price: 5057
+    xp: 405
+  description: >-
+    A weapon of this type enables its wielder to determine the
+    location, depth, kind, and number of aquatic predators within 680
+    feet. A trident of warning must be grasped and pointed in order
+    for the character using it to gain such information, and it
+    requires 1 round to scan a hemisphere with a radius of 680
+    feet. The weapon is otherwise a +2 trident.
 
 #EOF
