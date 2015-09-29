@@ -1,0 +1,85 @@
+# Moar enchantment? ENCHANTMENT!
+
+# Ability bonuses
+- name: Dexterity +1
+  school: Transmutation
+  grade: moderate
+  spells: ["Cat's Grace"]
+  price: 1000
+  description: >-
+    This item grants a +1 enhancement bonus to dexterity.
+
+- name: Dexterity +2
+  school: Transmutation
+  grade: moderate
+  spells: ["Cat's Grace"]
+  price: 4000
+  description: >-
+    This item grants a +2 enhancement bonus to dexterity.
+
+- name: Dexterity +3
+  school: Transmutation
+  grade: moderate
+  spells: ["Cat's Grace"]
+  price: 6000
+  description: >-
+    This item grants a +3 enhancement bonus to dexterity.
+
+- name: Dexterity +4
+  school: Transmutation
+  grade: moderate
+  spells: ["Cat's Grace"]
+  price: 16000
+  description: >-
+    This item grants a +4 enhancement bonus to dexterity.
+
+- name: Dexterity +5
+  school: Transmutation
+  grade: moderate
+  spells: ["Cat's Grace"]
+  price: 25000
+  description: >-
+    This item grants a +5 enhancement bonus to dexterity.
+
+- name: Dexterity +6
+  school: Transmutation
+  grade: moderate
+  spells: ["Cat's Grace"]
+  price: 36000
+  description: >-
+    This item grants a +6 enhancement bonus to dexterity.
+
+- name: Dexterity +7
+  school: Transmutation
+  grade: moderate
+  spells: ["Cat's Grace"]
+  price: 49000
+  description: >-
+    This item grants a +7 enhancement bonus to dexterity.
+
+- name: Dexterity +8
+  school: Transmutation
+  grade: moderate
+  spells: ["Cat's Grace"]
+  price: 64000
+  description: >-
+    This item grants a +8 enhancement bonus to dexterity.
+
+- name: Dexterity +9
+  school: Transmutation
+  grade: moderate
+  spells: ["Cat's Grace"]
+  price: 81000
+  description: >-
+    This item grants a +9 enhancement bonus to dexterity.
+
+# According to epic level gear, enhancement bonuses stop at +10
+- name: Dexterity +10
+  school: Transmutation
+  grade: moderate
+  spells: ["Cat's Grace"]
+  price: 100000
+  description: >-
+    This item grants a +10 enhancement bonus to dexterity.
+
+#EOF

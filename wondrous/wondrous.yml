@@ -1,0 +1,44 @@
+- name: Helmet
+  slot: head
+
+- name: Headband
+  slot: head
+
+- name: Amulet
+  slot: neck
+
+- name: Goggles
+  slot: face
+
+- name: Mask
+  slot: face
+
+- name: Gloves
+  slot: hands
+
+- name: Bracers
+  slot: wrist
+
+- name: Vest
+  slot: torso
+
+- name: Belt
+  slot: waist
+
+- name: Robe
+  slot: body
+
+- name: Boots
+  slot: feet
+
+- name: Ring
+  slot: ring
+
+- name: Cloak
+  slot: shoulders
+
+- name: Brooch
+  slot: brooch
+
+- name: Mask
+  slot: face
