@@ -129,6 +129,48 @@
     This item grants an enhancement bonus to all saving throws (fortitude,
     reflex, will).
 
+- name: Fortitude
+  school: abjuration
+  grade: faint
+  spell: ["Resistance"]
+  feats: ["Craft Wondrous Item"]
+  bonus:
+    required: true
+    maximium: 10
+    minimum: 1
+  lua:
+    price: (math.pow(ability.bonus, 2) * 1000)
+  description: >-
+    This item grants an enhancement bonus to fortitude saving throws.
+
+- name: Will
+  school: abjuration
+  grade: faint
+  spell: ["Resistance"]
+  feats: ["Craft Wondrous Item"]
+  bonus:
+    required: true
+    maximium: 10
+    minimum: 1
+  lua:
+    price: (math.pow(ability.bonus, 2) * 1000)
+  description: >-
+    This item grants an enhancement bonus to will saving throws.
+
+- name: Reflex
+  school: abjuration
+  grade: faint
+  spell: ["Resistance"]
+  feats: ["Craft Wondrous Item"]
+  bonus:
+    required: true
+    maximium: 10
+    minimum: 1
+  lua:
+    price: (math.pow(ability.bonus, 2) * 1000)
+  description: >-
+    This item grants an enhancement bonus to reflex saving throws.
+
 - name: Spell resistance
   school: abjuration
   grade: moderate
@@ -141,6 +183,19 @@
     price: ((ability.bonus - 12) * 10000)
   description: >-
     This item grants the wearer spell resistance.
+
+- name: Power
+  school: transmutation
+  grade: strong
+  feats: ["Craft Wondrous Item"]
+  bonus:
+    required: true
+    minimum: 1
+    maximum: 9
+  lua:
+    price: (math.pow(ability.bonus, 2) * 1000)
+  description: >-
+    This item grants the power of recalling a spell of the given level.
 
 - name: Hide
   school: illusion
