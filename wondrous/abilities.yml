@@ -562,4 +562,283 @@
   description: >-
     This item grants a +10 enhancement bonus to Charisma.
 
-#EOF
+- name: Protection +1
+  school: abjuration
+  grade: faint
+  spell: ["Shield of Faith"]
+  feats: ["Craft Wondrous Item"]
+  price: 2000
+  description: >-
+    This item grants a +1 deflection bonus to armor class.
+
+- name: Protection +2
+  school: abjuration
+  grade: faint
+  spell: ["Shield of Faith"]
+  feats: ["Craft Wondrous Item"]
+  price: 8000
+  description: >-
+    This item grants a +2 deflection bonus to armor class.
+
+- name: Protection +3
+  school: abjuration
+  grade: faint
+  spell: ["Shield of Faith"]
+  feats: ["Craft Wondrous Item"]
+  price: 18000
+  description: >-
+    This item grants a +3 deflection bonus to armor class.
+
+- name: Protection +4
+  school: abjuration
+  grade: faint
+  spell: ["Shield of Faith"]
+  feats: ["Craft Wondrous Item"]
+  price: 32000
+  description: >-
+    This item grants a +4 deflection bonus to armor class.
+
+- name: Protection +5
+  school: abjuration
+  grade: faint
+  spell: ["Shield of Faith"]
+  feats: ["Craft Wondrous Item"]
+  price: 50000
+  description: >-
+    This item grants a +5 deflection bonus to armor class.
+
+- name: Protection +6
+  school: abjuration
+  grade: faint
+  spell: ["Shield of Faith"]
+  feats: ["Craft Wondrous Item"]
+  price: 72000
+  description: >-
+    This item grants a +6 deflection bonus to armor class.
+
+- name: Protection +7
+  school: abjuration
+  grade: faint
+  spell: ["Shield of Faith"]
+  feats: ["Craft Wondrous Item"]
+  price: 98000
+  description: >-
+    This item grants a +7 deflection bonus to armor class.
+
+- name: Protection +8
+  school: abjuration
+  grade: faint
+  spell: ["Shield of Faith"]
+  feats: ["Craft Wondrous Item"]
+  price: 128000
+  description: >-
+    This item grants a +8 deflection bonus to armor class.
+
+- name: Protection +9
+  school: abjuration
+  grade: faint
+  spell: ["Shield of Faith"]
+  feats: ["Craft Wondrous Item"]
+  price: 162000
+  description: >-
+    This item grants a +9 deflection bonus to armor class.
+
+- name: Protection +10
+  school: abjuration
+  grade: faint
+  spell: ["Shield of Faith"]
+  feats: ["Craft Wondrous Item"]
+  price: 200000
+  description: >-
+    This item grants a +10 deflection bonus to armor class.
+
+- name: Natural Armor +1
+  school: transmutation
+  grade: faint
+  spell: ["Barkskin"]
+  feats: ["Craft Wondrous Item"]
+  price: 2000
+  description: >-
+    This item grants a +1 enhancement bonus to natural armor.
+
+- name: Natural Armor +2
+  school: transmutation
+  grade: faint
+  spell: ["Barkskin"]
+  feats: ["Craft Wondrous Item"]
+  price: 8000
+  description: >-
+    This item grants a +2 enhancement bonus to natural armor.
+
+- name: Natural Armor +3
+  school: transmutation
+  grade: faint
+  spell: ["Barkskin"]
+  feats: ["Craft Wondrous Item"]
+  price: 18000
+  description: >-
+    This item grants a +3 enhancement bonus to natural armor.
+
+- name: Natural Armor +4
+  school: transmutation
+  grade: faint
+  spell: ["Barkskin"]
+  feats: ["Craft Wondrous Item"]
+  price: 32000
+  description: >-
+    This item grants a +4 enhancement bonus to natural armor.
+
+- name: Natural Armor +5
+  school: transmutation
+  grade: faint
+  spell: ["Barkskin"]
+  feats: ["Craft Wondrous Item"]
+  price: 50000
+  description: >-
+    This item grants a +5 enhancement bonus to natural armor.
+
+- name: Natural Armor +6
+  school: transmutation
+  grade: faint
+  spell: ["Barkskin"]
+  feats: ["Craft Wondrous Item"]
+  price: 72000
+  description: >-
+    This item grants a +6 enhancement bonus to natural armor.
+
+- name: Natural Armor +7
+  school: transmutation
+  grade: faint
+  spell: ["Barkskin"]
+  feats: ["Craft Wondrous Item"]
+  price: 98000
+  description: >-
+    This item grants a +7 enhancement bonus to natural armor.
+
+- name: Natural Armor +8
+  school: transmutation
+  grade: faint
+  spell: ["Barkskin"]
+  feats: ["Craft Wondrous Item"]
+  price: 128000
+  description: >-
+    This item grants a +8 enhancement bonus to natural armor.
+
+- name: Natural Armor +9
+  school: transmutation
+  grade: faint
+  spell: ["Barkskin"]
+  feats: ["Craft Wondrous Item"]
+  price: 162000
+  description: >-
+    This item grants a +9 enhancement bonus to natural armor.
+
+- name: Natural Armor +10
+  school: transmutation
+  grade: faint
+  spell: ["Barkskin"]
+  feats: ["Craft Wondrous Item"]
+  price: 200000
+  description: >-
+    This item grants a +10 enhancement bonus to natural armor.
+
+- name: Resistance +1
+  school: abjuration
+  grade: faint
+  spell: ["Resistance"]
+  feats: ["Craft Wondrous Item"]
+  price: 1000
+  description: >-
+    This item grants a +1 enhancement bonus to all saving throws (fortitude,
+    reflex, will).
+
+- name: Resistance +2
+  school: abjuration
+  grade: faint
+  spell: ["Resistance"]
+  feats: ["Craft Wondrous Item"]
+  price: 4000
+  description: >-
+    This item grants a +2 enhancement bonus to all saving throws (fortitude,
+    reflex, will).
+
+- name: Resistance +3
+  school: abjuration
+  grade: faint
+  spell: ["Resistance"]
+  feats: ["Craft Wondrous Item"]
+  price: 9000
+  description: >-
+    This item grants a +3 enhancement bonus to all saving throws (fortitude,
+    reflex, will).
+
+- name: Resistance +4
+  school: abjuration
+  grade: faint
+  spell: ["Resistance"]
+  feats: ["Craft Wondrous Item"]
+  price: 16000
+  description: >-
+    This item grants a +4 enhancement bonus to all saving throws (fortitude,
+    reflex, will).
+
+- name: Resistance +5
+  school: abjuration
+  grade: faint
+  spell: ["Resistance"]
+  feats: ["Craft Wondrous Item"]
+  price: 25000
+  description: >-
+    This item grants a +5 enhancement bonus to all saving throws (fortitude,
+    reflex, will).
+
+- name: Resistance +6
+  school: abjuration
+  grade: faint
+  spell: ["Resistance"]
+  feats: ["Craft Wondrous Item"]
+  price: 36000
+  description: >-
+    This item grants a +6 enhancement bonus to all saving throws (fortitude,
+    reflex, will).
+
+- name: Resistance +7
+  school: abjuration
+  grade: faint
+  spell: ["Resistance"]
+  feats: ["Craft Wondrous Item"]
+  price: 49000
+  description: >-
+    This item grants a +7 enhancement bonus to all saving throws (fortitude,
+    reflex, will).
+
+- name: Resistance +8
+  school: abjuration
+  grade: faint
+  spell: ["Resistance"]
+  feats: ["Craft Wondrous Item"]
+  price: 64000
+  description: >-
+    This item grants a +8 enhancement bonus to all saving throws (fortitude,
+    reflex, will).
+
+- name: Resistance +9
+  school: abjuration
+  grade: faint
+  spell: ["Resistance"]
+  feats: ["Craft Wondrous Item"]
+  price: 81000
+  description: >-
+    This item grants a +9 enhancement bonus to all saving throws (fortitude,
+    reflex, will).
+
+- name: Resistance +10
+  school: abjuration
+  grade: faint
+  spell: ["Resistance"]
+  feats: ["Craft Wondrous Item"]
+  price: 100000
+  description: >-
+    This item grants a +10 enhancement bonus to all saving throws (fortitude,
+    reflex, will).
+
