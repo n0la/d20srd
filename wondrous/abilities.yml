@@ -6,7 +6,10 @@
   grade: moderate
   spells: ["Cat's Grace"]
   feats: [Craft Wondrous Item]
-  has_bonus: true
+  bonus:
+    required: true
+    maximum: 10
+    minimum: 1
   lua:
     price: (math.pow(ability.bonus, 2) * 1000)
   description: >-
@@ -17,7 +20,9 @@
   grade: moderate
   spell: ["Bull's Strength"]
   feats: ["Craft Wondrous Item"]
-  has_bonus: true
+  bonus:
+    required: true
+    minimum: 1
   lua:
     price: (math.pow(ability.bonus, 2) * 1000)
   description: >-
@@ -29,7 +34,10 @@
   grade: moderate
   spell: ["Bear's Endurance"]
   feats: ["Craft Wondrous Item"]
-  has_bonus: true
+  bonus:
+    required: true
+    maximum: 10
+    minimum: 1
   lua:
     price: (math.pow(ability.bonus, 2) * 1000)
   description: >-
@@ -40,7 +48,10 @@
   grade: moderate
   spell: ["Owl's Wisdom"]
   feats: ["Craft Wondrous Item"]
-  has_bonus: true
+  bonus:
+    required: true
+    maximum: 10
+    minimum: 1
   lua:
     price: (math.pow(ability.bonus, 2) * 1000)
   description: >-
@@ -52,7 +63,10 @@
   grade: moderate
   spell: ["Fox's Cunning"]
   feats: ["Craft Wondrous Item"]
-  has_bonus: true
+  bonus:
+    required: true
+    maximum: 10
+    minimum: 1
   lua:
     price: (math.pow(ability.bonus, 2) * 1000)
   description: >-
@@ -63,7 +77,10 @@
   grade: moderate
   spell: ["Eagle's Splendor"]
   feats: ["Craft Wondrous Item"]
-  has_bonus: true
+  bonus:
+    required: true
+    maximum: 10
+    minimum: 1
   lua:
     price: (math.pow(ability.bonus, 2) * 1000)
   description: >-
@@ -74,7 +91,10 @@
   grade: faint
   spell: ["Shield of Faith"]
   feats: ["Craft Wondrous Item"]
-  has_bonus: true
+  bonus:
+    required: true
+    maximum: 10
+    minimum: 1
   lua:
     price: (math.pow(ability.bonus, 2) * 2000)
   description: >-
@@ -85,7 +105,10 @@
   grade: faint
   spell: ["Barkskin"]
   feats: ["Craft Wondrous Item"]
-  has_bonus: true
+  bonus:
+    required: true
+    maximum: 10
+    minimum: 1
   lua:
     price: (math.pow(ability.bonus, 2) * 2000)
   description: >-
@@ -96,19 +119,37 @@
   grade: faint
   spell: ["Resistance"]
   feats: ["Craft Wondrous Item"]
-  has_bonus: true
+  bonus:
+    required: true
+    maximium: 10
+    minimum: 1
   lua:
     price: (math.pow(ability.bonus, 2) * 1000)
   description: >-
     This item grants an enhancement bonus to all saving throws (fortitude,
     reflex, will).
 
+- name: Spell resistance
+  school: abjuration
+  grade: moderate
+  spell: ["Spell resistance"]
+  feats: ["Craft Wondrous Item"]
+  bonus:
+    required: true
+    minimum: 13
+  lua:
+    price: ((ability.bonus - 12) * 10000)
+  description: >-
+    This item grants the wearer spell resistance.
+
 - name: Hide
   school: illusion
   grade: faint
   spell: ["Invisibility"]
   feats: ["Craft Wondrous Item"]
-  has_bonus: true
+  bonus:
+    required: true
+    minimum: 1
   lua:
     price: (math.pow(ability.bonus, 2) * 100)
   description: >-
