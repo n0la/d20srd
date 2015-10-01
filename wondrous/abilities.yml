@@ -847,7 +847,7 @@
   grade: faint
   spell: ["Invisibility"]
   feats: ["Craft Wondrous Item"]
-  has_modifier: true
+  has_bonus: true
   lua:
     price: (math.pow(ability.bonus, 2) * 100)
   description: >-
