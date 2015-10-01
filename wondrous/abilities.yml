@@ -1,845 +1,106 @@
 # Moar enchantment? ENCHANTMENT!
 
 # Ability bonuses
-- name: Dexterity +1
+- name: Dexterity
   school: Transmutation
   grade: moderate
   spells: ["Cat's Grace"]
   feats: [Craft Wondrous Item]
-  price: 1000
+  has_bonus: true
+  lua:
+    price: (math.pow(ability.bonus, 2) * 1000)
   description: >-
-    This item grants a +1 enhancement bonus to dexterity.
+    This item grants an enhancement bonus to dexterity.
 
-- name: Dexterity +2
-  school: Transmutation
-  grade: moderate
-  spells: ["Cat's Grace"]
-  feats: [Craft Wondrous Item]
-  price: 4000
-  description: >-
-    This item grants a +2 enhancement bonus to dexterity.
-
-- name: Dexterity +3
-  school: Transmutation
-  grade: moderate
-  spells: ["Cat's Grace"]
-  feats: [Craft Wondrous Item]
-  price: 9000
-  description: >-
-    This item grants a +3 enhancement bonus to dexterity.
-
-- name: Dexterity +4
-  school: Transmutation
-  grade: moderate
-  spells: ["Cat's Grace"]
-  feats: [Craft Wondrous Item]
-  price: 16000
-  description: >-
-    This item grants a +4 enhancement bonus to dexterity.
-
-- name: Dexterity +5
-  school: Transmutation
-  grade: moderate
-  spells: ["Cat's Grace"]
-  feats: [Craft Wondrous Item]
-  price: 25000
-  description: >-
-    This item grants a +5 enhancement bonus to dexterity.
-
-- name: Dexterity +6
-  school: Transmutation
-  grade: moderate
-  spells: ["Cat's Grace"]
-  feats: [Craft Wondrous Item]
-  price: 36000
-  description: >-
-    This item grants a +6 enhancement bonus to dexterity.
-
-- name: Dexterity +7
-  school: Transmutation
-  grade: moderate
-  spells: ["Cat's Grace"]
-  feats: [Craft Wondrous Item]
-  price: 49000
-  description: >-
-    This item grants a +7 enhancement bonus to dexterity.
-
-- name: Dexterity +8
-  school: Transmutation
-  grade: moderate
-  spells: ["Cat's Grace"]
-  feats: [Craft Wondrous Item]
-  price: 64000
-  description: >-
-    This item grants a +8 enhancement bonus to dexterity.
-
-- name: Dexterity +9
-  school: Transmutation
-  grade: moderate
-  spells: ["Cat's Grace"]
-  feats: [Craft Wondrous Item]
-  price: 81000
-  description: >-
-    This item grants a +9 enhancement bonus to dexterity.
-
-# According to epic level gear, enhancement bonuses stop at +10
-- name: Dexterity +10
-  school: Transmutation
-  grade: moderate
-  spells: ["Cat's Grace"]
-  feats: [Craft Wondrous Item]
-  price: 100000
-  description: >-
-    This item grants a +10 enhancement bonus to dexterity.
-
-- name: Strength +1
+- name: Strength
   school: Transmutation
   grade: moderate
   spell: ["Bull's Strength"]
   feats: ["Craft Wondrous Item"]
-  price: 1000
+  has_bonus: true
+  lua:
+    price: (math.pow(ability.bonus, 2) * 1000)
   description: >-
-    This item grants a +1 enhancement bonus to strength.
+    This item grants an enhancement bonus to strength.
 
-- name: Strength +2
-  school: Transmutation
-  grade: moderate
-  spell: ["Bull's Strength"]
-  feats: ["Craft Wondrous Item"]
-  price: 4000
-  description: >-
-    This item grants a +2 enhancement bonus to strength.
-
-- name: Strength +3
-  school: Transmutation
-  grade: moderate
-  spell: ["Bull's Strength"]
-  feats: ["Craft Wondrous Item"]
-  price: 9000
-  description: >-
-    This item grants a +3 enhancement bonus to strength.
-
-- name: Strength +4
-  school: Transmutation
-  grade: moderate
-  spell: ["Bull's Strength"]
-  feats: ["Craft Wondrous Item"]
-  price: 16000
-  description: >-
-    This item grants a +4 enhancement bonus to strength.
-
-- name: Strength +5
-  school: Transmutation
-  grade: moderate
-  spell: ["Bull's Strength"]
-  feats: ["Craft Wondrous Item"]
-  price: 25000
-  description: >-
-    This item grants a +5 enhancement bonus to strength.
-
-- name: Strength +6
-  school: Transmutation
-  grade: moderate
-  spell: ["Bull's Strength"]
-  feats: ["Craft Wondrous Item"]
-  price: 36000
-  description: >-
-    This item grants a +6 enhancement bonus to strength.
-
-- name: Strength +7
-  school: Transmutation
-  grade: moderate
-  spell: ["Bull's Strength"]
-  feats: ["Craft Wondrous Item"]
-  price: 49000
-  description: >-
-    This item grants a +7 enhancement bonus to strength.
-
-- name: Strength +8
-  school: Transmutation
-  grade: moderate
-  spell: ["Bull's Strength"]
-  feats: ["Craft Wondrous Item"]
-  price: 64000
-  description: >-
-    This item grants a +8 enhancement bonus to strength.
-
-- name: Strength +9
-  school: Transmutation
-  grade: moderate
-  spell: ["Bull's Strength"]
-  feats: ["Craft Wondrous Item"]
-  price: 81000
-  description: >-
-    This item grants a +9 enhancement bonus to strength.
-
-- name: Strength +10
-  school: Transmutation
-  grade: moderate
-  spell: ["Bull's Strength"]
-  feats: ["Craft Wondrous Item"]
-  price: 100000
-  description: >-
-    This item grants a +10 enhancement bonus to strength.
-
-- name: Constitution +1
-  aliases: ["Health +1"]
+- name: Health
+  aliases: ["Constitution"]
   school: Transmutation
   grade: moderate
   spell: ["Bear's Endurance"]
   feats: ["Craft Wondrous Item"]
-  price: 1000
+  has_bonus: true
+  lua:
+    price: (math.pow(ability.bonus, 2) * 1000)
   description: >-
-    This item grants a +1 enhancement bonus to Constitution.
+    This item grants an enhancement bonus to constitution.
 
-- name: Constitution +2
-  aliases: ["Health +2"]
-  school: Transmutation
-  grade: moderate
-  spell: ["Bear's Endurance"]
-  feats: ["Craft Wondrous Item"]
-  price: 4000
-  description: >-
-    This item grants a +2 enhancement bonus to Constitution.
-
-- name: Constitution +3
-  aliases: ["Health +3"]
-  school: Transmutation
-  grade: moderate
-  spell: ["Bear's Endurance"]
-  feats: ["Craft Wondrous Item"]
-  price: 9000
-  description: >-
-    This item grants a +3 enhancement bonus to Constitution.
-
-- name: Constitution +4
-  aliases: ["Health +4"]
-  school: Transmutation
-  grade: moderate
-  spell: ["Bear's Endurance"]
-  feats: ["Craft Wondrous Item"]
-  price: 16000
-  description: >-
-    This item grants a +4 enhancement bonus to Constitution.
-
-- name: Constitution +5
-  aliases: ["Health +5"]
-  school: Transmutation
-  grade: moderate
-  spell: ["Bear's Endurance"]
-  feats: ["Craft Wondrous Item"]
-  price: 25000
-  description: >-
-    This item grants a +5 enhancement bonus to Constitution.
-
-- name: Constitution +6
-  aliases: ["Health +6"]
-  school: Transmutation
-  grade: moderate
-  spell: ["Bear's Endurance"]
-  feats: ["Craft Wondrous Item"]
-  price: 36000
-  description: >-
-    This item grants a +6 enhancement bonus to Constitution.
-
-- name: Constitution +7
-  aliases: ["Health +7"]
-  school: Transmutation
-  grade: moderate
-  spell: ["Bear's Endurance"]
-  feats: ["Craft Wondrous Item"]
-  price: 49000
-  description: >-
-    This item grants a +7 enhancement bonus to Constitution.
-
-- name: Constitution +8
-  aliases: ["Health +8"]
-  school: Transmutation
-  grade: moderate
-  spell: ["Bear's Endurance"]
-  feats: ["Craft Wondrous Item"]
-  price: 64000
-  description: >-
-    This item grants a +8 enhancement bonus to Constitution.
-
-- name: Constitution +9
-  aliases: ["Health +9"]
-  school: Transmutation
-  grade: moderate
-  spell: ["Bear's Endurance"]
-  feats: ["Craft Wondrous Item"]
-  price: 81000
-  description: >-
-    This item grants a +9 enhancement bonus to Constitution.
-
-- name: Constitution +10
-  aliases: ["Health +10"]
-  school: Transmutation
-  grade: moderate
-  spell: ["Bear's Endurance"]
-  feats: ["Craft Wondrous Item"]
-  price: 100000
-  description: >-
-    This item grants a +10 enhancement bonus to Constitution.
-
-- name: Wisdom +1
+- name: Wisdom
   school: Transmutation
   grade: moderate
   spell: ["Owl's Wisdom"]
   feats: ["Craft Wondrous Item"]
-  price: 1000
+  has_bonus: true
+  lua:
+    price: (math.pow(ability.bonus, 2) * 1000)
   description: >-
-    This item grants a +1 enhancement bonus to Wisdom.
+    This item grants an enhancement bonus to wisdom.
 
-- name: Wisdom +2
-  school: Transmutation
-  grade: moderate
-  spell: ["Owl's Wisdom"]
-  feats: ["Craft Wondrous Item"]
-  price: 4000
-  description: >-
-    This item grants a +2 enhancement bonus to Wisdom.
-
-- name: Wisdom +3
-  school: Transmutation
-  grade: moderate
-  spell: ["Owl's Wisdom"]
-  feats: ["Craft Wondrous Item"]
-  price: 9000
-  description: >-
-    This item grants a +3 enhancement bonus to Wisdom.
-
-- name: Wisdom +4
-  school: Transmutation
-  grade: moderate
-  spell: ["Owl's Wisdom"]
-  feats: ["Craft Wondrous Item"]
-  price: 16000
-  description: >-
-    This item grants a +4 enhancement bonus to Wisdom.
-
-- name: Wisdom +5
-  school: Transmutation
-  grade: moderate
-  spell: ["Owl's Wisdom"]
-  feats: ["Craft Wondrous Item"]
-  price: 25000
-  description: >-
-    This item grants a +5 enhancement bonus to Wisdom.
-
-- name: Wisdom +6
-  school: Transmutation
-  grade: moderate
-  spell: ["Owl's Wisdom"]
-  feats: ["Craft Wondrous Item"]
-  price: 36000
-  description: >-
-    This item grants a +6 enhancement bonus to Wisdom.
-
-- name: Wisdom +7
-  school: Transmutation
-  grade: moderate
-  spell: ["Owl's Wisdom"]
-  feats: ["Craft Wondrous Item"]
-  price: 49000
-  description: >-
-    This item grants a +7 enhancement bonus to Wisdom.
-
-- name: Wisdom +8
-  school: Transmutation
-  grade: moderate
-  spell: ["Owl's Wisdom"]
-  feats: ["Craft Wondrous Item"]
-  price: 64000
-  description: >-
-    This item grants a +8 enhancement bonus to Wisdom.
-
-- name: Wisdom +9
-  school: Transmutation
-  grade: moderate
-  spell: ["Owl's Wisdom"]
-  feats: ["Craft Wondrous Item"]
-  price: 81000
-  description: >-
-    This item grants a +9 enhancement bonus to Wisdom.
-
-- name: Wisdom +10
-  school: Transmutation
-  grade: moderate
-  spell: ["Owl's Wisdom"]
-  feats: ["Craft Wondrous Item"]
-  price: 100000
-  description: >-
-    This item grants a +10 enhancement bonus to Wisdom.
-
-- name: Intelligence +1
-  aliases: ["Intellect +1"]
+- name: Intellect
+  aliases: ["Intelligence"]
   school: Transmutation
   grade: moderate
   spell: ["Fox's Cunning"]
   feats: ["Craft Wondrous Item"]
-  price: 1000
+  has_bonus: true
+  lua:
+    price: (math.pow(ability.bonus, 2) * 1000)
   description: >-
-    This item grants a +1 enhancement bonus to Intelligence.
+    This item grants an enhancement bonus to intelligence.
 
-- name: Intelligence +2
-  aliases: ["Intellect +2"]
-  school: Transmutation
-  grade: moderate
-  spell: ["Fox's Cunning"]
-  feats: ["Craft Wondrous Item"]
-  price: 4000
-  description: >-
-    This item grants a +2 enhancement bonus to Intelligence.
-
-- name: Intelligence +3
-  aliases: ["Intellect +3"]
-  school: Transmutation
-  grade: moderate
-  spell: ["Fox's Cunning"]
-  feats: ["Craft Wondrous Item"]
-  price: 9000
-  description: >-
-    This item grants a +3 enhancement bonus to Intelligence.
-
-- name: Intelligence +4
-  aliases: ["Intellect +4"]
-  school: Transmutation
-  grade: moderate
-  spell: ["Fox's Cunning"]
-  feats: ["Craft Wondrous Item"]
-  price: 16000
-  description: >-
-    This item grants a +4 enhancement bonus to Intelligence.
-
-- name: Intelligence +5
-  aliases: ["Intellect +5"]
-  school: Transmutation
-  grade: moderate
-  spell: ["Fox's Cunning"]
-  feats: ["Craft Wondrous Item"]
-  price: 25000
-  description: >-
-    This item grants a +5 enhancement bonus to Intelligence.
-
-- name: Intelligence +6
-  aliases: ["Intellect +6"]
-  school: Transmutation
-  grade: moderate
-  spell: ["Fox's Cunning"]
-  feats: ["Craft Wondrous Item"]
-  price: 36000
-  description: >-
-    This item grants a +6 enhancement bonus to Intelligence.
-
-- name: Intelligence +7
-  aliases: ["Intellect +7"]
-  school: Transmutation
-  grade: moderate
-  spell: ["Fox's Cunning"]
-  feats: ["Craft Wondrous Item"]
-  price: 49000
-  description: >-
-    This item grants a +7 enhancement bonus to Intelligence.
-
-- name: Intelligence +8
-  aliases: ["Intellect +8"]
-  school: Transmutation
-  grade: moderate
-  spell: ["Fox's Cunning"]
-  feats: ["Craft Wondrous Item"]
-  price: 64000
-  description: >-
-    This item grants a +8 enhancement bonus to Intelligence.
-
-- name: Intelligence +9
-  aliases: ["Intellect +9"]
-  school: Transmutation
-  grade: moderate
-  spell: ["Fox's Cunning"]
-  feats: ["Craft Wondrous Item"]
-  price: 81000
-  description: >-
-    This item grants a +9 enhancement bonus to Intelligence.
-
-- name: Intelligence +10
-  aliases: ["Intellect +10"]
-  school: Transmutation
-  grade: moderate
-  spell: ["Fox's Cunning"]
-  feats: ["Craft Wondrous Item"]
-  price: 100000
-  description: >-
-    This item grants a +10 enhancement bonus to Intelligence.
-
-- name: Charisma +1
+- name: Charisma
   school: Transmutation
   grade: moderate
   spell: ["Eagle's Splendor"]
   feats: ["Craft Wondrous Item"]
-  price: 1000
+  has_bonus: true
+  lua:
+    price: (math.pow(ability.bonus, 2) * 1000)
   description: >-
-    This item grants a +1 enhancement bonus to Charisma.
+    This item grants an enhancement bonus to charisma.
 
-- name: Charisma +2
-  school: Transmutation
-  grade: moderate
-  spell: ["Eagle's Splendor"]
-  feats: ["Craft Wondrous Item"]
-  price: 4000
-  description: >-
-    This item grants a +2 enhancement bonus to Charisma.
-
-- name: Charisma +3
-  school: Transmutation
-  grade: moderate
-  spell: ["Eagle's Splendor"]
-  feats: ["Craft Wondrous Item"]
-  price: 9000
-  description: >-
-    This item grants a +3 enhancement bonus to Charisma.
-
-- name: Charisma +4
-  school: Transmutation
-  grade: moderate
-  spell: ["Eagle's Splendor"]
-  feats: ["Craft Wondrous Item"]
-  price: 16000
-  description: >-
-    This item grants a +4 enhancement bonus to Charisma.
-
-- name: Charisma +5
-  school: Transmutation
-  grade: moderate
-  spell: ["Eagle's Splendor"]
-  feats: ["Craft Wondrous Item"]
-  price: 25000
-  description: >-
-    This item grants a +5 enhancement bonus to Charisma.
-
-- name: Charisma +6
-  school: Transmutation
-  grade: moderate
-  spell: ["Eagle's Splendor"]
-  feats: ["Craft Wondrous Item"]
-  price: 36000
-  description: >-
-    This item grants a +6 enhancement bonus to Charisma.
-
-- name: Charisma +7
-  school: Transmutation
-  grade: moderate
-  spell: ["Eagle's Splendor"]
-  feats: ["Craft Wondrous Item"]
-  price: 49000
-  description: >-
-    This item grants a +7 enhancement bonus to Charisma.
-
-- name: Charisma +8
-  school: Transmutation
-  grade: moderate
-  spell: ["Eagle's Splendor"]
-  feats: ["Craft Wondrous Item"]
-  price: 64000
-  description: >-
-    This item grants a +8 enhancement bonus to Charisma.
-
-- name: Charisma +9
-  school: Transmutation
-  grade: moderate
-  spell: ["Eagle's Splendor"]
-  feats: ["Craft Wondrous Item"]
-  price: 81000
-  description: >-
-    This item grants a +9 enhancement bonus to Charisma.
-
-- name: Charisma +10
-  school: Transmutation
-  grade: moderate
-  spell: ["Eagle's Splendor"]
-  feats: ["Craft Wondrous Item"]
-  price: 100000
-  description: >-
-    This item grants a +10 enhancement bonus to Charisma.
-
-- name: Protection +1
+- name: Protection
   school: abjuration
   grade: faint
   spell: ["Shield of Faith"]
   feats: ["Craft Wondrous Item"]
-  price: 2000
+  has_bonus: true
+  lua:
+    price: (math.pow(ability.bonus, 2) * 2000)
   description: >-
-    This item grants a +1 deflection bonus to armor class.
+    This item grants a deflection bonus to armor class.
 
-- name: Protection +2
-  school: abjuration
-  grade: faint
-  spell: ["Shield of Faith"]
-  feats: ["Craft Wondrous Item"]
-  price: 8000
-  description: >-
-    This item grants a +2 deflection bonus to armor class.
-
-- name: Protection +3
-  school: abjuration
-  grade: faint
-  spell: ["Shield of Faith"]
-  feats: ["Craft Wondrous Item"]
-  price: 18000
-  description: >-
-    This item grants a +3 deflection bonus to armor class.
-
-- name: Protection +4
-  school: abjuration
-  grade: faint
-  spell: ["Shield of Faith"]
-  feats: ["Craft Wondrous Item"]
-  price: 32000
-  description: >-
-    This item grants a +4 deflection bonus to armor class.
-
-- name: Protection +5
-  school: abjuration
-  grade: faint
-  spell: ["Shield of Faith"]
-  feats: ["Craft Wondrous Item"]
-  price: 50000
-  description: >-
-    This item grants a +5 deflection bonus to armor class.
-
-- name: Protection +6
-  school: abjuration
-  grade: faint
-  spell: ["Shield of Faith"]
-  feats: ["Craft Wondrous Item"]
-  price: 72000
-  description: >-
-    This item grants a +6 deflection bonus to armor class.
-
-- name: Protection +7
-  school: abjuration
-  grade: faint
-  spell: ["Shield of Faith"]
-  feats: ["Craft Wondrous Item"]
-  price: 98000
-  description: >-
-    This item grants a +7 deflection bonus to armor class.
-
-- name: Protection +8
-  school: abjuration
-  grade: faint
-  spell: ["Shield of Faith"]
-  feats: ["Craft Wondrous Item"]
-  price: 128000
-  description: >-
-    This item grants a +8 deflection bonus to armor class.
-
-- name: Protection +9
-  school: abjuration
-  grade: faint
-  spell: ["Shield of Faith"]
-  feats: ["Craft Wondrous Item"]
-  price: 162000
-  description: >-
-    This item grants a +9 deflection bonus to armor class.
-
-- name: Protection +10
-  school: abjuration
-  grade: faint
-  spell: ["Shield of Faith"]
-  feats: ["Craft Wondrous Item"]
-  price: 200000
-  description: >-
-    This item grants a +10 deflection bonus to armor class.
-
-- name: Natural Armor +1
+- name: Natural Armor
   school: transmutation
   grade: faint
   spell: ["Barkskin"]
   feats: ["Craft Wondrous Item"]
-  price: 2000
+  has_bonus: true
+  lua:
+    price: (math.pow(ability.bonus, 2) * 2000)
   description: >-
-    This item grants a +1 enhancement bonus to natural armor.
+    This item grants an enhancement bonus to natural armor.
 
-- name: Natural Armor +2
-  school: transmutation
-  grade: faint
-  spell: ["Barkskin"]
-  feats: ["Craft Wondrous Item"]
-  price: 8000
-  description: >-
-    This item grants a +2 enhancement bonus to natural armor.
-
-- name: Natural Armor +3
-  school: transmutation
-  grade: faint
-  spell: ["Barkskin"]
-  feats: ["Craft Wondrous Item"]
-  price: 18000
-  description: >-
-    This item grants a +3 enhancement bonus to natural armor.
-
-- name: Natural Armor +4
-  school: transmutation
-  grade: faint
-  spell: ["Barkskin"]
-  feats: ["Craft Wondrous Item"]
-  price: 32000
-  description: >-
-    This item grants a +4 enhancement bonus to natural armor.
-
-- name: Natural Armor +5
-  school: transmutation
-  grade: faint
-  spell: ["Barkskin"]
-  feats: ["Craft Wondrous Item"]
-  price: 50000
-  description: >-
-    This item grants a +5 enhancement bonus to natural armor.
-
-- name: Natural Armor +6
-  school: transmutation
-  grade: faint
-  spell: ["Barkskin"]
-  feats: ["Craft Wondrous Item"]
-  price: 72000
-  description: >-
-    This item grants a +6 enhancement bonus to natural armor.
-
-- name: Natural Armor +7
-  school: transmutation
-  grade: faint
-  spell: ["Barkskin"]
-  feats: ["Craft Wondrous Item"]
-  price: 98000
-  description: >-
-    This item grants a +7 enhancement bonus to natural armor.
-
-- name: Natural Armor +8
-  school: transmutation
-  grade: faint
-  spell: ["Barkskin"]
-  feats: ["Craft Wondrous Item"]
-  price: 128000
-  description: >-
-    This item grants a +8 enhancement bonus to natural armor.
-
-- name: Natural Armor +9
-  school: transmutation
-  grade: faint
-  spell: ["Barkskin"]
-  feats: ["Craft Wondrous Item"]
-  price: 162000
-  description: >-
-    This item grants a +9 enhancement bonus to natural armor.
-
-- name: Natural Armor +10
-  school: transmutation
-  grade: faint
-  spell: ["Barkskin"]
-  feats: ["Craft Wondrous Item"]
-  price: 200000
-  description: >-
-    This item grants a +10 enhancement bonus to natural armor.
-
-- name: Resistance +1
+- name: Resistance
   school: abjuration
   grade: faint
   spell: ["Resistance"]
   feats: ["Craft Wondrous Item"]
-  price: 1000
+  has_bonus: true
+  lua:
+    price: (math.pow(ability.bonus, 2) * 1000)
   description: >-
-    This item grants a +1 enhancement bonus to all saving throws (fortitude,
-    reflex, will).
-
-- name: Resistance +2
-  school: abjuration
-  grade: faint
-  spell: ["Resistance"]
-  feats: ["Craft Wondrous Item"]
-  price: 4000
-  description: >-
-    This item grants a +2 enhancement bonus to all saving throws (fortitude,
-    reflex, will).
-
-- name: Resistance +3
-  school: abjuration
-  grade: faint
-  spell: ["Resistance"]
-  feats: ["Craft Wondrous Item"]
-  price: 9000
-  description: >-
-    This item grants a +3 enhancement bonus to all saving throws (fortitude,
-    reflex, will).
-
-- name: Resistance +4
-  school: abjuration
-  grade: faint
-  spell: ["Resistance"]
-  feats: ["Craft Wondrous Item"]
-  price: 16000
-  description: >-
-    This item grants a +4 enhancement bonus to all saving throws (fortitude,
-    reflex, will).
-
-- name: Resistance +5
-  school: abjuration
-  grade: faint
-  spell: ["Resistance"]
-  feats: ["Craft Wondrous Item"]
-  price: 25000
-  description: >-
-    This item grants a +5 enhancement bonus to all saving throws (fortitude,
-    reflex, will).
-
-- name: Resistance +6
-  school: abjuration
-  grade: faint
-  spell: ["Resistance"]
-  feats: ["Craft Wondrous Item"]
-  price: 36000
-  description: >-
-    This item grants a +6 enhancement bonus to all saving throws (fortitude,
-    reflex, will).
-
-- name: Resistance +7
-  school: abjuration
-  grade: faint
-  spell: ["Resistance"]
-  feats: ["Craft Wondrous Item"]
-  price: 49000
-  description: >-
-    This item grants a +7 enhancement bonus to all saving throws (fortitude,
-    reflex, will).
-
-- name: Resistance +8
-  school: abjuration
-  grade: faint
-  spell: ["Resistance"]
-  feats: ["Craft Wondrous Item"]
-  price: 64000
-  description: >-
-    This item grants a +8 enhancement bonus to all saving throws (fortitude,
-    reflex, will).
-
-- name: Resistance +9
-  school: abjuration
-  grade: faint
-  spell: ["Resistance"]
-  feats: ["Craft Wondrous Item"]
-  price: 81000
-  description: >-
-    This item grants a +9 enhancement bonus to all saving throws (fortitude,
-    reflex, will).
-
-- name: Resistance +10
-  school: abjuration
-  grade: faint
-  spell: ["Resistance"]
-  feats: ["Craft Wondrous Item"]
-  price: 100000
-  description: >-
-    This item grants a +10 enhancement bonus to all saving throws (fortitude,
+    This item grants an enhancement bonus to all saving throws (fortitude,
     reflex, will).
 
 - name: Hide
