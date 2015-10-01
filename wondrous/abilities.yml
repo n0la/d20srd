@@ -183,6 +183,7 @@
     This item grants a +10 enhancement bonus to strength.
 
 - name: Constitution +1
+  aliases: ["Health +1"]
   school: Transmutation
   grade: moderate
   spell: ["Bear's Endurance"]
@@ -192,6 +193,7 @@
     This item grants a +1 enhancement bonus to Constitution.
 
 - name: Constitution +2
+  aliases: ["Health +2"]
   school: Transmutation
   grade: moderate
   spell: ["Bear's Endurance"]
@@ -201,6 +203,7 @@
     This item grants a +2 enhancement bonus to Constitution.
 
 - name: Constitution +3
+  aliases: ["Health +3"]
   school: Transmutation
   grade: moderate
   spell: ["Bear's Endurance"]
@@ -210,6 +213,7 @@
     This item grants a +3 enhancement bonus to Constitution.
 
 - name: Constitution +4
+  aliases: ["Health +4"]
   school: Transmutation
   grade: moderate
   spell: ["Bear's Endurance"]
@@ -219,6 +223,7 @@
     This item grants a +4 enhancement bonus to Constitution.
 
 - name: Constitution +5
+  aliases: ["Health +5"]
   school: Transmutation
   grade: moderate
   spell: ["Bear's Endurance"]
@@ -228,6 +233,7 @@
     This item grants a +5 enhancement bonus to Constitution.
 
 - name: Constitution +6
+  aliases: ["Health +6"]
   school: Transmutation
   grade: moderate
   spell: ["Bear's Endurance"]
@@ -237,6 +243,7 @@
     This item grants a +6 enhancement bonus to Constitution.
 
 - name: Constitution +7
+  aliases: ["Health +7"]
   school: Transmutation
   grade: moderate
   spell: ["Bear's Endurance"]
@@ -246,6 +253,7 @@
     This item grants a +7 enhancement bonus to Constitution.
 
 - name: Constitution +8
+  aliases: ["Health +8"]
   school: Transmutation
   grade: moderate
   spell: ["Bear's Endurance"]
@@ -255,6 +263,7 @@
     This item grants a +8 enhancement bonus to Constitution.
 
 - name: Constitution +9
+  aliases: ["Health +9"]
   school: Transmutation
   grade: moderate
   spell: ["Bear's Endurance"]
@@ -264,6 +273,7 @@
     This item grants a +9 enhancement bonus to Constitution.
 
 - name: Constitution +10
+  aliases: ["Health +10"]
   school: Transmutation
   grade: moderate
   spell: ["Bear's Endurance"]
@@ -363,6 +373,7 @@
     This item grants a +10 enhancement bonus to Wisdom.
 
 - name: Intelligence +1
+  aliases: ["Intellect +1"]
   school: Transmutation
   grade: moderate
   spell: ["Fox's Cunning"]
@@ -372,6 +383,7 @@
     This item grants a +1 enhancement bonus to Intelligence.
 
 - name: Intelligence +2
+  aliases: ["Intellect +2"]
   school: Transmutation
   grade: moderate
   spell: ["Fox's Cunning"]
@@ -381,6 +393,7 @@
     This item grants a +2 enhancement bonus to Intelligence.
 
 - name: Intelligence +3
+  aliases: ["Intellect +3"]
   school: Transmutation
   grade: moderate
   spell: ["Fox's Cunning"]
@@ -390,6 +403,7 @@
     This item grants a +3 enhancement bonus to Intelligence.
 
 - name: Intelligence +4
+  aliases: ["Intellect +4"]
   school: Transmutation
   grade: moderate
   spell: ["Fox's Cunning"]
@@ -399,6 +413,7 @@
     This item grants a +4 enhancement bonus to Intelligence.
 
 - name: Intelligence +5
+  aliases: ["Intellect +5"]
   school: Transmutation
   grade: moderate
   spell: ["Fox's Cunning"]
@@ -408,6 +423,7 @@
     This item grants a +5 enhancement bonus to Intelligence.
 
 - name: Intelligence +6
+  aliases: ["Intellect +6"]
   school: Transmutation
   grade: moderate
   spell: ["Fox's Cunning"]
@@ -417,6 +433,7 @@
     This item grants a +6 enhancement bonus to Intelligence.
 
 - name: Intelligence +7
+  aliases: ["Intellect +7"]
   school: Transmutation
   grade: moderate
   spell: ["Fox's Cunning"]
@@ -426,6 +443,7 @@
     This item grants a +7 enhancement bonus to Intelligence.
 
 - name: Intelligence +8
+  aliases: ["Intellect +8"]
   school: Transmutation
   grade: moderate
   spell: ["Fox's Cunning"]
@@ -435,6 +453,7 @@
     This item grants a +8 enhancement bonus to Intelligence.
 
 - name: Intelligence +9
+  aliases: ["Intellect +9"]
   school: Transmutation
   grade: moderate
   spell: ["Fox's Cunning"]
@@ -444,6 +463,7 @@
     This item grants a +9 enhancement bonus to Intelligence.
 
 - name: Intelligence +10
+  aliases: ["Intellect +10"]
   school: Transmutation
   grade: moderate
   spell: ["Fox's Cunning"]
