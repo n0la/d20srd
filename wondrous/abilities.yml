@@ -842,3 +842,15 @@
     This item grants a +10 enhancement bonus to all saving throws (fortitude,
     reflex, will).
 
+- name: Hide
+  school: illusion
+  grade: faint
+  spell: ["Invisibility"]
+  feats: ["Craft Wondrous Item"]
+  has_modifier: true
+  lua:
+    price: (math.pow(ability.bonus, 2) * 100)
+  description: >-
+    This item grants a given enhancement bonus to the skill Hide.
+
+#EOF
