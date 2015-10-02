@@ -4,6 +4,12 @@
 - name: Headband
   slot: head
 
+- name: Necklace
+  slot: neck
+
+- name: Periapt
+  slot: neck
+
 - name: Amulet
   slot: neck
 
