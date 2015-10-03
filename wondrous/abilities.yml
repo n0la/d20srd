@@ -100,6 +100,20 @@
   description: >-
     This item grants a deflection bonus to armor class.
 
+- name: Armored
+  school: abjuration
+  grade: faint
+  spell: ["Shield", "Mage Armor"]
+  feats: ["Craft Wondrous Item"]
+  bonus:
+    required: true
+    maximum: 10
+    minimum: 1
+  lua:
+    price: (math.pow(ability.bonus, 2) * 1000)
+  description: >-
+    This item grants an armor bonus to AC.
+
 - name: Natural Armor
   school: transmutation
   grade: faint
