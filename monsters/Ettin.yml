@@ -3,7 +3,7 @@ monster:
   name: Ettin
   type: Giant
   size: large
-  hd: 10d8+20
+  hd: 'd[[10d8]]+20'
   initiative: +3
   speed: 30
   ac:
@@ -13,10 +13,10 @@ monster:
   attacks:
     - name: Morning Star
       bonus: 12
-      damage: 2d6+6
+      damage: 'd[[2d6]]+6'
     - name: Javelin
       bonus: 5
-      damage: 1d8+6
+      damage: 'd[[1d8]]+6'
   space: 10
   reach: 10
   feats:

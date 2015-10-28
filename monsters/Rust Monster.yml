@@ -3,7 +3,7 @@ monster:
   name: Rust Monster
   type: Aberration
   size: medium
-  hd: 5d8+5
+  hd: 'd[[5d8]]+5'
   initiative: 3
   speed: 40
   ac:
@@ -39,8 +39,8 @@ monster:
   alignment: Neutral
   cr: 3
   advancement:
-    medium: 1d3+5
-    large: 1d6+8
+    medium: 'd[[1d3]]+5'
+    large: 'd[[1d6]]+8'
   description: >-
     This creature seems to be about the size of a pony. It has four insectlike
     legs and a squat humped body protected bya thick lumpy hide. Its tail is

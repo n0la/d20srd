@@ -3,7 +3,7 @@ monster:
   name: Frost Giant
   type: Giant
   size: large
-  hd: 14d8+70
+  hd: 'd[[14d8]]+70'
   initiative: -1
   speed: 40
   ac:
@@ -13,18 +13,18 @@ monster:
   attacks:
     - name: Greataxe
       bonus: +18
-      damage: 3d6+13
+      damage: 'd[[3d6]]+13'
       threat: [20]
       multiplier: 3
     - name: Slam
       bonus: +18
-      damage: 1d4+9
+      damage: 'd[[1d4]]+9'
     - name: Slam
       bonus: +18
-      damage: 1d4+9
+      damage: 'd[[1d4]]+9'
     - name: Rock
       bonus: +9
-      damage: 2d6+9
+      damage: 'd[[2d6]]+9'
   special:
     - Immunity to Cold
     - Low-Light Vision

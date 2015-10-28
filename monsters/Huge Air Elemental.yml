@@ -3,7 +3,7 @@ monster:
   name: Huge Air Elemental
   type: Elemental
   size: huge
-  hd: 16d8+64
+  hd: 'd[[16d8]]+64'
   initiative: 13
   speed: 100
   ac:
@@ -13,10 +13,10 @@ monster:
   attacks:
     - name: Slam
       bonus: 19
-      damage: 2d8+4
+      damage: 'd[[2d8]]+4'
     - name: Slam
       bonus: 19
-      damage: 2d8+4
+      damage: 'd[[2d8]]+4'
   special:
     - Air Mastery
     - DR 5/-
@@ -46,6 +46,6 @@ monster:
   alignment: Neutral
   cr: 7
   advancement:
-    huge: 1d3+16
+    huge: 'd[[1d3]]+16'
 
 # EOF

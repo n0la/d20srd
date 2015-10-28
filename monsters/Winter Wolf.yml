@@ -3,7 +3,7 @@ monster:
   name: Winter Wolf
   type: Magical Beast
   size: large
-  hd: 6d10+18
+  hd: 'd[[6d10]]+18'
   initiative: 5
   speed: 50
   ac:
@@ -15,7 +15,7 @@ monster:
   attacks:
     - name: Bite
       bonus: 10
-      damage: 1d8+6+1d6
+      damage: 'd[[1d8]]+6+d[[1d6]]'
     - name: Breath Weapon
       damage: 4d6
       save:
