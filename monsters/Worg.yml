@@ -2,7 +2,7 @@ monster:
   name: Worg
   type: Magical Beast
   size: medium
-  hd: 4d10+8
+  hd: 'd[[4d10]]+8'
   initiative: 5
   speed: 50
   ac:
@@ -14,7 +14,7 @@ monster:
   attacks:
     - name: Bite
       bonus: 7
-      damage: 1d6+4
+      damage: 'd[[1d6]]+4'
   special:
     - Trip
   space: 5
@@ -45,7 +45,7 @@ monster:
     goods: 0.5
     items: 0.5
   advancement:
-    medium: 1d2+4
-    large: 1d6+6
+    medium: 'd[[1d2]]+4'
+    large: 'd[[1d6]]+6'
 
 #EOF

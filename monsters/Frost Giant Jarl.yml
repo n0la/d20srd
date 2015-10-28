@@ -3,7 +3,7 @@ monster:
   name: Frost Giant Jarl
   type: Giant
   size: large
-  hd: 14d8+84+8d10+48
+  hd: 'd[[14d8]]+84+d[[8d10]]+48'
   initiative: 5
   speed: 30
   ac:
@@ -13,33 +13,33 @@ monster:
   attacks:
     - name: +2 Frost Greataxe
       bonus: +30
-      damage: 3d6+13+1d6
+      damage: 'd[[3d6]]+13+d[[1d6]]'
       threat: [20]
       multiplier: 3
     - name: +2 Frost Greataxe
       bonus: +35
-      damage: 3d6+13+1d6
+      damage: 'd[[3d6]]+13+d[[1d6]]'
       threat: [20]
       multiplier: 3
     - name: +2 Frost Greataxe
       bonus: +20
-      damage: 3d6+13+1d6
+      damage: 'd[[3d6]]+13+d[[1d6]]'
       threat: [20]
       multiplier: 3
     - name: +2 Frost Greataxe
       bonus: +15
-      damage: 3d6+13+1d6
+      damage: 'd[[3d6]]+13+d[[1d6]]'
       threat: [20]
       multiplier: 3
     - name: Slam
       bonus: +28
-      damage: 1d4+11
+      damage: 'd[[1d4]]+11'
     - name: Slam
       bonus: +28
-      damage: 1d4+11
+      damage: 'd[[1d4]]+11'
     - name: Rock
       bonus: +18
-      damage: 2d6+11
+      damage: 'd[[2d6]]+11'
   special:
     - Aura of Despair
     - Aura of Evil

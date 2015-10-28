@@ -2,7 +2,7 @@ monster:
   name: Stone Golem
   type: construct
   size: large
-  hd: 14d10+30
+  hd: 'd[[14d10]]+30'
   initiative: -1
   speed: 20
   ac:
@@ -14,10 +14,10 @@ monster:
   attacks:
     - name: Slam
       bonus: +18
-      damage: 2d10+9
+      damage: 'd[[2d10]]+9'
     - name: Slam
       bonus: +18
-      damage: 2d10+9
+      damage: 'd[[2d10]]+9'
   special:
     - Slow
   space: 10
@@ -43,7 +43,7 @@ monster:
   adjustment: 0
   cr: 11
   advancement:
-    large: 1d7+14
-    huge: 1d21+21
+    large: 'd[[1d7]]+14'
+    huge: 'd[[1d21]]+21'
 
 #EOF

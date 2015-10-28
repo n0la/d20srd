@@ -2,7 +2,7 @@ monster:
   name: Black Pudding
   type: Huge Ooze
   size: huge
-  hd: 10d10+60
+  hd: 'd[[10d10]]+60'
   initiative: -5
   speed: 20
   ac:
@@ -14,10 +14,10 @@ monster:
   attacks:
     - name: Slam
       bonus: 8
-      damage: 2d6+4+2d6
+      damage: 'd[[2d6]]+4+d[[2d6]]'
   special:
     - Acid
-    - Constrict 2d6+4+2d6
+    - Constrict 'd[[2d6]]+4+d[[2d6]]'
     - Improved Grab
   space: 15
   reach: 10
@@ -39,7 +39,7 @@ monster:
   alignment: Neutral
   cr: 7
   advancement:
-    medium: 1d5+10
-    large: 1d15+15
+    medium: 'd[[1d5]]+10'
+    large: 'd[[1d15]]+15'
 
 #EOF
