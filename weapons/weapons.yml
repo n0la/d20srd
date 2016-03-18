@@ -351,6 +351,7 @@
     types: [piercing]
     small: 1d4
     medium: 1d6
+  threat: [19, 20]
   cost: 10
   weight: 2
 
@@ -621,7 +622,7 @@
   damage:
     types: [piercing]
     small: 1d4
-    medium: 1d4
+    medium: 1d6
   multiplier: 3
   ranged: 1
   increment: 60
