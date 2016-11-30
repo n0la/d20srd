@@ -152,8 +152,55 @@
     material: 1
     somatic: 1
     verbal: 1
-    xp: 1
-  description: "This spell removes the burden of evil acts or misdeeds from the subject.\nThe creature seeking atonement must be truly repentant and desirous of setting right its misdeeds.\nIf the atoning creature committed the evil act unwittingly or under some form of compulsion, atonement operates normally at no cost to you.\nHowever, in the case of a creature atoning for deliberate misdeeds and acts of a knowing and willful nature, you must intercede with your deity (requiring you to expend 500 XP) in order to expunge the subject's burden.\nMany casters first assign a subject of this sort a quest (see geas/quest) or similar penance to determine whether the creature is truly contrite before casting the atonement spell on its behalf.\nAtonement may be cast for one of several purposes, depending on the version selected.\nReverse Magical Alignment Change: If a creature has had its alignment magically changed, atonement returns its alignment to its original status at no cost in experience points.\nRestore Class: A paladin who has lost her class features due to committing an evil act may have her paladinhood restored to her by this spell.\nRestore Cleric or Druid Spell Powers: A cleric or druid who has lost the ability to cast spells by incurring the anger of his or her deity may regain that ability by seeking atonement from another cleric of the same deity or another druid.\nIf the transgression was intentional, the casting cleric loses 500 XP for his intercession.\nIf the transgression was unintentional, he does not lose XP.\nRedemption or Temptation: You may cast this spell upon a creature of an opposing alignment in order to offer it a chance to change its alignment to match yours.\nThe prospective subject must be present for the entire casting process.\nUpon completion of the spell, the subject freely chooses whether it retains its original alignment or acquiesces to your offer and changes to your alignment.\nNo duress, compulsion, or magical influence can force the subject to take advantage of the opportunity offered if it is unwilling to abandon its old alignment.\nThis use of the spell does not work on outsiders or any creature incapable of changing its alignment naturally.\nThough the spell description refers to evil acts, atonement can also be used on any creature that has performed acts against its alignment, whether those acts are evil, good, chaotic, or lawful.\nNote changing alignment is up to the player (for PCs) or the DM (for NPCs).\nThis use of atonement simply offers a believable way for a character to change his or her alignment drastically, suddenly, and definitively.\nMaterial Component: Burning incense.\nFocus: In addition to your holy symbol or normal divine focus, you need a set of prayer beads (or other prayer device, such as a prayer wheel or prayer book) worth at least 500 gp.\nXP Cost cast for the benefit of a creature whose guilt was the result of deliberate acts, the cost to you is 500 XP per casting (see above)."
+    xp: 500
+  description: >-
+    This spell removes the burden of evil acts or misdeeds from the
+    subject.\nThe creature seeking atonement must be truly repentant
+    and desirous of setting right its misdeeds.\nIf the atoning
+    creature committed the evil act unwittingly or under some form of
+    compulsion, atonement operates normally at no cost to
+    you.\nHowever, in the case of a creature atoning for deliberate
+    misdeeds and acts of a knowing and willful nature, you must
+    intercede with your deity (requiring you to expend 500 XP) in
+    order to expunge the subject's burden.\nMany casters first assign
+    a subject of this sort a quest (see geas/quest) or similar penance
+    to determine whether the creature is truly contrite before casting
+    the atonement spell on its behalf.\nAtonement may be cast for one
+    of several purposes, depending on the version selected.\nReverse
+    Magical Alignment Change: If a creature has had its alignment
+    magically changed, atonement returns its alignment to its original
+    status at no cost in experience points.\nRestore Class: A paladin
+    who has lost her class features due to committing an evil act may
+    have her paladinhood restored to her by this spell.\nRestore
+    Cleric or Druid Spell Powers: A cleric or druid who has lost the
+    ability to cast spells by incurring the anger of his or her deity
+    may regain that ability by seeking atonement from another cleric
+    of the same deity or another druid.\nIf the transgression was
+    intentional, the casting cleric loses 500 XP for his
+    intercession.\nIf the transgression was unintentional, he does not
+    lose XP.\nRedemption or Temptation: You may cast this spell upon a
+    creature of an opposing alignment in order to offer it a chance to
+    change its alignment to match yours.\nThe prospective subject must
+    be present for the entire casting process.\nUpon completion of the
+    spell, the subject freely chooses whether it retains its original
+    alignment or acquiesces to your offer and changes to your
+    alignment.\nNo duress, compulsion, or magical influence can force
+    the subject to take advantage of the opportunity offered if it is
+    unwilling to abandon its old alignment.\nThis use of the spell
+    does not work on outsiders or any creature incapable of changing
+    its alignment naturally.\nThough the spell description refers to
+    evil acts, atonement can also be used on any creature that has
+    performed acts against its alignment, whether those acts are evil,
+    good, chaotic, or lawful.\nNote changing alignment is up to the
+    player (for PCs) or the DM (for NPCs).\nThis use of atonement
+    simply offers a believable way for a character to change his or
+    her alignment drastically, suddenly, and definitively.\nMaterial
+    Component: Burning incense.\nFocus: In addition to your holy
+    symbol or normal divine focus, you need a set of prayer beads (or
+    other prayer device, such as a prayer wheel or prayer book) worth
+    at least 500 gp.\nXP Cost cast for the benefit of a creature whose
+    guilt was the result of deliberate acts, the cost to you is 500 XP
+    per casting (see above).
   domains:
     Renewal: 5
   duration: Instantaneous
@@ -2080,7 +2127,16 @@
     somatic: 1
     verbal: 1
     xp: 0
-  description: "The warded creature gains resistance to blows, cuts, stabs, and slashes.\nThe subject gains damage reduction 10/adamantine.\n(It ignores the first 10 points of damage each time it takes damage from a weapon, though an adamantine weapon bypasses the reduction).\nOnce the spell has prevented a total of 10 points of damage per caster level (maximum 150 points), it is discharged.\nMaterial Component: Granite and 250 gp worth of diamond dust sprinkled on the target's skin."
+    gold: 250
+  description: >-
+    The warded creature gains resistance to blows, cuts, stabs, and
+    slashes.\nThe subject gains damage reduction 10/adamantine.\n(It
+    ignores the first 10 points of damage each time it takes damage
+    from a weapon, though an adamantine weapon bypasses the
+    reduction).\nOnce the spell has prevented a total of 10 points of
+    damage per caster level (maximum 150 points), it is
+    discharged.\nMaterial Component: Granite and 250 gp worth of
+    diamond dust sprinkled on the target's skin.
   domains:
     Dragon: 6
     Earth: 6
@@ -2150,7 +2206,24 @@
     somatic: 1
     verbal: 1
     xp: 0
-  description: "A malevolent darkness surrounds the subjects, protecting them from attacks, granting them resistance to spells cast by good creatures, and weakening good creatures when they strike the subjects.\nThis abjuration has four effects.\nFirst, each warded creature gains a +4 deflection bonus to AC and a +4 resistance bonus on saves.\nUnlike the effect of protection from good, this benefit applies against all attacks, not just against attacks by good creatures.\nSecond, a warded creature gains spell resistance 25 against good spells and spells cast by good creatures.\nThird, the abjuration blocks possession and mental influence, just as protection from good does.\nFinally, if a good creature succeeds on a melee attack against a warded creature, the offending attacker takes 1d6 points of temporary Strength damage (Fortitude negates).\nFocus: A tiny reliquary containing some sacred relic, such as a piece of parchment from an unholy text.\nThe reliquary costs at least 500 gp."
+    gold: 500
+  description: >-
+    A malevolent darkness surrounds the subjects, protecting them
+    from attacks, granting them resistance to spells cast by good
+    creatures, and weakening good creatures when they strike the
+    subjects.\nThis abjuration has four effects.\nFirst, each warded
+    creature gains a +4 deflection bonus to AC and a +4 resistance
+    bonus on saves.\nUnlike the effect of protection from good, this
+    benefit applies against all attacks, not just against attacks by
+    good creatures.\nSecond, a warded creature gains spell resistance
+    25 against good spells and spells cast by good creatures.\nThird,
+    the abjuration blocks possession and mental influence, just as
+    protection from good does.\nFinally, if a good creature succeeds
+    on a melee attack against a warded creature, the offending
+    attacker takes 1d6 points of temporary Strength damage (Fortitude
+    negates).\nFocus: A tiny reliquary containing some sacred relic,
+    such as a piece of parchment from an unholy text.\nThe reliquary
+    costs at least 500 gp.
   domains:
     Evil: 8
     Hades: 8
@@ -2679,7 +2752,23 @@
     somatic: 1
     verbal: 1
     xp: 0
-  description: "You call some nonliving item from virtually any location directly to your hand.\nFirst, you must place your arcane mark (page 201) on the item.\nThen you cast this spell, which magically and invisibly inscribes the name of the item on a sapphire worth at least 1,000 gp.\nThereafter, you can summon the item by speaking a special word (set by you when the spell is cast) and crushing the gem.\nThe item appears instantly in your hand.\nOnly you can use the gem in this way.\nIf the item is in the possession of another creature, the spell does not work, but you know who the possessor is and roughly where that creature is located when the summons occurs.\nThe inscription on the gem is invisible.\nIt is also unreadable, except by means of a read magic spell, to anyone but you.\nThe item can be summoned from another plane, but only if no other creature has claimed ownership of it.\nMaterial Component: A sapphire worth at least 1,000 gp."
+    gold: 1000
+  description: >-
+    You call some nonliving item from virtually any location directly
+    to your hand.\nFirst, you must place your arcane mark (page 201)
+    on the item.\nThen you cast this spell, which magically and
+    invisibly inscribes the name of the item on a sapphire worth at
+    least 1,000 gp.\nThereafter, you can summon the item by speaking a
+    special word (set by you when the spell is cast) and crushing the
+    gem.\nThe item appears instantly in your hand.\nOnly you can use
+    the gem in this way.\nIf the item is in the possession of another
+    creature, the spell does not work, but you know who the possessor
+    is and roughly where that creature is located when the summons
+    occurs.\nThe inscription on the gem is invisible.\nIt is also
+    unreadable, except by means of a read magic spell, to anyone but
+    you.\nThe item can be summoned from another plane, but only if no
+    other creature has claimed ownership of it.\nMaterial Component: A
+    sapphire worth at least 1,000 gp.
   domains:
     Rune: 7
   duration: 'Permanent until discharged'
@@ -2820,8 +2909,82 @@
     material: 0
     somatic: 1
     verbal: 1
-    xp: 1
-  description: "Casting a _gate_ spell has two effects. First, it creates an interdimensional connection between your plane of existence and a plane you specify, allowing travel between those two planes in either direction.\n\nSecond, you may then call a particular individual or kind of being through the _gate_. The _gate_ itself is a circular hoop or disk from 5 to 20 feet in diameter (caster's choice), oriented in the direction you desire when it comes into existence (typically vertical and facing you). It is a two-dimensional window looking into the plane you specified when casting the spell, and anyone or anything that moves through is shunted instantly to the other side.\n\nA _gate_ has a front and a back. Creatures moving through the _gate_ from the front are transported to the other plane; creatures moving through it from the back are not.\n\n_Planar Travel As a mode of planar travel, a _gate_ spell functions much like a \"_plane shift_\" spell, except that the _gate_ opens precisely at the point you desire (a creation effect). Deities and other beings who rule a planar realm can prevent a _gate_ from opening in their presence or personal demesnes if they so desire. Travelers need not join hands with you--anyone who chooses to step through the portal is transported. A _gate_ cannot be opened to another point on the same plane; the spell works only for interplanar travel.\n\nYou could position a _gate_ in a hallway in order to absorb any attack or force coming at you by shunting it to another plane. Whether the denizens of that plane appreciate this tactic is, of course, another matter.\n\nYou may hold the _gate_ open only for a brief time (no more than 1 round per caster level), and you must concentrate on doing so, or else the interplanar connection is severed.\n\n_Calling Creatures The second effect of the _gate_ spell is to call an extraplanar creature to your aid (a calling effect). By naming a particular being or kind of being as you cast the spell, you cause the _gate_ to open in the immediate vicinity of the desired creature and pull the subject through, willing or unwilling. Deities and unique beings are under no compulsion to come through the _gate_, although they may choose to do so of their own accord. This use of the spell creates a _gate_ that remains open just long enough to transport the called creatures. This use of the spell has an XP cost (see below).\n\nIf you choose to call a kind of creature instead of a known individual--for instance, a bearded devil or a ghaele eladrin--you may call either a single creature (of any HD) or several creatures. You can call and control several creatures as long as their HD total does not exceed your caster level. In the case of a single creature, you can control it if its HD do not exceed twice your caster level. A single creature with more HD than twice your caster level can't be controlled. Deities and unique beings cannot be controlled in any event. An uncontrolled being acts as it pleases, making the calling of such creatures rather dangerous. An uncontrolled being may return to its home plane at any time.\n\nA controlled creature can be commanded to perform a service for you. Such services fall into two categories: immediate tasks and contractual service. Fighting for you in a single battle or taking any other actions that can be accomplished within 1 round per caster level counts as an immediate task; you need not make any agreement or pay any reward for the creature's help. The creature departs at the end of the spell.\n\nIf you choose to exact a longer or more involved form of service from a called creature, you must offer some fair trade in return for that service. The service exacted must be reasonable with respect to the promised favor or reward; see the lesser planar ally spell for appropriate rewards. (Some creatures may want their payment in \"livestock\" rather than in coin, which could involve complications). Immediately upon completion of the service, the being is transported to your vicinity, and you must then and there turn over the promised reward. After this is done, the creature is instantly freed to return to its own plane.\n\nFailure to fulfill the promise to the letter results in your being subjected to service by the creature or by its liege and master, at the very least. At worst, the creature or its kin may attack you.\n\n_Note When you use a calling spell such as _gate_ to call an air, chaotic, earth, evil, fire, good, lawful, or water creature, it becomes a spell of that type. For example, _gate_ is a chaotic and evil spell when you cast it to call a demon.\n\n_XP Cost 1,000 XP (only for the calling creatures function)."
+    xp: 1000
+  description: >-
+    Casting a _gate_ spell has two effects. First, it creates an
+    interdimensional connection between your plane of existence and a
+    plane you specify, allowing travel between those two planes in
+    either direction.\n\nSecond, you may then call a particular
+    individual or kind of being through the _gate_. The _gate_ itself
+    is a circular hoop or disk from 5 to 20 feet in diameter (caster's
+    choice), oriented in the direction you desire when it comes into
+    existence (typically vertical and facing you). It is a
+    two-dimensional window looking into the plane you specified when
+    casting the spell, and anyone or anything that moves through is
+    shunted instantly to the other side.\n\nA _gate_ has a front and a
+    back. Creatures moving through the _gate_ from the front are
+    transported to the other plane; creatures moving through it from
+    the back are not.\n\n_Planar Travel As a mode of planar travel, a
+    _gate_ spell functions much like a \"_plane shift_\" spell, except
+    that the _gate_ opens precisely at the point you desire (a
+    creation effect). Deities and other beings who rule a planar realm
+    can prevent a _gate_ from opening in their presence or personal
+    demesnes if they so desire. Travelers need not join hands with
+    you--anyone who chooses to step through the portal is
+    transported. A _gate_ cannot be opened to another point on the
+    same plane; the spell works only for interplanar travel.\n\nYou
+    could position a _gate_ in a hallway in order to absorb any attack
+    or force coming at you by shunting it to another plane. Whether
+    the denizens of that plane appreciate this tactic is, of course,
+    another matter.\n\nYou may hold the _gate_ open only for a brief
+    time (no more than 1 round per caster level), and you must
+    concentrate on doing so, or else the interplanar connection is
+    severed.\n\n_Calling Creatures The second effect of the _gate_
+    spell is to call an extraplanar creature to your aid (a calling
+    effect). By naming a particular being or kind of being as you cast
+    the spell, you cause the _gate_ to open in the immediate vicinity
+    of the desired creature and pull the subject through, willing or
+    unwilling. Deities and unique beings are under no compulsion to
+    come through the _gate_, although they may choose to do so of
+    their own accord. This use of the spell creates a _gate_ that
+    remains open just long enough to transport the called
+    creatures. This use of the spell has an XP cost (see below).\n\nIf
+    you choose to call a kind of creature instead of a known
+    individual--for instance, a bearded devil or a ghaele eladrin--you
+    may call either a single creature (of any HD) or several
+    creatures. You can call and control several creatures as long as
+    their HD total does not exceed your caster level. In the case of a
+    single creature, you can control it if its HD do not exceed twice
+    your caster level. A single creature with more HD than twice your
+    caster level can't be controlled. Deities and unique beings cannot
+    be controlled in any event. An uncontrolled being acts as it
+    pleases, making the calling of such creatures rather dangerous. An
+    uncontrolled being may return to its home plane at any time.\n\nA
+    controlled creature can be commanded to perform a service for
+    you. Such services fall into two categories: immediate tasks and
+    contractual service. Fighting for you in a single battle or taking
+    any other actions that can be accomplished within 1 round per
+    caster level counts as an immediate task; you need not make any
+    agreement or pay any reward for the creature's help. The creature
+    departs at the end of the spell.\n\nIf you choose to exact a
+    longer or more involved form of service from a called creature,
+    you must offer some fair trade in return for that service. The
+    service exacted must be reasonable with respect to the promised
+    favor or reward; see the lesser planar ally spell for appropriate
+    rewards. (Some creatures may want their payment in \"livestock\"
+    rather than in coin, which could involve
+    complications). Immediately upon completion of the service, the
+    being is transported to your vicinity, and you must then and there
+    turn over the promised reward. After this is done, the creature is
+    instantly freed to return to its own plane.\n\nFailure to fulfill
+    the promise to the letter results in your being subjected to
+    service by the creature or by its liege and master, at the very
+    least. At worst, the creature or its kin may attack you.\n\n_Note
+    When you use a calling spell such as _gate_ to call an air,
+    chaotic, earth, evil, fire, good, lawful, or water creature, it
+    becomes a spell of that type. For example, _gate_ is a chaotic and
+    evil spell when you cast it to call a demon.\n\n_XP Cost 1,000 XP
+    (only for the calling creatures function).
   domains:
     Celestial: 9
     Drow: 9
@@ -3076,7 +3239,40 @@
     somatic: 1
     verbal: 1
     xp: 0
-  description: "You hide a chest on the Ethereal Plane for as long as sixty days and can retrieve it at will.\nThe chest can contain up to 1 cubic foot of material per caster level (regardless of the chest's actual size, which is about 3 feet by 2 feet by 2 feet).\nIf any living creatures are in the chest, there is a 75% chance that the spell simply fails.\nOnce the chest is hidden, you can retrieve it by concentrating (a standard action), and it appears next to you.\nThe chest must be exceptionally well crafted and expensive, constructed for you by master crafters.\nIf made principally of wood, it must be ebony, rosewood, sandalwood, teak, or the like, and all of its corner fittings, nails, and hardware must be platinum.\nIf constructed of ivory, the metal fittings of the chest must be gold.\nIf the chest is fashioned from bronze, copper, or silver, its fittings must be silver or electrum (a valuable metal).\nThe cost of such a chest is never less than 5,000 gp.\nOnce it is constructed, you must make a tiny replica (of the same materials and perfect in every detail), so that the miniature of the chest appears to be a perfect copy.\n(The replica costs 50 gp).\nYou can have but one pair of these chests at any given time--even a wish spell does not allow more.\nThe chests are nonmagical and can be fitted with locks, wards, and so on, just as any normal chest can be.\nTo hide the chest, you cast the spell while touching both the chest and the replica.\nThe chest vanishes into the Ethereal Plane.\nYou need the replica to recall the chest.\nAfter sixty days, there is a cumulative chance of 5% per day that the chest is irretrievably lost.\nIf the miniature of the chest is lost or destroyed, there is no way, not even with a wish spell, that the large chest can be summoned back, although an extraplanar expedition might be mounted to find it.\nLiving things in the chest eat, sleep, and age normally, and they die if they run out of food, air, water, or whatever they need to survive.\nFocus: The chest and its replica."
+    gold: 5050
+  description: >-
+    You hide a chest on the Ethereal Plane for as long as sixty days
+    and can retrieve it at will.\nThe chest can contain up to 1 cubic
+    foot of material per caster level (regardless of the chest's
+    actual size, which is about 3 feet by 2 feet by 2 feet).\nIf any
+    living creatures are in the chest, there is a 75% chance that the
+    spell simply fails.\nOnce the chest is hidden, you can retrieve it
+    by concentrating (a standard action), and it appears next to
+    you.\nThe chest must be exceptionally well crafted and expensive,
+    constructed for you by master crafters.\nIf made principally of
+    wood, it must be ebony, rosewood, sandalwood, teak, or the like,
+    and all of its corner fittings, nails, and hardware must be
+    platinum.\nIf constructed of ivory, the metal fittings of the
+    chest must be gold.\nIf the chest is fashioned from bronze,
+    copper, or silver, its fittings must be silver or electrum (a
+    valuable metal).\nThe cost of such a chest is never less than
+    5,000 gp.\nOnce it is constructed, you must make a tiny replica
+    (of the same materials and perfect in every detail), so that the
+    miniature of the chest appears to be a perfect copy.\n(The replica
+    costs 50 gp).\nYou can have but one pair of these chests at any
+    given time--even a wish spell does not allow more.\nThe chests are
+    nonmagical and can be fitted with locks, wards, and so on, just as
+    any normal chest can be.\nTo hide the chest, you cast the spell
+    while touching both the chest and the replica.\nThe chest vanishes
+    into the Ethereal Plane.\nYou need the replica to recall the
+    chest.\nAfter sixty days, there is a cumulative chance of 5% per
+    day that the chest is irretrievably lost.\nIf the miniature of the
+    chest is lost or destroyed, there is no way, not even with a wish
+    spell, that the large chest can be summoned back, although an
+    extraplanar expedition might be mounted to find it.\nLiving things
+    in the chest eat, sleep, and age normally, and they die if they
+    run out of food, air, water, or whatever they need to
+    survive.\nFocus: The chest and its replica.
   domains:
     Wealth: 5
   duration: 'Sixty days or until discharged'
@@ -3302,7 +3498,28 @@
     somatic: 1
     verbal: 1
     xp: 0
-  description: "You conjure up an extradimensional dwelling that has a single entrance on the plane from which the spell was cast.\nThe entry point looks like a faint shimmering in the air that is 4 feet wide and 8 feet high.\nOnly those you designate may enter the mansion, and the portal is shut and made invisible behind you when you enter.\nYou may open it again from your own side at will.\nOnce observers have passed beyond the entrance, they are in a magnificent foyer with numerous chambers beyond.\nThe atmosphere is clean, fresh, and warm.\nYou can create any floor plan you desire to the limit of the spell's effect.\nThe place is furnished and contains sufficient foodstuffs to serve a nine-course banquet to a dozen people per caster level.\nA staff of near-transparent servants (as many as two per caster level), liveried and obedient, wait upon all who enter.\nThe servants function as unseen servant spells except that they are visible and can go anywhere in the mansion.\nSince the place can be entered only through its special portal, outside conditions do not affect the mansion, nor do conditions inside it pass to the plane beyond.\nFocus: A miniature portal carved from ivory, a small piece of polished marble, and a tiny silver spoon (each item worth 5 gp)."
+    gold: 15
+  description: >-
+    You conjure up an extradimensional dwelling that has a single
+    entrance on the plane from which the spell was cast.\nThe entry
+    point looks like a faint shimmering in the air that is 4 feet wide
+    and 8 feet high.\nOnly those you designate may enter the mansion,
+    and the portal is shut and made invisible behind you when you
+    enter.\nYou may open it again from your own side at will.\nOnce
+    observers have passed beyond the entrance, they are in a
+    magnificent foyer with numerous chambers beyond.\nThe atmosphere
+    is clean, fresh, and warm.\nYou can create any floor plan you
+    desire to the limit of the spell's effect.\nThe place is furnished
+    and contains sufficient foodstuffs to serve a nine-course banquet
+    to a dozen people per caster level.\nA staff of near-transparent
+    servants (as many as two per caster level), liveried and obedient,
+    wait upon all who enter.\nThe servants function as unseen servant
+    spells except that they are visible and can go anywhere in the
+    mansion.\nSince the place can be entered only through its special
+    portal, outside conditions do not affect the mansion, nor do
+    conditions inside it pass to the plane beyond.\nFocus: A miniature
+    portal carved from ivory, a small piece of polished marble, and a
+    tiny silver spoon (each item worth 5 gp).
   domains:
     Community: 8
     Trade: 7
@@ -3486,8 +3703,13 @@
     material: 0
     somatic: 0
     verbal: 0
-    xp: 0
-  description: "This spell functions like lesser planar ally, except you may call a single creature of 12 HD or less, or two creatures of the same kind whose Hit Dice total no more than 12. The creatures agree to help you and request your return payment together.\n\nXP Cost: 250 XP."
+    xp: 250
+  description: >-
+    This spell functions like lesser planar ally, except you may call
+    a single creature of 12 HD or less, or two creatures of the same
+    kind whose Hit Dice total no more than 12. The creatures agree to
+    help you and request your return payment together.\n\nXP Cost: 250
+    XP.
   domains:
     Summoner: 6
   duration: ''
@@ -3510,8 +3732,13 @@
     material: 0
     somatic: 0
     verbal: 0
-    xp: 0
-  description: "This spell functions like \"_lesser planar ally_\" except that you may call a single creature of 18 HD or less, or up to three creatures of the same kind whose Hit Dice total no more than 18. The creatures agree to help you and request your return payment together.\n\nXP Cost: 500 XP."
+    xp: 500
+  description: >-
+    This spell functions like \"_lesser planar ally_\" except that you
+    may call a single creature of 18 HD or less, or up to three
+    creatures of the same kind whose Hit Dice total no more than
+    18. The creatures agree to help you and request your return
+    payment together.\n\nXP Cost: 500 XP.
   domains:
     Drow: 8
     Summoner: 8
@@ -3534,8 +3761,47 @@
     material: 0
     somatic: 1
     verbal: 1
-    xp: 1
-  description: "By casting this spell, you request your deity to send you an elemental or outsider (of 6 HD or less) of the deity's choice. If you serve no particular deity, the spell is a general plea answered by a creature sharing your philosophical alignment. If you know an individual creature's name, you may request that individual by speaking the name during the spell (though you might get a different creature anyway).\n\nYou may ask the creature to perform one task in exchange for a payment from you. Tasks might range from the simple (fly us across the chasm, help us fight a battle) to the complex (spy on our enemies, protect us on our foray into the dungeon). You must be able to communicate with the creature called in order to bargain for its services.\n\nThe creature called requires a payment for its services. This payment can take a variety of forms, from  donating gold or magic items to an allied temple, to a gift given directly to the creature, to some other action on your part that matches the creature's alignment and goals. Regardless, this payment must be  made before the creature agrees to perform any services. The bargaining takes at least 1 round, so any actions by the creature begin in the round after it arrives.\n\nA task taking up to 1 minute per caster level requires a payment of 100 gp per HD of the creature called. For a task taking up to 1 hour per caster level, the creature requires a payment of 500 gp per HD. A long-term task, one requiring up to one day per caster level, requires a payment of 1,000 gp per HD. \n\nA nonhazardous task requires only half the indicated payment, while an especially hazardous task might require a greater gift. Few if any creatures will accept a task that seems suicidal (remember, a called creature actually dies when it is killed, unlike a summoned creature). However, if the task is strongly aligned with the creature's ethos, the DM may halve or even waive the payment. For instance, a celestial creature called to battle demons might require a gift of only half the normal value.\n\nAt the end of its task, or when the duration bargained for expires, the creature returns to its home plane (after reporting back to you, if appropriate and possible).\n\nNote you use a calling spell that calls an air, chaotic, earth, evil, fire, good, lawful, or water creature, it is a spell of that type. For example, a lesser planar ally is a fire spell when it calls a fire elemental.\n\nXP Cost: 100 XP."
+    xp: 100
+  description: >-
+    "By casting this spell, you request your deity to send you an
+    elemental or outsider (of 6 HD or less) of the deity's choice. If
+    you serve no particular deity, the spell is a general plea
+    answered by a creature sharing your philosophical alignment. If
+    you know an individual creature's name, you may request that
+    individual by speaking the name during the spell (though you might
+    get a different creature anyway).\n\nYou may ask the creature to
+    perform one task in exchange for a payment from you. Tasks might
+    range from the simple (fly us across the chasm, help us fight a
+    battle) to the complex (spy on our enemies, protect us on our
+    foray into the dungeon). You must be able to communicate with the
+    creature called in order to bargain for its services.\n\nThe
+    creature called requires a payment for its services. This payment
+    can take a variety of forms, from donating gold or magic items to
+    an allied temple, to a gift given directly to the creature, to
+    some other action on your part that matches the creature's
+    alignment and goals. Regardless, this payment must be made before
+    the creature agrees to perform any services. The bargaining takes
+    at least 1 round, so any actions by the creature begin in the
+    round after it arrives.\n\nA task taking up to 1 minute per caster
+    level requires a payment of 100 gp per HD of the creature
+    called. For a task taking up to 1 hour per caster level, the
+    creature requires a payment of 500 gp per HD. A long-term task,
+    one requiring up to one day per caster level, requires a payment
+    of 1,000 gp per HD. \n\nA nonhazardous task requires only half the
+    indicated payment, while an especially hazardous task might
+    require a greater gift. Few if any creatures will accept a task
+    that seems suicidal (remember, a called creature actually dies
+    when it is killed, unlike a summoned creature). However, if the
+    task is strongly aligned with the creature's ethos, the DM may
+    halve or even waive the payment. For instance, a celestial
+    creature called to battle demons might require a gift of only half
+    the normal value.\n\nAt the end of its task, or when the duration
+    bargained for expires, the creature returns to its home plane
+    (after reporting back to you, if appropriate and
+    possible).\n\nNote you use a calling spell that calls an air,
+    chaotic, earth, evil, fire, good, lawful, or water creature, it is
+    a spell of that type. For example, a lesser planar ally is a fire
+    spell when it calls a fire elemental.\n\nXP Cost: 100 XP."
   domains:
     Celestial: 4
     Lust: 4
@@ -3834,7 +4100,24 @@
     somatic: 1
     verbal: 1
     xp: 0
-  description: "This spell functions like lesser restoration, except that it also dispels negative levels and restores one experience level to a creature who has had a level drained. The drained level is restored only if the time since the creature lost the level is equal to or less than one day per caster level. Thus, if a 10th-level character has been struck by a wight and drained to 9th level, restoration brings the character up to exactly the minimum number of experience points necessary to restore him to 10th level (45,000 XP), gaining him an additional Hit Die and level functions accordingly.\n\nRestoration cures all temporary ability damage, and it restores all points permanently drained from a single ability score (your choice if more than one is drained). It also eliminates any fatigue or exhaustion suffered by the target.\n\nRestoration does not restore levels or Constitution points lost due to death.\n\nMaterial Component: Diamond dust worth 100 gp that is sprinkled over the target."
+    gold: 100
+  description: >-
+    This spell functions like lesser restoration, except that it also
+    dispels negative levels and restores one experience level to a
+    creature who has had a level drained. The drained level is
+    restored only if the time since the creature lost the level is
+    equal to or less than one day per caster level. Thus, if a
+    10th-level character has been struck by a wight and drained to 9th
+    level, restoration brings the character up to exactly the minimum
+    number of experience points necessary to restore him to 10th level
+    (45,000 XP), gaining him an additional Hit Die and level functions
+    accordingly.\n\nRestoration cures all temporary ability damage,
+    and it restores all points permanently drained from a single
+    ability score (your choice if more than one is drained). It also
+    eliminates any fatigue or exhaustion suffered by the
+    target.\n\nRestoration does not restore levels or Constitution
+    points lost due to death.\n\nMaterial Component: Diamond dust
+    worth 100 gp that is sprinkled over the target.
   domains: {}
   duration: ''
   effect: ''
@@ -3864,8 +4147,21 @@
     material: 0
     somatic: 1
     verbal: 1
-    xp: 1
-  description: "This spell functions like lesser restoration, except that it dispels all negative levels afflicting the healed creature. This effect also reverses level drains by a force or creature, restoring the creature to the highest level it had previously attained. The drained levels are restored only if the time since the creature lost the level is no more than one week per caster level.\n\n_Greater restoration_ also dispels all magical effects penalizing the creature's abilities, cures all temporary ability damage, and restores all points permanently drained from all ability scores. It also eliminates fatigue and exhaustion, and removes all forms of insanity, confusion, and similar mental effects. Greater restoration does not restore levels or Constitution points lost due to death.\n\nXP Cost: 500 XP."
+    xp: 500
+  description: >-
+    This spell functions like lesser restoration, except that it
+    dispels all negative levels afflicting the healed creature. This
+    effect also reverses level drains by a force or creature,
+    restoring the creature to the highest level it had previously
+    attained. The drained levels are restored only if the time since
+    the creature lost the level is no more than one week per caster
+    level.\n\n_Greater restoration_ also dispels all magical effects
+    penalizing the creature's abilities, cures all temporary ability
+    damage, and restores all points permanently drained from all
+    ability scores. It also eliminates fatigue and exhaustion, and
+    removes all forms of insanity, confusion, and similar mental
+    effects. Greater restoration does not restore levels or
+    Constitution points lost due to death.\n\nXP Cost: 500 XP.
   domains:
     Renewal: 7
   duration: ''
@@ -5222,8 +5518,22 @@
     material: 1
     somatic: 1
     verbal: 1
-    xp: 1
-  description: "You contact your deity--or agents thereof--and ask questions that can be answered by a simple yes or no.\n(A cleric of no particular deity contacts a philosophically allied deity).\nYou are allowed one such question per caster level.\nThe answers given are correct within the limits of the entity's knowledge.\n\"Unclear\" is a legitimate answer, because powerful beings of the Outer Planes are not necessarily omniscient.\nIn cases where a one-word answer would be misleading or contrary to the deity's interests, the DM should give a short phrase (five words or less) as an answer instead.\nThe spell, at best, provides information to aid character decisions.\nThe entities contacted structure their answers to further their own purposes.\nIf you lag, discuss the answers, or go off to do anything else, the spell ends.\nMaterial Component (or unholy) water and incense.\nXP Cost: 100 XP."
+    xp: 100
+  description: >-
+    "You contact your deity--or agents thereof--and ask questions that
+    can be answered by a simple yes or no.\n(A cleric of no particular
+    deity contacts a philosophically allied deity).\nYou are allowed
+    one such question per caster level.\nThe answers given are correct
+    within the limits of the entity's knowledge.\n\"Unclear\" is a
+    legitimate answer, because powerful beings of the Outer Planes are
+    not necessarily omniscient.\nIn cases where a one-word answer
+    would be misleading or contrary to the deity's interests, the DM
+    should give a short phrase (five words or less) as an answer
+    instead.\nThe spell, at best, provides information to aid
+    character decisions.\nThe entities contacted structure their
+    answers to further their own purposes.\nIf you lag, discuss the
+    answers, or go off to do anything else, the spell ends.\nMaterial
+    Component (or unholy) water and incense.\nXP Cost: 100 XP.
   domains:
     Oracle: 5
   duration: '1 round/level'
@@ -6494,8 +6804,18 @@
     material: 1
     somatic: 1
     verbal: 1
-    xp: 1
-  description: "This spell functions like legend lore, except that it works more quickly but produces some strain on you.\nYou pose a question about some person, place, or object, then cast the spell.\nIf the person or object is at hand or if you are in the place in question, you receive a vision about it by succeeding on a caster level check (1d20 +1 per caster level; maximum +25) against DC 20.\nIf only detailed information on the person, place, or object is known, the DC is 25, and the information gained is incomplete.\nIf only rumors are known, the DC is 30, and the information gained is vague.\nXP Cost: 100 XP."
+    xp: 100
+  description: >-
+    This spell functions like legend lore, except that it works more
+    quickly but produces some strain on you.\nYou pose a question
+    about some person, place, or object, then cast the spell.\nIf the
+    person or object is at hand or if you are in the place in
+    question, you receive a vision about it by succeeding on a caster
+    level check (1d20 +1 per caster level; maximum +25) against DC
+    20.\nIf only detailed information on the person, place, or object
+    is known, the DC is 25, and the information gained is
+    incomplete.\nIf only rumors are known, the DC is 30, and the
+    information gained is vague.\nXP Cost: 100 XP.
   domains:
     Fate: 7
     'Revered Ancestor': 7
@@ -9614,8 +9934,37 @@
     material: 0
     somatic: 1
     verbal: 1
-    xp: 1
-  description: "You don't so much cast a miracle as request one. You state what you would like to have happen and request that your deity (or the power you pray to for spells) intercede. The DM then determines the particular effect of the miracle.\n\nA miracle can do any of the following things.\n* Duplicate any cleric spell of 8th level or lower (including spells to which you have access because of your domains).\n* Duplicate any other spell of 7th level or lower.\n* Undo the harmful effects of certain spells, such as feeblemind or insanity.\n* Have any effect whose power level is in line with the above effects.\nIf the miracle has any of the above effects, casting it has no experience point cost. \n\nAlternatively, a cleric can make a very powerful request. Casting such a miracle costs the cleric 5,000 XP because of the powerful divine energies involved. Examples of especially powerful miracles of this sort could include the following.\n* Swinging the tide of a battle in your favor by raising fallen allies to continue fighting.\n* Moving you and your allies, with all your and their gear, from one plane to another through planar barriers to a specific locale with no chance of error.\n* Protecting a city from an earthquake, volcanic eruption, flood, or other major natural disaster.\nIn any event, a request that is out of line with the deity's (or alignment's) nature is refused.\n\nA duplicated spell allows saving throws and spell resistance as normal, but the save DCs are as for a 9th-level spell. When a miracle duplicates a spell that has an XP cost, you must pay that cost. When a miracle spell duplicates a spell with a material component that costs more than 100 gp, you must provide that component. \n\nXP Cost: 5,000 XP (for some uses of the miracle spell; see above)."
+    xp: 5000
+  description: >-
+    You don't so much cast a miracle as request one. You state what
+    you would like to have happen and request that your deity (or the
+    power you pray to for spells) intercede. The DM then determines
+    the particular effect of the miracle.\n\nA miracle can do any of
+    the following things.\n* Duplicate any cleric spell of 8th level
+    or lower (including spells to which you have access because of
+    your domains).\n* Duplicate any other spell of 7th level or
+    lower.\n* Undo the harmful effects of certain spells, such as
+    feeblemind or insanity.\n* Have any effect whose power level is in
+    line with the above effects.\nIf the miracle has any of the above
+    effects, casting it has no experience point
+    cost. \n\nAlternatively, a cleric can make a very powerful
+    request. Casting such a miracle costs the cleric 5,000 XP because
+    of the powerful divine energies involved. Examples of especially
+    powerful miracles of this sort could include the following.\n*
+    Swinging the tide of a battle in your favor by raising fallen
+    allies to continue fighting.\n* Moving you and your allies, with
+    all your and their gear, from one plane to another through planar
+    barriers to a specific locale with no chance of error.\n*
+    Protecting a city from an earthquake, volcanic eruption, flood, or
+    other major natural disaster.\nIn any event, a request that is out
+    of line with the deity's (or alignment's) nature is refused.\n\nA
+    duplicated spell allows saving throws and spell resistance as
+    normal, but the save DCs are as for a 9th-level spell. When a
+    miracle duplicates a spell that has an XP cost, you must pay that
+    cost. When a miracle spell duplicates a spell with a material
+    component that costs more than 100 gp, you must provide that
+    component. \n\nXP Cost: 5,000 XP (for some uses of the miracle
+    spell; see above).
   domains:
     Luck: 9
   duration: 'See text'
@@ -11655,8 +12004,33 @@
     material: 1
     somatic: 1
     verbal: 1
-    xp: 1
-  description: "Simulacrum creates an illusory duplicate of any creature.\nThe duplicate creature is partially real and formed from ice or snow.\nIt appears to be the same as the original, but it has only one-half of the real creature's levels or Hit Dice (and the appropriate hit points, feats, skill ranks, and special abilities for a creature of that level or HD).\nYou can't create a simulacrum of a creature whose Hit Dice or levels exceed twice your caster level.\nYou must make a Disguise check when you cast the spell to determine how good the likeness is.\nA creature familiar with the original might detect the ruse with a successful Spot check (opposed by the caster's Disguise check) or a DC 20 Sense Motive check.\nAt all times the simulacrum remains under your absolute command.\nNo special telepathic link exists, so command must be exercised in some other manner.\nA simulacrum has no ability to become more powerful.\nIt cannot increase its level or abilities.\nIf reduced to 0 hit points or otherwise destroyed, it reverts to snow and melts instantly into nothingness.\nA complex process requiring at least 24 hours, 100 gp per hit point, and a fully equipped magical laboratory can repair damage to a simulacrum.\nMaterial Component: The spell is cast over the rough snow or ice form, and some piece of the creature to be duplicated (hair, nail, or the like) must be placed inside the snow or ice.\nAdditionally, the spell requires powdered ruby worth 100 gp per HD of the simulacrum to be created.\nXP Cost: 100 XP per HD of the simulacrum to be created (minimum 1,000 XP)."
+    xp: 1000
+  description: >-
+    Simulacrum creates an illusory duplicate of any creature.\nThe
+    duplicate creature is partially real and formed from ice or
+    snow.\nIt appears to be the same as the original, but it has only
+    one-half of the real creature's levels or Hit Dice (and the
+    appropriate hit points, feats, skill ranks, and special abilities
+    for a creature of that level or HD).\nYou can't create a
+    simulacrum of a creature whose Hit Dice or levels exceed twice
+    your caster level.\nYou must make a Disguise check when you cast
+    the spell to determine how good the likeness is.\nA creature
+    familiar with the original might detect the ruse with a successful
+    Spot check (opposed by the caster's Disguise check) or a DC 20
+    Sense Motive check.\nAt all times the simulacrum remains under
+    your absolute command.\nNo special telepathic link exists, so
+    command must be exercised in some other manner.\nA simulacrum has
+    no ability to become more powerful.\nIt cannot increase its level
+    or abilities.\nIf reduced to 0 hit points or otherwise destroyed,
+    it reverts to snow and melts instantly into nothingness.\nA
+    complex process requiring at least 24 hours, 100 gp per hit point,
+    and a fully equipped magical laboratory can repair damage to a
+    simulacrum.\nMaterial Component: The spell is cast over the rough
+    snow or ice form, and some piece of the creature to be duplicated
+    (hair, nail, or the like) must be placed inside the snow or
+    ice.\nAdditionally, the spell requires powdered ruby worth 100 gp
+    per HD of the simulacrum to be created.\nXP Cost: 100 XP per HD of
+    the simulacrum to be created (minimum 1,000 XP).
   domains:
     Envy: 8
   duration: Instantaneous
@@ -13776,8 +14150,25 @@
     material: 0
     somatic: 1
     verbal: 1
-    xp: 1
-  description: "You awaken a tree or animal to humanlike sentience.\nTo succeed, you must make a Will save (DC 10 + the animal's current HD, or the HD the tree will have once awakened).\nThe awakened animal or tree is friendly toward you.\nYou have no special empathy or connection with a creature you awaken, although it serves you in specific tasks or endeavors if you communicate your desires to it.\nAn awakened tree has characteristics as if it were an animated object (see the Monster Manual), except that it gains the plant type and its Intelligence, Wisdom, and Charisma scores are each 3d6.\nAn awakened plant gains the ability to move its limbs, roots, vines, creepers, and so forth, and it has senses similar to a human's.\nAn awakened animal gets 3d6 Intelligence, +1d3 Charisma, and +2 HD.\nIts type becomes magical beast (augmented animal).\nAn awakened animal can't serve as an animal companion, familiar, or special mount.\nAn awakened tree or animal can speak one language that you know, plus one additional language that you know per point of Intelligence bonus (if any).\nXP Cost: 250 XP."
+    xp: 250
+  description: >-
+    You awaken a tree or animal to humanlike sentience.\nTo succeed,
+    you must make a Will save (DC 10 + the animal's current HD, or the
+    HD the tree will have once awakened).\nThe awakened animal or tree
+    is friendly toward you.\nYou have no special empathy or connection
+    with a creature you awaken, although it serves you in specific
+    tasks or endeavors if you communicate your desires to it.\nAn
+    awakened tree has characteristics as if it were an animated object
+    (see the Monster Manual), except that it gains the plant type and
+    its Intelligence, Wisdom, and Charisma scores are each 3d6.\nAn
+    awakened plant gains the ability to move its limbs, roots, vines,
+    creepers, and so forth, and it has senses similar to a
+    human's.\nAn awakened animal gets 3d6 Intelligence, +1d3 Charisma,
+    and +2 HD.\nIts type becomes magical beast (augmented animal).\nAn
+    awakened animal can't serve as an animal companion, familiar, or
+    special mount.\nAn awakened tree or animal can speak one language
+    that you know, plus one additional language that you know per
+    point of Intelligence bonus (if any).\nXP Cost: 250 XP.
   domains: {}
   duration: Instantaneous
   effect: ~
@@ -17092,8 +17483,29 @@
     material: 0
     somatic: 1
     verbal: 1
-    xp: 1
-  description: "A limited wish lets you create nearly any type of effect.\nFor example, a limited wish can do any of the following things.\n* Duplicate any sorcerer/wizard spell of 6th level or lower, provided the spell is not of a school prohibited to you.\n* Duplicate any other spell of 5th level or lower, provided the spell is not of a school prohibited to you.\n* Duplicate any sorcerer/wizard spell of 5th level or lower, even if it's of a prohibited school.\n* Duplicate any other spell of 4th level or lower, even if it's of a prohibited school.\n* Undo the harmful effects of many spells, such as geas/quest or insanity.\n* Produce any other effect whose power level is in line with the above effects, such as a single creature automatically hitting on its next attack or taking a -7 penalty on its next saving throw.\nA duplicated spell allows saving throws and spell resistance as normal (but the save DC is for a 7th-level spell). When a limited wish duplicates a spell that has an XP cost, you must pay that cost or 300 XP, whichever is more. When a limited wish spell duplicates a spell with a material component that costs more than 1,000 gp, you must provide that component.\n\nXP Cost: 300 XP or more (see above)."
+    xp: 300
+    gold: 1000
+  description: >-
+    A limited wish lets you create nearly any type of effect.\nFor
+    example, a limited wish can do any of the following things.\n*
+    Duplicate any sorcerer/wizard spell of 6th level or lower,
+    provided the spell is not of a school prohibited to you.\n*
+    Duplicate any other spell of 5th level or lower, provided the
+    spell is not of a school prohibited to you.\n* Duplicate any
+    sorcerer/wizard spell of 5th level or lower, even if it's of a
+    prohibited school.\n* Duplicate any other spell of 4th level or
+    lower, even if it's of a prohibited school.\n* Undo the harmful
+    effects of many spells, such as geas/quest or insanity.\n* Produce
+    any other effect whose power level is in line with the above
+    effects, such as a single creature automatically hitting on its
+    next attack or taking a -7 penalty on its next saving throw.\nA
+    duplicated spell allows saving throws and spell resistance as
+    normal (but the save DC is for a 7th-level spell). When a limited
+    wish duplicates a spell that has an XP cost, you must pay that
+    cost or 300 XP, whichever is more. When a limited wish spell
+    duplicates a spell with a material component that costs more than
+    1,000 gp, you must provide that component.\n\nXP Cost: 300 XP or
+    more (see above).
   domains:
     Envy: 7
     Spell: 7
@@ -17120,7 +17532,56 @@
     somatic: 1
     verbal: 1
     xp: 1
-  description: "This spell makes certain other spells permanent. Depending on the spell, you must be of a minimum caster level and must expend a number of XP.\n\nYou can make the following spells permanent in regard to yourself.\n\n|_. Spell |_. Minimum Caster Level |_. XP Cost |\n| _Arcane sight_ | 11th | 1,500 XP |\n| _Comprehend languages_ | 9th | 500 XP |\n| _Darkvision_ | 10th | 1,000 XP |\n| _Detect magic_ | 9th | 500 XP |\n| _Read magic_ | 9th | 500 XP |\n| _See invisibility_ | 10th | 1,000 XP |\n| _Tongues_ | 11th | 1,500 XP |\n\nYou cast the desired spell and then follow it with the _permanency_ spell. You cannot cast these spells on other creatures. This application of _permanency_ can be dispelled only by a caster of higher level than you were when you cast the spell.\n\nIn addition to personal use, _permanency_ can be used to make the following spells permanent on yourself, another creature, or an object (as appropriate).\n\n|_. Spell |_. Minimum Caster Level |_. XP Cost |\n| _Enlarge person_ | 9th | 500 XP |\n| _Magic fang_ | 9th | 500 XP |\n| _Magic fang, greater_ | 11th | 1,500 XP |\n| _Rary's telepathic bond_ ^1^ | 13th | 2,500 XP |\n| _Reduce person_ | 9th | 500 XP |\n| _Resistance_ | 9th | 500 XP |\n\n^1^ Only bonds two creatures per casting of permanency.\n\nAdditionally, the following spells can be cast upon objects or areas only and rendered permanent.\n\n|_. Spell |_. Minimum Caster Level |_. XP Cost |\n| _Alarm_ | 9th | 500 XP |\n| _Animate objects_ | 14th | 3,000 XP |\n| _Dancing lights_ | 9th | 500 XP |\n| _Ghost sound_ | 9th | 500 XP |\n| _Gust of wind_ | 11th | 1,500 XP |\n| _Invisibility_ | 10th | 1,000 XP |\n| _Magic mouth_ | 10th | 1,000 XP |\n| _Mordenkainen's private sanctum_ | 13th | 2,500 XP |\n| _Phase door_ | 15th | 3,500 XP |\n| _Prismatic sphere_ | 17th | 4,500 XP |\n| _Prismatic wall_ | 16th | 4,000 XP |\n| _Shrink item_ | 11th | 1,500 XP |\n| _Solid fog_ | 12th | 2,000 XP |\n| _Stinking cloud_ | 11th | 1,500 XP |\n| _Symbol of death_ | 16th | 4,000 XP |\n| _Symbol of fear_ | 14th | 3,000 XP |\n| _Symbol of insanity_ | 16th | 4,000 XP |\n| _Symbol of pain_ | 13th | 2,500 XP |\n| _Symbol of persuasion_ | 14th | 3,000 XP |\n| _Symbol of sleep_ | 16th | 4,000 XP |\n| _Symbol of stunning_ | 15th | 3,500 XP |\n| _Symbol of weakness_ | 15th | 3,500 XP |\n| _Teleportation circle_ | 17th | 4,500 XP |\n| _Wall of fire_ | 12th | 2,000 XP |\n| _Wall of force_ | 13th | 2,500 XP |\n| _Web_ | 10th | 1,000 XP |\n\nSpells cast on other creatures, objects, or locations (not on you) are vulnerable to _dispel magic_ as normal.\n\nThe DM may allow other selected spells to be made permanent. Researching this possible application of a spell costs as much time and money as independently researching the selected spell (see the _Dungeon Master's Guide_ for details). If the DM has already determined that the application is not possible, the research automatically fails. Note that you never learn what is possible except by the success or failure of your research.\n\n_XP Cost_: See tables above."
+  description: >-
+    This spell makes certain other spells permanent. Depending on the
+    spell, you must be of a minimum caster level and must expend a
+    number of XP.\n\nYou can make the following spells permanent in
+    regard to yourself.\n\n|_. Spell |_. Minimum Caster Level |_. XP
+    Cost |\n| _Arcane sight_ | 11th | 1,500 XP |\n| _Comprehend
+    languages_ | 9th | 500 XP |\n| _Darkvision_ | 10th | 1,000 XP |\n|
+    _Detect magic_ | 9th | 500 XP |\n| _Read magic_ | 9th | 500 XP
+    |\n| _See invisibility_ | 10th | 1,000 XP |\n| _Tongues_ | 11th |
+    1,500 XP |\n\nYou cast the desired spell and then follow it with
+    the _permanency_ spell. You cannot cast these spells on other
+    creatures. This application of _permanency_ can be dispelled only
+    by a caster of higher level than you were when you cast the
+    spell.\n\nIn addition to personal use, _permanency_ can be used to
+    make the following spells permanent on yourself, another creature,
+    or an object (as appropriate).\n\n|_. Spell |_. Minimum Caster
+    Level |_. XP Cost |\n| _Enlarge person_ | 9th | 500 XP |\n| _Magic
+    fang_ | 9th | 500 XP |\n| _Magic fang, greater_ | 11th | 1,500 XP
+    |\n| _Rary's telepathic bond_ ^1^ | 13th | 2,500 XP |\n| _Reduce
+    person_ | 9th | 500 XP |\n| _Resistance_ | 9th | 500 XP |\n\n^1^
+    Only bonds two creatures per casting of
+    permanency.\n\nAdditionally, the following spells can be cast upon
+    objects or areas only and rendered permanent.\n\n|_. Spell
+    |_. Minimum Caster Level |_. XP Cost |\n| _Alarm_ | 9th | 500 XP
+    |\n| _Animate objects_ | 14th | 3,000 XP |\n| _Dancing lights_ |
+    9th | 500 XP |\n| _Ghost sound_ | 9th | 500 XP |\n| _Gust of wind_
+    | 11th | 1,500 XP |\n| _Invisibility_ | 10th | 1,000 XP |\n|
+    _Magic mouth_ | 10th | 1,000 XP |\n| _Mordenkainen's private
+    sanctum_ | 13th | 2,500 XP |\n| _Phase door_ | 15th | 3,500 XP
+    |\n| _Prismatic sphere_ | 17th | 4,500 XP |\n| _Prismatic wall_ |
+    16th | 4,000 XP |\n| _Shrink item_ | 11th | 1,500 XP |\n| _Solid
+    fog_ | 12th | 2,000 XP |\n| _Stinking cloud_ | 11th | 1,500 XP
+    |\n| _Symbol of death_ | 16th | 4,000 XP |\n| _Symbol of fear_ |
+    14th | 3,000 XP |\n| _Symbol of insanity_ | 16th | 4,000 XP |\n|
+    _Symbol of pain_ | 13th | 2,500 XP |\n| _Symbol of persuasion_ |
+    14th | 3,000 XP |\n| _Symbol of sleep_ | 16th | 4,000 XP |\n|
+    _Symbol of stunning_ | 15th | 3,500 XP |\n| _Symbol of weakness_ |
+    15th | 3,500 XP |\n| _Teleportation circle_ | 17th | 4,500 XP |\n|
+    _Wall of fire_ | 12th | 2,000 XP |\n| _Wall of force_ | 13th |
+    2,500 XP |\n| _Web_ | 10th | 1,000 XP |\n\nSpells cast on other
+    creatures, objects, or locations (not on you) are vulnerable to
+    _dispel magic_ as normal.\n\nThe DM may allow other selected
+    spells to be made permanent. Researching this possible application
+    of a spell costs as much time and money as independently
+    researching the selected spell (see the _Dungeon Master's Guide_
+    for details). If the DM has already determined that the
+    application is not possible, the research automatically
+    fails. Note that you never learn what is possible except by the
+    success or failure of your research.\n\n_XP Cost_: See tables
+    above.
   domains:
     Time: 5
   duration: 'Permanent; see text'
@@ -17175,8 +17636,75 @@
     material: 0
     somatic: 0
     verbal: 1
-    xp: 1
-  description: "_Wish_ is the mightiest spell a wizard or sorcerer can cast. By simply speaking aloud, you can alter reality to better suit you. Even _wish_, however, has its limits.\n\nA _wish_ can produce any one of the following effects.\n\n* Duplicate any wizard or sorcerer spell of 8th level or lower, provided the spell is not of a school prohibited to you.\n* Duplicate any other spell of 6th level or lower, provided the spell is not of a school prohibited to you.\n* Duplicate any wizard or sorcerer spell of 7th level or lower even if it's of a prohibited school.\n* Duplicate any other spell of 5th level or lower even if it's of a prohibited school.\n* Undo the harmful effects of many other spells, such as _geas/quest_ or _insanity_.\n* Create a nonmagical item of up to 25,000 gp in value.\n* Create a magic item, or add to the powers of an existing magic item.\n* Grant a creature a +1 inherent bonus to an ability score. Two to five _wish_ spells cast in immediate succession can grant a creature a +2 to +5 inherent bonus to an ability score (two wishes for a +2 inherent bonus, three for a +3 inherent bonus, and so on). Inherent bonuses are instantaneous, so they cannot be dispelled. Note: An inherent bonus may not exceed +5 for a single ability score, and inherent bonuses to a particular ability score do not stack, so only the best one applies.\n* Remove injuries and afflictions. A single _wish_ can aid one creature per caster level, and all subjects are cured of the same kind of affliction. For example, you could heal all the damage you and your companions have taken, or remove all poison effects from everyone in the party, but not do both with the same _wish_. A _wish_ can never restore the experience point loss from casting a spell or the level or Constitution loss from being raised from the dead.\n* Revive the dead. A _wish_ can bring a dead creature back to life by duplicating a resurrection spell. A _wish_ can revive a dead creature whose body has been destroyed, but the task takes two _wish_, one to recreate the body and another to infuse the body with life again. A _wish_ cannot prevent a character who was brought back to life from losing an experience level.\n* Transport travelers. A _wish_ can lift one creature per caster level from anywhere on any plane and place those creatures anywhere else on any plane regardless of local conditions. An unwilling target gets a Will save to negate the effect, and spell resistance (if any) applies.\n* Undo misfortune. A _wish_ can undo a single recent event. The _wish_ forces a reroll of any roll made within the last round (including your last turn). Reality reshapes itself to accommodate the new result. For example, a _wish_ could undo an opponent's successful save, a foe's successful critical hit (either the attack roll or the critical roll), a friend's failed save, and so on. The reroll, however, may be as bad as or worse than the original roll. An unwilling target gets a Will save to negate the effect, and spell resistance (if any) applies.\n\nYou may try to use a _wish_ to produce greater effects than these, but doing so is dangerous. Such a _wish_ gives the DM the opportunity to fulfil your request without fulfilling it completely. (The _wish_ may pervert your intent into a literal but undesirable fulfillment or only a partial fulfillment). For example, wishing for a _staff of the_ magi might get you instantly transported to the presence of the staff's current owner. Wishing to be immortal could get you imprisoned in a hidden extradimensional space (as by an imprisonment spell), where you could \"live\" indefinitely.\n\nDuplicated spells allow saves and spell resistance as normal (but save DCs are for 9th-level spells).\n\n_Material Component When a _wish_ duplicates a spell with a material component that costs more than 10,000 gp, you must provide that component.\n\n_XP Cost The minimum XP cost for casting _wish_ is 5,000 XP. When a _wish_ duplicates a spell that has an XP cost, you must pay 5,000 XP or that cost, whichever is more. When a _wish_ creates or improves a magic item, you must pay twice the normal XP cost for crafting or improving the item, plus an additional 5,000 XP."
+    xp: 5000
+  description: >-
+    _Wish_ is the mightiest spell a wizard or sorcerer can cast. By
+    simply speaking aloud, you can alter reality to better suit
+    you. Even _wish_, however, has its limits.\n\nA _wish_ can produce
+    any one of the following effects.\n\n* Duplicate any wizard or
+    sorcerer spell of 8th level or lower, provided the spell is not of
+    a school prohibited to you.\n* Duplicate any other spell of 6th
+    level or lower, provided the spell is not of a school prohibited
+    to you.\n* Duplicate any wizard or sorcerer spell of 7th level or
+    lower even if it's of a prohibited school.\n* Duplicate any other
+    spell of 5th level or lower even if it's of a prohibited
+    school.\n* Undo the harmful effects of many other spells, such as
+    _geas/quest_ or _insanity_.\n* Create a nonmagical item of up to
+    25,000 gp in value.\n* Create a magic item, or add to the powers
+    of an existing magic item.\n* Grant a creature a +1 inherent bonus
+    to an ability score. Two to five _wish_ spells cast in immediate
+    succession can grant a creature a +2 to +5 inherent bonus to an
+    ability score (two wishes for a +2 inherent bonus, three for a +3
+    inherent bonus, and so on). Inherent bonuses are instantaneous, so
+    they cannot be dispelled. Note: An inherent bonus may not exceed
+    +5 for a single ability score, and inherent bonuses to a
+    particular ability score do not stack, so only the best one
+    applies.\n* Remove injuries and afflictions. A single _wish_ can
+    aid one creature per caster level, and all subjects are cured of
+    the same kind of affliction. For example, you could heal all the
+    damage you and your companions have taken, or remove all poison
+    effects from everyone in the party, but not do both with the same
+    _wish_. A _wish_ can never restore the experience point loss from
+    casting a spell or the level or Constitution loss from being
+    raised from the dead.\n* Revive the dead. A _wish_ can bring a
+    dead creature back to life by duplicating a resurrection spell. A
+    _wish_ can revive a dead creature whose body has been destroyed,
+    but the task takes two _wish_, one to recreate the body and
+    another to infuse the body with life again. A _wish_ cannot
+    prevent a character who was brought back to life from losing an
+    experience level.\n* Transport travelers. A _wish_ can lift one
+    creature per caster level from anywhere on any plane and place
+    those creatures anywhere else on any plane regardless of local
+    conditions. An unwilling target gets a Will save to negate the
+    effect, and spell resistance (if any) applies.\n* Undo
+    misfortune. A _wish_ can undo a single recent event. The _wish_
+    forces a reroll of any roll made within the last round (including
+    your last turn). Reality reshapes itself to accommodate the new
+    result. For example, a _wish_ could undo an opponent's successful
+    save, a foe's successful critical hit (either the attack roll or
+    the critical roll), a friend's failed save, and so on. The reroll,
+    however, may be as bad as or worse than the original roll. An
+    unwilling target gets a Will save to negate the effect, and spell
+    resistance (if any) applies.\n\nYou may try to use a _wish_ to
+    produce greater effects than these, but doing so is
+    dangerous. Such a _wish_ gives the DM the opportunity to fulfil
+    your request without fulfilling it completely. (The _wish_ may
+    pervert your intent into a literal but undesirable fulfillment or
+    only a partial fulfillment). For example, wishing for a _staff of
+    the_ magi might get you instantly transported to the presence of
+    the staff's current owner. Wishing to be immortal could get you
+    imprisoned in a hidden extradimensional space (as by an
+    imprisonment spell), where you could \"live\"
+    indefinitely.\n\nDuplicated spells allow saves and spell
+    resistance as normal (but save DCs are for 9th-level
+    spells).\n\n_Material Component When a _wish_ duplicates a spell
+    with a material component that costs more than 10,000 gp, you must
+    provide that component.\n\n_XP Cost The minimum XP cost for
+    casting _wish_ is 5,000 XP. When a _wish_ duplicates a spell that
+    has an XP cost, you must pay 5,000 XP or that cost, whichever is
+    more. When a _wish_ creates or improves a magic item, you must pay
+    twice the normal XP cost for crafting or improving the item, plus
+    an additional 5,000 XP.
   domains:
     Envy: 9
   duration: 'See text'
